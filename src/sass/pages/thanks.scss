@@ -1,0 +1,242 @@
+@import "../app.scss";
+
+.thanks-page {
+  > .section-mv {
+    padding: 0 20px;
+    margin-top: 161px;
+
+    @include mq(lg) {
+      margin-top: 120px;
+    }
+
+    @include mq(xs) {
+      margin-top: 110px;
+    }
+
+    > .container {
+      max-width: 90vw;
+      margin: 0 auto;
+
+      > .box-title {
+        display: flex;
+        margin-bottom: 22px;
+
+        @include mq(md) {
+          flex-direction: column;
+        }
+
+        > .page-title {
+          font-size: 2.9vw;
+          font-weight: 500;
+          line-height: 1.5;
+          letter-spacing: 0.1em;
+          margin-right: 48px;
+
+          @include mq(md) {
+            font-size: 3.9vw;
+            margin-right: 0;
+            margin-bottom: 16px;
+          }
+
+          @include mq(xs) {
+            font-size: 8.6vw;
+          }
+
+          > .english {
+            display: block;
+            color: $color-gray500;
+            font-size: 1vw;
+            letter-spacing: 0.1em;
+            margin-bottom: 42px;
+
+            @include mq(lg) {
+              font-size: 1.25vw;
+              margin-bottom: 32px;
+            }
+
+            @include mq(md) {
+              font-size: 1.55vw;
+            }
+
+            @include mq(xs) {
+              font-size: 3vw;
+              margin-bottom: 12px;
+            }
+          }
+        }
+
+        > .overview {
+          align-self: flex-end;
+          font-size: 1vw;
+          margin-bottom: 12px;
+
+          @include mq(lg) {
+            font-size: 1.25vw;
+          }
+
+          @include mq(md) {
+            align-self: flex-start;
+            font-size: 1.55vw;
+          }
+
+          @include mq(xs) {
+            font-size: 3.2vw;
+            margin-bottom: 0;
+          }
+        }
+      }
+
+      > .list-step {
+        display: flex;
+        margin-top: 44px;
+        > .step {
+          > .label {
+            color: $color-gray600;
+            font-size: 1vw;
+            margin-bottom: 10px;
+
+            @include mq(xs) {
+              font-size: 3.2vw;
+            }
+          }
+
+          > .text {
+            color: $color-gray600;
+            font-size: 1.35vw;
+
+            @include mq(xs) {
+              font-size: 3.55vw;
+            }
+          }
+
+          &:first-child {
+            position: relative;
+            padding-right: 52px;
+            margin-right: 59px;
+
+            @include mq(xs) {
+              padding-right: 16px;
+              margin-right: 18px;
+            }
+            &:before {
+              content: "";
+              background-image: url(../../../assets/imgs/flow/arrow.png);
+              background-size: cover;
+              background-position: center;
+              background-repeat: none;
+              width: 5px;
+              height: 80px;
+              position: absolute;
+              top: 50%;
+              right: 0;
+              transform: translateY(-50%);
+            }
+          }
+
+          &:last-child {
+            > .text {
+              color: $color-green400;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  > .section-contents {
+    background-color: $color-gray200;
+    margin-top: 44px;
+
+    @include mq(md) {
+      padding-bottom: 32px;
+    }
+    > .container {
+      display: flex;
+      max-width: 94.4vw;
+      margin: 0 0 0 auto;
+
+      @include mq(md) {
+        flex-direction: column;
+        max-width: 90vw;
+        margin: 0 auto;
+      }
+
+      > .box-text {
+        max-width: 45vw;
+        margin-right: 136px;
+        padding: 54px 0 63px;
+
+        @include mq(lg) {
+          margin-right: 46px;
+          padding: 34px 0 43px;
+        }
+
+        @include mq(md) {
+          max-width: 100%;
+          margin-right: 0;
+        }
+
+        > .text {
+          font-size: 1vw;
+          line-height: 2.4;
+          margin-bottom: 48px;
+
+          @include mq(lg) {
+            font-size: 1.3vw;
+            margin-bottom: 28px;
+          }
+          @include mq(md) {
+            font-size: 1.6vw;
+          }
+
+          @include mq(xs) {
+            font-size: 3.7vw;
+            line-height: 2.2;
+          }
+        }
+
+        > .button {
+          @include mq(xs) {
+            margin: 0 0 0 auto;
+          }
+          > .link {
+            @include mq(lg) {
+              font-size: 1.3vw;
+            }
+
+            @include mq(md) {
+              font-size: 1.6vw;
+            }
+
+            @include mq(xs) {
+              font-size: 4.2vw;
+              padding: 5px 86px 16px 0;
+            }
+            > .icon {
+              right: 13px;
+
+              @include mq(xs) {
+                width: 42px;
+                top: 37%;
+              }
+            }
+          }
+        }
+      }
+
+      > .box-image {
+        @include mq(md) {
+          height: 300px;
+        }
+
+        @include mq(xs) {
+          height: 271px;
+        }
+        > img {
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,415 @@
+@import "../app.scss";
+
+.interview-page {
+  > .section-mv {
+    padding: 0 20px;
+    margin-top: 161px;
+
+    @include mq(lg) {
+      margin-top: 120px;
+    }
+
+    @include mq(xs) {
+      margin-top: 110px;
+    }
+
+    > .container {
+      max-width: 90vw;
+      margin: 0 auto;
+
+      > .page-title {
+        display: flex;
+        align-items: center;
+        font-size: 1.32vw;
+        margin-bottom: 52px;
+
+        @include mq(lg) {
+          margin-bottom: 24px;
+        }
+
+        @include mq(md) {
+          font-size: 1.8vw;
+        }
+
+        @include mq(xs) {
+          font-size: 3.7vw;
+          margin-bottom: 16px;
+        }
+
+        > .english {
+          color: $color-gray500;
+          font-size: 0.95vw;
+          margin-right: 24px;
+
+          @include mq(lg) {
+            font-size: 1.25vw;
+          }
+
+          @include mq(md) {
+            font-size: 1.75vw;
+          }
+
+          @include mq(xs) {
+            font-size: 3vw;
+          }
+        }
+      }
+
+      > .interview-title {
+        font-size: 3vw;
+        font-weight: 400;
+        margin-bottom: 20px;
+
+        @include mq(xs) {
+          font-size: 8.6vw;
+          line-height: 1.5;
+        }
+      }
+
+      > .box-text {
+        display: flex;
+        align-items: center;
+
+        > .position {
+          color: $color-gray500;
+          font-size: 0.85vw;
+          margin-right: 24px;
+
+          @include mq(lg) {
+            font-size: 1.35vw;
+          }
+
+          @include mq(md) {
+            font-size: 1.75vw;
+          }
+
+          @include mq(xs) {
+            font-size: 2.95vw;
+          }
+        }
+
+        > .name {
+          font-size: 1.32vw;
+
+          @include mq(lg) {
+            font-size: 1.55vw;
+          }
+
+          @include mq(md) {
+            font-size: 2.05vw;
+          }
+
+          @include mq(xs) {
+            font-size: 4.75vw;
+          }
+        }
+      }
+    }
+  }
+
+  > .section-contents {
+    background-color: $color-gray200;
+    padding: 93px 20px 25px;
+    margin-top: 48px;
+
+    @include mq(md) {
+      padding: 53px 20px 25px;
+      margin-top: 36px;
+    }
+
+    @include mq(xs) {
+      padding: 28px 20px 25px;
+      margin-top: 26px;
+    }
+    > .container {
+      max-width: 90vw;
+      margin: 0 auto;
+
+      > .box-content {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 94px;
+
+        @include mq(md) {
+          flex-direction: column;
+          margin-bottom: 34px;
+        }
+
+        &.row {
+          @include mq(md) {
+            flex-direction: column-reverse;
+          }
+        }
+
+        > .box-text {
+          max-width: 48.3vw;
+
+          @include mq(md) {
+            max-width: 100%;
+          }
+
+          > .title {
+            position: relative;
+            color: $color-green400;
+            font-size: 1.5vw;
+            margin-bottom: 47px;
+            padding-left: 16px;
+
+            @include mq(lg) {
+              font-size: 2vw;
+              margin-bottom: 32px;
+            }
+
+            @include mq(md) {
+              margin-bottom: 24px;
+            }
+
+            @include mq(xs) {
+              font-size: 5.4vw;
+              line-height: 1.5;
+            }
+
+            &:before {
+              content: "";
+              background-color: $color-green400;
+              position: absolute;
+              top: 50%;
+              left: 0;
+              transform: translateY(-50%);
+              width: 4px;
+              height: 2px;
+            }
+          }
+
+          > .text {
+            font-size: 1vw;
+            line-height: 2.8;
+
+            @include mq(lg) {
+              font-size: 1.3vw;
+            }
+
+            @include mq(md) {
+              font-size: 1.6vw;
+              line-height: 2.3;
+            }
+
+            @include mq(xs) {
+              font-size: 3.5vw;
+              line-height: 2.2;
+            }
+          }
+        }
+
+        > .image {
+          max-width: 35.2vw;
+          align-self: flex-start;
+
+          @include mq(md) {
+            max-width: 100%;
+            margin-top: 24px;
+            height: 280px;
+            object-fit: cover;
+          }
+
+          @include mq(xs) {
+            height: 254px;
+          }
+        }
+
+        &.no-image {
+          > .box-text {
+            max-width: 100%;
+          }
+
+          > .image {
+            max-width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .section-other-interview {
+    padding: 0 20px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+
+    @include mq(lg) {
+      margin-top: 44px;
+      margin-bottom: 54px;
+    }
+
+    @include mq(xs) {
+      margin: 48px 0;
+    }
+
+    > .container {
+      display: flex;
+      justify-content: space-between;
+      max-width: 90vw;
+      margin: 0 auto;
+
+      @include mq(xs) {
+        flex-direction: column;
+      }
+
+      > .box-text {
+        max-width: 30vw;
+        margin-right: 48px;
+
+        @include mq(lg) {
+          max-width: 50vw;
+        }
+
+        @include mq(xs) {
+          max-width: 100%;
+          margin-right: 0;
+        }
+
+        > .title {
+          color: $color-gray500;
+          font-size: 0.95vw;
+          margin-bottom: 32px;
+
+          @include mq(lg) {
+            font-size: 1.25vw;
+          }
+
+          @include mq(md) {
+            font-size: 1.75vw;
+          }
+
+          @include mq(xs) {
+            font-size: 3.55vw;
+          }
+        }
+
+        > .box-text {
+          display: flex;
+          align-items: center;
+          margin-bottom: 38px;
+
+          @include mq(xs) {
+            margin-bottom: 8px;
+          }
+
+          > .position {
+            color: $color-gray500;
+            font-size: 0.85vw;
+            margin-right: 20px;
+
+            @include mq(lg) {
+              font-size: 1.15vw;
+            }
+
+            @include mq(md) {
+              font-size: 1.65vw;
+            }
+
+            @include mq(xs) {
+              font-size: 2.95vw;
+            }
+          }
+
+          > .name {
+            font-size: 1.3vw;
+
+            @include mq(lg) {
+              font-size: 1.45vw;
+            }
+
+            @include mq(md) {
+              font-size: 1.65vw;
+            }
+
+            @include mq(xs) {
+              font-size: 3.75vw;
+            }
+          }
+        }
+
+        > .interview-title {
+          position: relative;
+          font-size: 1.7vw;
+          margin-bottom: 49px;
+
+          @include mq(lg) {
+            font-size: 2vw;
+            margin-bottom: 29px;
+          }
+
+          @include mq(md) {
+            font-size: 2.2vw;
+          }
+
+          @include mq(xs) {
+            font-size: 4.6vw;
+            margin-bottom: 30px;
+          }
+
+          &:before,
+          &:after {
+            content: "";
+            position: absolute;
+            background-image: url(../../../assets/imgs/recruit/comment.png);
+            width: 29px;
+            height: 21px;
+            object-fit: contain;
+            z-index: -1;
+          }
+
+          &:before {
+            top: 3px;
+            left: -18px;
+
+            @include mq(xs) {
+              left: -12px;
+            }
+          }
+
+          &:after {
+            bottom: 1px;
+            right: 0;
+            transform: rotate(180deg);
+          }
+        }
+
+        > .button {
+          @include mq(xs) {
+            margin: 0 0 32px auto;
+          }
+          > .link {
+            padding: 6px 67px 6px 2px;
+            font-size: 1.3vw;
+
+            @include mq(md) {
+              font-size: 1.5vw;
+            }
+
+            @include mq(xs) {
+              font-size: 4.2vw;
+              padding: 5px 86px 16px 0;
+            }
+
+            > .icon {
+              @include mq(xs) {
+                width: 42px;
+                top: 37%;
+              }
+            }
+          }
+        }
+      }
+
+      > .image {
+        align-self: center;
+        max-width: 50.5vw;
+
+        @include mq(xs) {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}

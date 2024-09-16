@@ -1,0 +1,510 @@
+@charset "UTF-8";
+/*
+変数関係をまとめたファイル
+ */
+/*
+ブレイクポイントに関して記述しているファイル
+下のブレイクポイントの設定を変更するときは必ずPMに一声かける
+ */
+.flow-page > .section-mv {
+  padding: 0 20px;
+  margin-top: 161px;
+}
+@media screen and (max-width: 1024px) {
+  .flow-page > .section-mv {
+    margin-top: 120px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .flow-page > .section-mv {
+    margin-top: 110px;
+  }
+}
+.flow-page > .section-mv > .container {
+  max-width: 90vw;
+  margin: 0 auto;
+}
+.flow-page > .section-mv > .container > .box-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 22px;
+}
+@media screen and (max-width: 820px) {
+  .flow-page > .section-mv > .container > .box-title {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.flow-page > .section-mv > .container > .box-title > .page-title {
+  font-size: 2.9vw;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  margin-right: 48px;
+}
+@media screen and (max-width: 820px) {
+  .flow-page > .section-mv > .container > .box-title > .page-title {
+    font-size: 3.9vw;
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .flow-page > .section-mv > .container > .box-title > .page-title {
+    font-size: 8.6vw;
+  }
+}
+.flow-page > .section-mv > .container > .box-title > .page-title > .english {
+  display: block;
+  color: #939393;
+  font-size: 1vw;
+  letter-spacing: 0.1em;
+  margin-bottom: 42px;
+}
+@media screen and (max-width: 1024px) {
+  .flow-page > .section-mv > .container > .box-title > .page-title > .english {
+    font-size: 1.25vw;
+    margin-bottom: 32px;
+  }
+}
+@media screen and (max-width: 820px) {
+  .flow-page > .section-mv > .container > .box-title > .page-title > .english {
+    font-size: 1.55vw;
+  }
+}
+@media screen and (max-width: 480px) {
+  .flow-page > .section-mv > .container > .box-title > .page-title > .english {
+    font-size: 3vw;
+    margin-bottom: 12px;
+  }
+}
+.flow-page > .section-mv > .container > .box-title > .overview {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  font-size: 1vw;
+  margin-bottom: 12px;
+}
+@media screen and (max-width: 1024px) {
+  .flow-page > .section-mv > .container > .box-title > .overview {
+    font-size: 1.25vw;
+  }
+}
+@media screen and (max-width: 820px) {
+  .flow-page > .section-mv > .container > .box-title > .overview {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    font-size: 1.55vw;
+  }
+}
+@media screen and (max-width: 480px) {
+  .flow-page > .section-mv > .container > .box-title > .overview {
+    font-size: 3.2vw;
+    margin-bottom: 0;
+  }
+}
+.flow-page > .section-mv > .container > .image {
+  max-width: 100%;
+  height: 370px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+@media screen and (max-width: 820px) {
+  .flow-page > .section-mv > .container > .image {
+    height: 230px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .flow-page > .section-mv > .container > .image {
+    height: 158px;
+  }
+}
+.flow-page > .section-contact-to-construction {
+  margin-top: 64px;
+  padding: 0 20px;
+}
+.flow-page > .section-contact-to-construction > .container {
+  max-width: 90vw;
+  margin: 0 auto;
+}
+.flow-page > .section-contact-to-construction > .container > .box-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 820px) {
+  .flow-page > .section-contact-to-construction > .container > .box-title {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+.flow-page > .section-contact-to-construction > .container > .box-title > .section-title {
+  font-size: 1.9vw;
+  margin-right: 27px;
+}
+@media screen and (max-width: 1024px) {
+  .flow-page > .section-contact-to-construction > .container > .box-title > .section-title {
+    font-size: 2.4vw;
+  }
+}
+@media screen and (max-width: 820px) {
+  .flow-page > .section-contact-to-construction > .container > .box-title > .section-title {
+    margin-right: 0;
+    margin-bottom: 11px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .flow-page > .section-contact-to-construction > .container > .box-title > .section-title {
+    font-size: 7.5vw;
+    margin-bottom: 22px;
+  }
+}
+.flow-page > .section-contact-to-construction > .container > .box-title > .overview {
+  font-size: 0.95vw;
+  margin-bottom: 3px;
+}
+@media screen and (max-width: 1024px) {
+  .flow-page > .section-contact-to-construction > .container > .box-title > .overview {
+    font-size: 1.25vw;
+  }
+}
+@media screen and (max-width: 820px) {
+  .flow-page > .section-contact-to-construction > .container > .box-title > .overview {
+    font-size: 1.65vw;
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  .flow-page > .section-contact-to-construction > .container > .box-title > .overview {
+    font-size: 3.45vw;
+  }
+}
+.flow-page > .section-contact-to-construction > .container > .box-title > .overview > span {
+  display: inline-block;
+  background-color: #dbebe3;
+  padding: 6px 0.9px 6px 9px;
+  margin-right: 4px;
+}
+.flow-page > .section-contact-to-construction > .container > .list-contact-construction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+@media screen and (max-width: 820px) {
+  .flow-page > .section-contact-to-construction > .container > .list-contact-construction {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+.flow-page > .section-contact-to-construction > .container > .list-contact-construction > .contact-construction {
+  position: relative;
+  max-width: 25%;
+  width: 100%;
+  text-align: center;
+  padding: 41px 61px 28px 32px;
+}
+@media screen and (max-width: 1024px) {
+  .flow-page > .section-contact-to-construction > .container > .list-contact-construction > .contact-construction {
+    padding: 21px 21px 8px 12px;
+  }
+}
+@media screen and (max-width: 820px) {
+  .flow-page > .section-contact-to-construction > .container > .list-contact-construction > .contact-construction {
+    max-width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .flow-page > .section-contact-to-construction > .container > .list-contact-construction > .contact-construction {
+    padding: 21px 8px 8px 8px;
+  }
+}
+.flow-page > .section-contact-to-construction > .container > .list-contact-construction > .contact-construction:before {
+  content: "";
+  background-image: url(../../../assets/imgs/flow/arrow.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 9px;
+  height: 218px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+@media screen and (max-width: 1024px) {
+  .flow-page > .section-contact-to-construction > .container > .list-contact-construction > .contact-construction:before {
+    height: 168px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .flow-page > .section-contact-to-construction > .container > .list-contact-construction > .contact-construction:before {
+    height: 174px;
+    right: -5px;
+  }
+}
+.flow-page > .section-contact-to-construction > .container > .list-contact-construction > .contact-construction:nth-child(4):before, .flow-page > .section-contact-to-construction > .container > .list-contact-construction > .contact-construction:last-child:before {
+  content: none;
+}
+@media screen and (max-width: 820px) {
+  .flow-page > .section-contact-to-construction > .container > .list-contact-construction > .contact-construction:nth-child(2):before, .flow-page > .section-contact-to-construction > .container > .list-contact-construction > .contact-construction:nth-child(6):before {
+    content: none;
+  }
+}
+.flow-page > .section-contact-to-construction > .container > .list-contact-construction > .contact-construction > .number {
+  position: relative;
+  background-color: #f6f6f6;
+  border-radius: 50px;
+  width: 59px;
+  height: 59px;
+}
+@media screen and (max-width: 1024px) {
+  .flow-page > .section-contact-to-construction > .container > .list-contact-construction > .contact-construction > .number {
+    width: 39px;
+    height: 39px;
+  }
+}
+.flow-page > .section-contact-to-construction > .container > .list-contact-construction > .contact-construction > .number > span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #939393;
+  font-size: 1.5vw;
+}
+@media screen and (max-width: 820px) {
+  .flow-page > .section-contact-to-construction > .container > .list-contact-construction > .contact-construction > .number > span {
+    font-size: 1.8vw;
+  }
+}
+@media screen and (max-width: 480px) {
+  .flow-page > .section-contact-to-construction > .container > .list-contact-construction > .contact-construction > .number > span {
+    font-size: 3.8vw;
+  }
+}
+.flow-page > .section-contact-to-construction > .container > .list-contact-construction > .contact-construction > .image {
+  max-width: 11.8vw;
+  width: 100%;
+  margin-top: -40px;
+  margin-bottom: 18px;
+}
+@media screen and (max-width: 820px) {
+  .flow-page > .section-contact-to-construction > .container > .list-contact-construction > .contact-construction > .image {
+    max-width: 140px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .flow-page > .section-contact-to-construction > .container > .list-contact-construction > .contact-construction > .image {
+    max-width: 114px;
+  }
+}
+.flow-page > .section-contact-to-construction > .container > .list-contact-construction > .contact-construction > .text {
+  font-size: 1vw;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+}
+@media screen and (max-width: 1024px) {
+  .flow-page > .section-contact-to-construction > .container > .list-contact-construction > .contact-construction > .text {
+    font-size: 1.3vw;
+  }
+}
+@media screen and (max-width: 820px) {
+  .flow-page > .section-contact-to-construction > .container > .list-contact-construction > .contact-construction > .text {
+    font-size: 1.8vw;
+  }
+}
+@media screen and (max-width: 480px) {
+  .flow-page > .section-contact-to-construction > .container > .list-contact-construction > .contact-construction > .text {
+    font-size: 3.7vw;
+  }
+}
+.flow-page > .section-construction {
+  margin: 64px 0;
+  padding: 0 20px;
+}
+.flow-page > .section-construction > .container {
+  max-width: 90vw;
+  margin: 0 auto;
+}
+.flow-page > .section-construction > .container > .section-title {
+  font-size: 1.9vw;
+  margin-bottom: 46px;
+}
+@media screen and (max-width: 1024px) {
+  .flow-page > .section-construction > .container > .section-title {
+    font-size: 2.4vw;
+  }
+}
+@media screen and (max-width: 480px) {
+  .flow-page > .section-construction > .container > .section-title {
+    font-size: 7.5vw;
+  }
+}
+.flow-page > .section-construction > .container > .list-contact-construction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+@media screen and (max-width: 820px) {
+  .flow-page > .section-construction > .container > .list-contact-construction {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+.flow-page > .section-construction > .container > .list-contact-construction > .contact-construction {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  background-color: #f3f7f5;
+  border-radius: 20px;
+  position: relative;
+  max-width: 23%;
+  width: 100%;
+  text-align: center;
+  margin-right: 23px;
+  margin-bottom: 23px;
+}
+@media screen and (max-width: 820px) {
+  .flow-page > .section-construction > .container > .list-contact-construction > .contact-construction {
+    max-width: 46%;
+    margin: 8px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .flow-page > .section-construction > .container > .list-contact-construction > .contact-construction {
+    margin: 6px;
+  }
+}
+.flow-page > .section-construction > .container > .list-contact-construction > .contact-construction:nth-child(4), .flow-page > .section-construction > .container > .list-contact-construction > .contact-construction:last-child {
+  margin-right: 0;
+}
+.flow-page > .section-construction > .container > .list-contact-construction > .contact-construction > .link {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 30px 20px 30px;
+}
+@media screen and (max-width: 480px) {
+  .flow-page > .section-construction > .container > .list-contact-construction > .contact-construction > .link {
+    padding: 30px 10px 40px;
+  }
+}
+.flow-page > .section-construction > .container > .list-contact-construction > .contact-construction > .link > .number {
+  position: absolute;
+  top: -6px;
+  left: -4px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  width: 59px;
+  height: 59px;
+}
+@media screen and (max-width: 1024px) {
+  .flow-page > .section-construction > .container > .list-contact-construction > .contact-construction > .link > .number {
+    width: 39px;
+    height: 39px;
+  }
+}
+.flow-page > .section-construction > .container > .list-contact-construction > .contact-construction > .link > .number > span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #939393;
+  font-size: 1.5vw;
+}
+@media screen and (max-width: 480px) {
+  .flow-page > .section-construction > .container > .list-contact-construction > .contact-construction > .link > .number > span {
+    font-size: 3.8vw;
+  }
+}
+.flow-page > .section-construction > .container > .list-contact-construction > .contact-construction > .link > .thumbnail {
+  max-width: 11.8vw;
+  width: 100%;
+  margin: 0 auto 5px;
+}
+@media screen and (max-width: 820px) {
+  .flow-page > .section-construction > .container > .list-contact-construction > .contact-construction > .link > .thumbnail {
+    max-width: 16.8vw;
+  }
+}
+@media screen and (max-width: 480px) {
+  .flow-page > .section-construction > .container > .list-contact-construction > .contact-construction > .link > .thumbnail {
+    max-width: 36.8vw;
+  }
+}
+.flow-page > .section-construction > .container > .list-contact-construction > .contact-construction > .link > .thumbnail > img {
+  height: 100%;
+}
+.flow-page > .section-construction > .container > .list-contact-construction > .contact-construction > .link > .title {
+  color: #000000;
+  font-size: 1vw;
+  font-weight: 400;
+}
+@media screen and (max-width: 1024px) {
+  .flow-page > .section-construction > .container > .list-contact-construction > .contact-construction > .link > .title {
+    font-size: 1.3vw;
+  }
+}
+@media screen and (max-width: 820px) {
+  .flow-page > .section-construction > .container > .list-contact-construction > .contact-construction > .link > .title {
+    font-size: 1.8vw;
+  }
+}
+@media screen and (max-width: 480px) {
+  .flow-page > .section-construction > .container > .list-contact-construction > .contact-construction > .link > .title {
+    font-size: 3.4vw;
+  }
+}
+.flow-page > .section-construction > .container > .list-contact-construction > .contact-construction > .link > .icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 37px;
+}
+@media screen and (max-width: 1024px) {
+  .flow-page > .section-construction > .container > .list-contact-construction > .contact-construction > .link > .icon {
+    width: 27px;
+  }
+}
+.flow-page > .section-construction > .container > .list-contact-construction > .contact-construction > .number {
+  position: relative;
+  background-color: #f6f6f6;
+  border-radius: 50px;
+  width: 59px;
+  height: 59px;
+}
+.flow-page > .section-construction > .container > .list-contact-construction > .contact-construction > .number > span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #939393;
+  font-size: 1.5vw;
+}
+@media screen and (max-width: 820px) {
+  .flow-page > .section-construction > .container > .list-contact-construction > .contact-construction > .number > span {
+    font-size: 2vw;
+  }
+}

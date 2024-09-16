@@ -1,0 +1,110 @@
+@import "../app.scss";
+
+.section-contact {
+  max-width: 100%;
+
+  > .container {
+    > .list-contact {
+      display: flex;
+
+      @include mq(xs) {
+        flex-direction: column;
+      }
+
+      > .contact {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 50vw;
+        text-align: center;
+        &:first-child {
+          background-image: url(../../assets/imgs/contact/tel.png);
+        }
+
+        &:last-child {
+          background-image: url(../../assets/imgs/contact/mail.png);
+        }
+
+        @include mq(xs) {
+          width: 100%;
+        }
+
+        > .link {
+          display: inline-block;
+          padding: 91px 20px 35px;
+
+          @include mq(xs) {
+            padding: 54px 20px 35px;
+          }
+
+          > .label {
+            color: $color-white;
+            font-size: 1.5vw;
+            margin-bottom: 28px;
+
+            @include mq(xs) {
+              font-size: 4.2vw;
+              margin-bottom: 16px;
+            }
+          }
+
+          > .text {
+            font-family: "dnp-shuei-mincho-pr6n", sans-serif;
+            color: $color-white;
+            font-size: 3vw;
+            letter-spacing: 0.2em;
+            margin-bottom: 32px;
+
+            @include mq(xs) {
+              font-size: 8vw;
+              margin-bottom: 12px;
+            }
+          }
+
+          > .notice {
+            font-family: "dnp-shuei-mincho-pr6n", sans-serif;
+            color: $color-white;
+            font-size: 1vw;
+
+            @include mq(lg) {
+              font-size: 1.4vw;
+            }
+
+            @include mq(xs) {
+              font-size: 3vw;
+            }
+          }
+
+          > .button {
+            border: 1px solid $color-white;
+            border-radius: 50px;
+            max-width: 100%;
+            display: flex;
+            align-items: center;
+            padding: 20px 30px 20px 50px;
+
+            > .text {
+              color: $color-white;
+              font-size: 1.8vw;
+              margin-right: 13px;
+
+              @include mq(xs) {
+                font-size: 4.2vw;
+              }
+            }
+
+            > .icon {
+              width: 48px;
+              height: 48px;
+
+              @include mq(xs) {
+                width: 39px;
+                height: 39px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

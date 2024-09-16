@@ -1,0 +1,462 @@
+@import "../app.scss";
+
+.flow-page {
+  > .section-mv {
+    padding: 0 20px;
+    margin-top: 161px;
+
+    @include mq(lg) {
+      margin-top: 120px;
+    }
+
+    @include mq(xs) {
+      margin-top: 110px;
+    }
+
+    > .container {
+      max-width: 90vw;
+      margin: 0 auto;
+
+      > .box-title {
+        display: flex;
+        margin-bottom: 22px;
+
+        @include mq(md) {
+          flex-direction: column;
+        }
+
+        > .page-title {
+          font-size: 2.9vw;
+          font-weight: 500;
+          line-height: 1.5;
+          letter-spacing: 0.1em;
+          margin-right: 48px;
+
+          @include mq(md) {
+            font-size: 3.9vw;
+            margin-right: 0;
+            margin-bottom: 16px;
+          }
+
+          @include mq(xs) {
+            font-size: 8.6vw;
+          }
+
+          > .english {
+            display: block;
+            color: $color-gray500;
+            font-size: 1vw;
+            letter-spacing: 0.1em;
+            margin-bottom: 42px;
+
+            @include mq(lg) {
+              font-size: 1.25vw;
+              margin-bottom: 32px;
+            }
+
+            @include mq(md) {
+              font-size: 1.55vw;
+            }
+
+            @include mq(xs) {
+              font-size: 3vw;
+              margin-bottom: 12px;
+            }
+          }
+        }
+
+        > .overview {
+          align-self: flex-end;
+          font-size: 1vw;
+          margin-bottom: 12px;
+
+          @include mq(lg) {
+            font-size: 1.25vw;
+          }
+
+          @include mq(md) {
+            align-self: flex-start;
+            font-size: 1.55vw;
+          }
+
+          @include mq(xs) {
+            font-size: 3.2vw;
+            margin-bottom: 0;
+          }
+        }
+      }
+
+      > .image {
+        max-width: 100%;
+        height: 370px;
+        object-fit: cover;
+        object-position: center;
+
+        @include mq(md) {
+          height: 230px;
+        }
+
+        @include mq(xs) {
+          height: 158px;
+        }
+      }
+    }
+  }
+
+  > .section-contact-to-construction {
+    margin-top: 64px;
+    padding: 0 20px;
+    > .container {
+      max-width: 90vw;
+      margin: 0 auto;
+      > .box-title {
+        display: flex;
+        align-items: flex-end;
+        margin-bottom: 20px;
+
+        @include mq(md) {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+
+        > .section-title {
+          font-size: 1.9vw;
+          margin-right: 27px;
+
+          @include mq(lg) {
+            font-size: 2.4vw;
+          }
+
+          @include mq(md) {
+            margin-right: 0;
+            margin-bottom: 11px;
+          }
+
+          @include mq(xs) {
+            font-size: 7.5vw;
+            margin-bottom: 22px;
+          }
+        }
+
+        > .overview {
+          font-size: 0.95vw;
+          margin-bottom: 3px;
+
+          @include mq(lg) {
+            font-size: 1.25vw;
+          }
+
+          @include mq(md) {
+            font-size: 1.65vw;
+            margin-bottom: 0;
+          }
+
+          @include mq(xs) {
+            font-size: 3.45vw;
+          }
+
+          > span {
+            display: inline-block;
+            background-color: $color-green200;
+            padding: 6px 0.9px 6px 9px;
+            margin-right: 4px;
+          }
+        }
+      }
+
+      > .list-contact-construction {
+        display: flex;
+        flex-wrap: wrap;
+
+        @include mq(md) {
+          justify-content: center;
+        }
+
+        > .contact-construction {
+          position: relative;
+          max-width: 25%;
+          width: 100%;
+          text-align: center;
+          padding: 41px 61px 28px 32px;
+
+          @include mq(lg) {
+            padding: 21px 21px 8px 12px;
+          }
+
+          @include mq(md) {
+            max-width: 50%;
+            margin-bottom: 30px;
+          }
+
+          @include mq(xs) {
+            padding: 21px 8px 8px 8px;
+          }
+
+          &:before {
+            content: "";
+            background-image: url(../../../assets/imgs/flow/arrow.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            width: 9px;
+            height: 218px;
+            position: absolute;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+
+            @include mq(lg) {
+              height: 168px;
+            }
+
+            @include mq(xs) {
+              height: 174px;
+              right: -5px;
+            }
+          }
+
+          &:nth-child(4),
+          &:last-child {
+            &:before {
+              content: none;
+            }
+          }
+
+          &:nth-child(2),
+          &:nth-child(6) {
+            &:before {
+              @include mq(md) {
+                content: none;
+              }
+            }
+          }
+          > .number {
+            position: relative;
+            background-color: $color-gray200;
+            border-radius: 50px;
+            width: 59px;
+            height: 59px;
+
+            @include mq(lg) {
+              width: 39px;
+              height: 39px;
+            }
+
+            > span {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              color: $color-gray500;
+              font-size: 1.5vw;
+
+              @include mq(md) {
+                font-size: 1.8vw;
+              }
+
+              @include mq(xs) {
+                font-size: 3.8vw;
+              }
+            }
+          }
+
+          > .image {
+            max-width: 11.8vw;
+            width: 100%;
+            margin-top: -40px;
+            margin-bottom: 18px;
+
+            @include mq(md) {
+              max-width: 140px;
+            }
+
+            @include mq(xs) {
+              max-width: 114px;
+            }
+          }
+
+          > .text {
+            font-size: 1vw;
+            font-weight: 400;
+            letter-spacing: 0.1em;
+
+            @include mq(lg) {
+              font-size: 1.3vw;
+            }
+
+            @include mq(md) {
+              font-size: 1.8vw;
+            }
+
+            @include mq(xs) {
+              font-size: 3.7vw;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  > .section-construction {
+    margin: 64px 0;
+    padding: 0 20px;
+    > .container {
+      max-width: 90vw;
+      margin: 0 auto;
+
+      > .section-title {
+        font-size: 1.9vw;
+        margin-bottom: 46px;
+
+        @include mq(lg) {
+          font-size: 2.4vw;
+        }
+
+        @include mq(xs) {
+          font-size: 7.5vw;
+        }
+      }
+
+      > .list-contact-construction {
+        display: flex;
+        flex-wrap: wrap;
+
+        @include mq(md) {
+          justify-content: center;
+        }
+
+        > .contact-construction {
+          align-self: flex-start;
+          background-color: $color-green100;
+          border-radius: 20px;
+          position: relative;
+          max-width: 23%;
+          width: 100%;
+          text-align: center;
+          margin-right: 23px;
+          margin-bottom: 23px;
+
+          @include mq(md) {
+            max-width: 46%;
+            margin: 8px;
+          }
+
+          @include mq(xs) {
+            margin: 6px;
+          }
+
+          &:nth-child(4),
+          &:last-child {
+            margin-right: 0;
+          }
+
+          > .link {
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            padding: 30px 20px 30px;
+
+            @include mq(xs) {
+              padding: 30px 10px 40px;
+            }
+
+            > .number {
+              position: absolute;
+              top: -6px;
+              left: -4px;
+              background-color: $color-white;
+              border-radius: 50px;
+              width: 59px;
+              height: 59px;
+
+              @include mq(lg) {
+                width: 39px;
+                height: 39px;
+              }
+
+              > span {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: $color-gray500;
+                font-size: 1.5vw;
+
+                @include mq(xs) {
+                  font-size: 3.8vw;
+                }
+              }
+            }
+
+            > .thumbnail {
+              max-width: 11.8vw;
+              width: 100%;
+              margin: 0 auto 5px;
+
+              @include mq(md) {
+                max-width: 16.8vw;
+              }
+
+              @include mq(xs) {
+                max-width: 36.8vw;
+              }
+
+              > img {
+                height: 100%;
+              }
+            }
+
+            > .title {
+              color: $color-black;
+              font-size: 1vw;
+              font-weight: 400;
+
+              @include mq(lg) {
+                font-size: 1.3vw;
+              }
+
+              @include mq(md) {
+                font-size: 1.8vw;
+              }
+
+              @include mq(xs) {
+                font-size: 3.4vw;
+              }
+            }
+
+            > .icon {
+              position: absolute;
+              bottom: 10px;
+              right: 10px;
+              width: 37px;
+
+              @include mq(lg) {
+                width: 27px;
+              }
+            }
+          }
+          > .number {
+            position: relative;
+            background-color: $color-gray200;
+            border-radius: 50px;
+            width: 59px;
+            height: 59px;
+
+            > span {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              color: $color-gray500;
+              font-size: 1.5vw;
+
+              @include mq(md) {
+                font-size: 2vw;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

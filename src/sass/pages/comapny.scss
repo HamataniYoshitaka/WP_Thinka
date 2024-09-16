@@ -1,0 +1,840 @@
+@import "../app.scss";
+
+.company-page {
+  > .section-mv {
+    padding: 0 20px;
+    margin-top: 161px;
+
+    @include mq(lg) {
+      margin-top: 120px;
+    }
+
+    @include mq(xs) {
+      margin-top: 110px;
+    }
+
+    > .container {
+      max-width: 90vw;
+      margin: 0 auto;
+
+      > .box-title {
+        display: flex;
+        margin-bottom: 22px;
+
+        @include mq(md) {
+          flex-direction: column;
+        }
+
+        > .page-title {
+          font-size: 2.9vw;
+          font-weight: 500;
+          line-height: 1.5;
+          letter-spacing: 0.1em;
+          margin-right: 48px;
+
+          @include mq(md) {
+            font-size: 3.9vw;
+            margin-right: 0;
+            margin-bottom: 16px;
+          }
+
+          @include mq(xs) {
+            font-size: 8.6vw;
+          }
+
+          > .english {
+            display: block;
+            color: $color-gray500;
+            font-size: 1vw;
+            letter-spacing: 0.1em;
+            margin-bottom: 42px;
+
+            @include mq(lg) {
+              font-size: 1.25vw;
+              margin-bottom: 32px;
+            }
+
+            @include mq(md) {
+              font-size: 1.55vw;
+            }
+
+            @include mq(xs) {
+              font-size: 3vw;
+              margin-bottom: 12px;
+            }
+          }
+        }
+
+        > .overview {
+          align-self: flex-end;
+          font-size: 1vw;
+          margin-bottom: 12px;
+
+          @include mq(lg) {
+            font-size: 1.25vw;
+          }
+
+          @include mq(md) {
+            font-size: 1.55vw;
+          }
+
+          @include mq(xs) {
+            align-self: flex-start;
+            font-size: 3.2vw;
+            margin-bottom: 0;
+          }
+        }
+      }
+
+      > .image {
+        max-width: 100%;
+        height: 370px;
+        object-fit: cover;
+        object-position: center;
+
+        @include mq(md) {
+          height: 230px;
+        }
+
+        @include mq(xs) {
+          height: 158px;
+        }
+      }
+    }
+  }
+
+  > .section-message {
+    padding: 0 20px;
+    margin-top: 81px;
+
+    @include mq(md) {
+      margin-top: 50px;
+    }
+
+    @include mq(xs) {
+      margin-top: 32px;
+    }
+    > .container {
+      display: flex;
+      max-width: 90vw;
+      margin: 0 auto;
+
+      @include mq(md) {
+        flex-direction: column;
+      }
+
+      > .box-text {
+        max-width: 40vw;
+        width: 100%;
+        padding-right: 24px;
+
+        @include mq(md) {
+          max-width: 100%;
+          padding-right: 24px;
+        }
+
+        > .title {
+          font-size: 2.35vw;
+          margin-bottom: 33px;
+
+          @include mq(md) {
+            font-size: 2.95vw;
+          }
+
+          @include mq(xs) {
+            font-size: 6.35vw;
+            margin-bottom: 16px;
+          }
+        }
+
+        > .text {
+          font-size: 1vw;
+          line-height: 2.8;
+          margin-bottom: 38px;
+
+          @include mq(lg) {
+            font-size: 1.4vw;
+          }
+
+          @include mq(md) {
+            font-size: 1.8vw;
+            margin-bottom: 18px;
+          }
+
+          @include mq(xs) {
+            font-size: 3.5vw;
+            line-height: 2.3;
+          }
+        }
+      }
+
+      > .box-image {
+        max-width: 50.5vw;
+
+        @include mq(md) {
+          max-width: 100%;
+        }
+
+        > .image {
+          width: 100%;
+          height: 378px;
+          object-fit: cover;
+          margin-bottom: 26px;
+
+          @include mq(md) {
+            height: 337px;
+          }
+
+          @include mq(xs) {
+            height: 167px;
+          }
+        }
+      }
+    }
+  }
+
+  > .section-mission {
+    background-image: url(../../../assets/imgs/company/background-mission.png);
+    background-size: cover;
+    background-repeat: none;
+    padding: 130px 20px;
+    margin-top: 81px;
+
+    @include mq(lg) {
+      padding: 90px 20px;
+    }
+
+    @include mq(md) {
+      margin-top: 51px;
+    }
+
+    @include mq(xs) {
+      margin-top: 32px;
+      padding: 48px 20px 0;
+    }
+
+    > .container {
+      display: flex;
+      max-width: 90vw;
+      margin: 0 auto;
+
+      @include mq(md) {
+        flex-direction: column;
+      }
+
+      > .list-philosophy {
+        max-width: 60%;
+        width: 100%;
+        margin-right: 5%;
+
+        @include mq(md) {
+          max-width: 100%;
+        }
+
+        > .philosophy {
+          margin-bottom: 300px;
+
+          @include mq(lg) {
+            margin-bottom: 160px;
+          }
+
+          @include mq(md) {
+            margin-bottom: 100px;
+          }
+          > .box-text {
+            @include mq(md) {
+              margin-bottom: 32px;
+            }
+            > .label {
+              display: flex;
+              align-items: center;
+              color: $color-white;
+              font-size: 0.95vw;
+              margin-bottom: 47px;
+
+              @include mq(lg) {
+                font-size: 1.45vw;
+                margin-bottom: 27px;
+              }
+
+              @include mq(md) {
+                font-size: 1.65vw;
+              }
+
+              @include mq(xs) {
+                font-size: 3vw;
+                margin-bottom: 16px;
+              }
+
+              > span {
+                position: relative;
+                display: inline-block;
+                margin-left: 11px;
+                padding-left: 30px;
+
+                > .image {
+                  width: 90px;
+
+                  @include mq(xs) {
+                    width: 70px;
+                  }
+                }
+
+                &::before {
+                  content: "";
+                  position: absolute;
+                  top: 50%;
+                  left: 0;
+                  transform: translateY(-50%);
+                  background-color: $color-white;
+                  width: 18px;
+                  height: 1px;
+                }
+              }
+            }
+
+            > .copy {
+              color: $color-white;
+              font-size: 3vw;
+              font-weight: 500;
+              letter-spacing: 0.2em;
+              margin-bottom: 41px;
+
+              @include mq(lg) {
+                margin-bottom: 27px;
+              }
+
+              @include mq(xs) {
+                font-size: 5.5vw;
+                margin-bottom: 16px;
+              }
+            }
+
+            > .text {
+              color: $color-white;
+              font-size: 1.3vw;
+              line-height: 2.8;
+
+              @include mq(lg) {
+                font-size: 1.5vw;
+              }
+
+              @include mq(md) {
+                font-size: 1.65vw;
+              }
+
+              @include mq(xs) {
+                font-size: 3.25vw;
+                line-height: 2.3;
+              }
+            }
+          }
+
+          > .image {
+            max-width: 50%;
+            margin: 0 auto;
+          }
+        }
+      }
+
+      > .box-illust {
+        align-self: flex-start;
+        position: sticky;
+        top: 30px;
+        max-width: 30vw;
+
+        > .image {
+          display: none;
+
+          &.active {
+            display: block;
+          }
+
+          &.step1 {
+            transform: translateY(330%);
+          }
+
+          &.step2 {
+            max-width: 68.6%;
+            transform: translate(30px, 60%);
+            @include mq(xlg) {
+              transform: translate(20.1px, 62%);
+              max-width: 68.4%;
+            }
+
+            // @include mq(lg) {
+            //   transform: translate(20.1px, 92px);
+            // }
+          }
+
+          &.step3 {
+            position: relative;
+            z-index: -1;
+            max-width: 58.6%;
+            transform: translate(197px, -87.4%);
+            @include mq(xlg) {
+              transform: translate(147px, -87%);
+              max-width: 58.4%;
+            }
+
+            @include mq(lg) {
+              transform: translate(107px, -91%);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  > .section-number {
+    padding: 0 20px;
+    margin-top: 81px;
+
+    @include mq(md) {
+      margin-top: 50px;
+    }
+    > .container {
+      display: flex;
+      justify-content: space-between;
+      max-width: 90vw;
+      margin: 0 auto;
+
+      @include mq(md) {
+        flex-direction: column;
+      }
+
+      > .section-title {
+        margin-right: 20px;
+
+        @include mq(md) {
+          margin-right: 0;
+          margin-bottom: 32px;
+        }
+
+        @include mq(xs) {
+          margin-bottom: 16px;
+        }
+      }
+
+      > .list-numbers {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        max-width: 61.8vw;
+        width: 100%;
+
+        @include mq(md) {
+          max-width: 100%;
+          justify-content: flex-start;
+        }
+
+        > .number {
+          position: relative;
+          background-color: $color-gray200;
+          max-width: 29.5vw;
+          width: 100%;
+          margin-bottom: 28px;
+          padding: 42px 20px 38px 215px;
+
+          @include mq(lg) {
+            padding: 22px 20px 18px 135px;
+          }
+
+          @include mq(md) {
+            max-width: 43vw;
+            padding: 12px 20px 38px 10px;
+          }
+
+          @include mq(xs) {
+            padding: 12px 20px 70px 10px;
+            margin-bottom: 8px;
+          }
+
+          &:nth-child(odd) {
+            margin-right: 28px;
+
+            @include mq(xs) {
+              margin-right: 8px;
+            }
+          }
+
+          > .image {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+          }
+
+          > .box-text {
+            position: relative;
+            z-index: 1;
+            > .label {
+              font-size: 1.25vw;
+
+              @include mq(md) {
+                font-size: 1.55vw;
+              }
+
+              @include mq(xs) {
+                font-size: 3.55vw;
+              }
+            }
+
+            > .number {
+              font-size: 1.25vw;
+
+              @include mq(md) {
+                font-size: 1.55vw;
+              }
+
+              @include mq(xs) {
+                font-size: 3.55vw;
+              }
+
+              > .strong {
+                font-size: 4.75vw;
+
+                @include mq(lg) {
+                  font-size: 3.75vw;
+                }
+
+                @include mq(xs) {
+                  font-size: 10.15vw;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  > .section-information {
+    padding: 0 20px;
+    margin-top: 81px;
+
+    @include mq(md) {
+      margin-top: 50px;
+    }
+    > .container {
+      display: flex;
+      justify-content: space-between;
+      max-width: 90vw;
+      margin: 0 auto;
+
+      @include mq(md) {
+        flex-direction: column;
+      }
+
+      > .section-title {
+        @include mq(md) {
+          margin-right: 0;
+          margin-bottom: 32px;
+        }
+      }
+
+      > .list-information {
+        max-width: 61.8vw;
+        width: 100%;
+
+        @include mq(md) {
+          max-width: 100%;
+        }
+
+        > .information {
+          position: relative;
+          display: flex;
+          border-bottom: 1px solid $color-gray300;
+          padding: 32px 0;
+
+          @include mq(md) {
+            padding: 20px 0;
+          }
+
+          @include mq(xs) {
+            flex-direction: column;
+          }
+
+          &:first-child {
+            padding: 0 0 32px;
+          }
+
+          > .label,
+          > .data {
+            font-size: 0.9vw;
+
+            @include mq(lg) {
+              font-size: 1.4vw;
+            }
+
+            @include mq(md) {
+              font-size: 1.7vw;
+            }
+
+            @include mq(xs) {
+              font-size: 3.2vw;
+            }
+            > a {
+              color: $color-black;
+            }
+          }
+
+          > .label {
+            width: 110px;
+            color: $color-gray500;
+            margin-right: 64px;
+            @include mq(md) {
+              margin-right: 30px;
+            }
+
+            @include mq(xs) {
+              width: 70px;
+              margin-right: 0;
+              margin-bottom: 10px;
+            }
+          }
+
+          > .data {
+            width: 100%;
+
+            > .link {
+              display: inline-block;
+              color: $color-black;
+              text-decoration: underline;
+              margin-left: 20px;
+
+              @include mq(xs) {
+                margin-left: 0;
+              }
+              > .icon {
+                width: 10px;
+                margin: 5px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  > .section-history {
+    padding: 0 20px;
+    margin-top: 81px;
+
+    @include mq(md) {
+      margin-top: 50px;
+    }
+
+    > .container {
+      display: flex;
+      justify-content: space-between;
+      max-width: 90vw;
+      margin: 0 auto;
+
+      @include mq(md) {
+        flex-direction: column;
+      }
+
+      > .section-title {
+        @include mq(md) {
+          margin-right: 0;
+          margin-bottom: 32px;
+        }
+
+        @include mq(xs) {
+          margin-bottom: 16px;
+        }
+      }
+
+      > .list-information {
+        max-width: 61.8vw;
+        width: 100%;
+
+        @include mq(md) {
+          max-width: 100%;
+        }
+
+        > .information {
+          display: flex;
+          align-items: center;
+          margin-bottom: 35px;
+
+          > .label,
+          > .data {
+            font-size: 0.9vw;
+
+            @include mq(lg) {
+              font-size: 1.4vw;
+            }
+
+            @include mq(md) {
+              font-size: 1.7vw;
+            }
+
+            @include mq(xs) {
+              font-size: 3.2vw;
+            }
+          }
+
+          > .label {
+            position: relative;
+            background-color: $color-gray200;
+            border-radius: 50px;
+            width: 145px;
+            line-height: 1.7;
+            text-align: center;
+            margin-right: 32px;
+            padding: 10px 23px;
+
+            @include mq(lg) {
+              width: 215px;
+            }
+
+            @include mq(xs) {
+              padding: 10px 7px;
+            }
+
+            &:before {
+              content: "";
+              position: absolute;
+              top: 100%;
+              left: 50%;
+              transform: translate(-50%);
+              background-color: $color-gray500;
+              width: 1px;
+              height: 35px;
+
+              @include mq(lg) {
+                height: 55px;
+              }
+
+              @include mq(xs) {
+                height: 75px;
+              }
+            }
+          }
+
+          > .data {
+            max-width: 70%;
+            width: 100%;
+          }
+
+          &:last-child {
+            > .label {
+              &:before {
+                content: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  > .section-machines {
+    background-color: $color-gray200;
+    padding: 64px 20px 16px;
+    margin-top: 60px;
+
+    @include mq(md) {
+      margin-top: 48px;
+    }
+
+    @include mq(xs) {
+      padding: 38px 20px 16px;
+    }
+    > .container {
+      display: flex;
+      justify-content: space-between;
+      max-width: 90vw;
+      margin: 0 auto;
+
+      @include mq(md) {
+        flex-direction: column;
+      }
+
+      > .section-title {
+        @include mq(md) {
+          margin-right: 0;
+          margin-bottom: 32px;
+        }
+
+        @include mq(xs) {
+          margin-bottom: 16px;
+        }
+      }
+
+      > .list-machines {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 61.8vw;
+
+        @include mq(md) {
+          justify-content: space-between;
+          max-width: 100%;
+        }
+
+        > .machines {
+          max-width: 18.6vw;
+          margin: 0 13px 48px;
+
+          @include mq(lg) {
+            margin: 0 10.2px 30px;
+          }
+
+          @include mq(md) {
+            max-width: 42.5vw;
+            max-width: 40vw;
+          }
+
+          @include mq(xs) {
+            max-width: 42vw;
+            margin: 0 4px 20px;
+          }
+
+          > .image {
+            width: 100%;
+            margin-bottom: 12px;
+
+            @include mq(xs) {
+              margin-bottom: 8px;
+            }
+          }
+
+          > .name {
+            font-size: 0.95vw;
+
+            @include mq(lg) {
+              font-size: 1.4vw;
+            }
+
+            @include mq(md) {
+              font-size: 1.9vw;
+            }
+
+            @include mq(xs) {
+              font-size: 3.2vw;
+            }
+          }
+
+          > .maker {
+            color: $color-gray500;
+            font-size: 0.9vw;
+
+            @include mq(lg) {
+              font-size: 1.2vw;
+            }
+
+            @include mq(md) {
+              font-size: 1.6vw;
+            }
+
+            @include mq(xs) {
+              font-size: 3vw;
+            }
+          }
+        }
+      }
+    }
+  }
+}

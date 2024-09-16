@@ -1,0 +1,36 @@
+/*
+ブレイクポイントに関して記述しているファイル
+下のブレイクポイントの設定を変更するときは必ずPMに一声かける
+ */
+
+// ブレイクポイントの設定 min~max
+$mq-breakpoints-min: (
+  "xs": "0px",
+  "sm": "481px",
+  "md": "641px",
+  "lg": "1023px",
+  "xlg": "1221px"
+) !default;
+
+$mq-breakpoints-max: (
+  "xxs": "375px",
+  "xs": "480px",
+  "sm": "640px",
+  "md": "820px",
+  "lg": "1024px",
+  "xlg": "1440px"
+) !default;
+
+// mq-target:指定してメディアクエリのみに適用
+@mixin mq-target($breakpoint: md) {
+  @media screen and (min-width: #{map-get($mq-breakpoints-min, $breakpoint)}) and (max-width: #{map-get($mq-breakpoints-max, $breakpoint)}) {
+    @content;
+  }
+}
+
+// mq:指定より小さい画面に適用
+@mixin mq($breakpoint: md) {
+  @media screen and (max-width: #{map-get($mq-breakpoints-max, $breakpoint)}) {
+    @content;
+  }
+}

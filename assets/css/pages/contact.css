@@ -1,0 +1,392 @@
+@charset "UTF-8";
+/*
+変数関係をまとめたファイル
+ */
+/*
+ブレイクポイントに関して記述しているファイル
+下のブレイクポイントの設定を変更するときは必ずPMに一声かける
+ */
+.contact-page > .section-mv {
+  padding: 0 20px;
+  margin-top: 161px;
+}
+@media screen and (max-width: 1024px) {
+  .contact-page > .section-mv {
+    margin-top: 120px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .contact-page > .section-mv {
+    margin-top: 110px;
+  }
+}
+.contact-page > .section-mv > .container {
+  max-width: 90vw;
+  margin: 0 auto;
+}
+.contact-page > .section-mv > .container > .box-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 22px;
+}
+@media screen and (max-width: 820px) {
+  .contact-page > .section-mv > .container > .box-title {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.contact-page > .section-mv > .container > .box-title > .page-title {
+  font-size: 2.9vw;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  margin-right: 48px;
+}
+@media screen and (max-width: 820px) {
+  .contact-page > .section-mv > .container > .box-title > .page-title {
+    font-size: 3.9vw;
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .contact-page > .section-mv > .container > .box-title > .page-title {
+    font-size: 8.6vw;
+  }
+}
+.contact-page > .section-mv > .container > .box-title > .page-title > .english {
+  display: block;
+  color: #939393;
+  font-size: 1vw;
+  letter-spacing: 0.1em;
+  margin-bottom: 42px;
+}
+@media screen and (max-width: 1024px) {
+  .contact-page > .section-mv > .container > .box-title > .page-title > .english {
+    font-size: 1.25vw;
+    margin-bottom: 32px;
+  }
+}
+@media screen and (max-width: 820px) {
+  .contact-page > .section-mv > .container > .box-title > .page-title > .english {
+    font-size: 1.55vw;
+  }
+}
+@media screen and (max-width: 480px) {
+  .contact-page > .section-mv > .container > .box-title > .page-title > .english {
+    font-size: 3vw;
+    margin-bottom: 12px;
+  }
+}
+.contact-page > .section-mv > .container > .box-title > .overview {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  font-size: 1vw;
+  margin-bottom: 12px;
+}
+@media screen and (max-width: 1024px) {
+  .contact-page > .section-mv > .container > .box-title > .overview {
+    font-size: 1.25vw;
+  }
+}
+@media screen and (max-width: 820px) {
+  .contact-page > .section-mv > .container > .box-title > .overview {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    font-size: 1.55vw;
+  }
+}
+@media screen and (max-width: 480px) {
+  .contact-page > .section-mv > .container > .box-title > .overview {
+    font-size: 3.2vw;
+    margin-bottom: 0;
+  }
+}
+.contact-page > .section-mv > .container > .list-step {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 44px;
+}
+.contact-page > .section-mv > .container > .list-step > .step > .label {
+  color: #727171;
+  font-size: 1vw;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 480px) {
+  .contact-page > .section-mv > .container > .list-step > .step > .label {
+    font-size: 3.2vw;
+  }
+}
+.contact-page > .section-mv > .container > .list-step > .step > .text {
+  color: #727171;
+  font-size: 1.35vw;
+}
+@media screen and (max-width: 480px) {
+  .contact-page > .section-mv > .container > .list-step > .step > .text {
+    font-size: 3.55vw;
+  }
+}
+.contact-page > .section-mv > .container > .list-step > .step:first-child {
+  position: relative;
+  padding-right: 52px;
+  margin-right: 59px;
+}
+@media screen and (max-width: 480px) {
+  .contact-page > .section-mv > .container > .list-step > .step:first-child {
+    padding-right: 16px;
+    margin-right: 18px;
+  }
+}
+.contact-page > .section-mv > .container > .list-step > .step:first-child:before {
+  content: "";
+  background-image: url(../../../assets/imgs/flow/arrow.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  width: 5px;
+  height: 80px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.contact-page > .section-mv > .container > .list-step > .step:first-child > .text {
+  color: #007f41;
+}
+.contact-page > .section-contents {
+  background-color: #f6f6f6;
+  padding: 54px 20px 74px;
+  margin-top: 40px;
+}
+@media screen and (max-width: 480px) {
+  .contact-page > .section-contents {
+    padding: 33px 0 48px;
+  }
+}
+.contact-page > .section-contents > .container {
+  max-width: 90vw;
+  margin: 0 auto;
+}
+@media screen and (max-width: 480px) {
+  .contact-page > .section-contents > .container {
+    max-width: 100%;
+  }
+}
+.contact-page > .section-contents > .container > .box-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+@media screen and (max-width: 820px) {
+  .contact-page > .section-contents > .container > .box-form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.contact-page > .section-contents > .container > .box-form > .box-left {
+  max-width: 63vw;
+  width: 100%;
+  margin-right: 50px;
+}
+@media screen and (max-width: 820px) {
+  .contact-page > .section-contents > .container > .box-form > .box-left {
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 32px;
+  }
+}
+.contact-page > .section-contents > .container > .box-form > .box-left > .notice {
+  color: #727171;
+  font-size: 1vw;
+  margin-bottom: 34px;
+}
+@media screen and (max-width: 820px) {
+  .contact-page > .section-contents > .container > .box-form > .box-left > .notice {
+    font-size: 1.7vw;
+  }
+}
+@media screen and (max-width: 480px) {
+  .contact-page > .section-contents > .container > .box-form > .box-left > .notice {
+    font-size: 3.2vw;
+    padding-left: 20px;
+  }
+}
+.contact-page > .section-contents > .container > .box-form > .box-left > .mw_wp_form {
+  background-color: #ffffff;
+  padding: 54px 64px 30px;
+}
+@media screen and (max-width: 820px) {
+  .contact-page > .section-contents > .container > .box-form > .box-left > .mw_wp_form {
+    padding: 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .contact-page > .section-contents > .container > .box-form > .box-left > .mw_wp_form {
+    padding: 30px 20px;
+  }
+}
+.contact-page > .section-contents > .container > .box-form > .box-left > .mw_wp_form > form > .box-input {
+  margin-bottom: 32px;
+}
+.contact-page > .section-contents > .container > .box-form > .box-left > .mw_wp_form > form > .box-input > .label {
+  font-size: 1vw;
+  width: 100%;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 820px) {
+  .contact-page > .section-contents > .container > .box-form > .box-left > .mw_wp_form > form > .box-input > .label {
+    font-size: 1.7vw;
+  }
+}
+@media screen and (max-width: 480px) {
+  .contact-page > .section-contents > .container > .box-form > .box-left > .mw_wp_form > form > .box-input > .label {
+    font-size: 3.7vw;
+  }
+}
+.contact-page > .section-contents > .container > .box-form > .box-left > .mw_wp_form > form > .box-input > .label > .required {
+  color: #cccccc;
+  margin-left: 14px;
+}
+.contact-page > .section-contents > .container > .box-form > .box-left > .mw_wp_form > form > .box-input .input,
+.contact-page > .section-contents > .container > .box-form > .box-left > .mw_wp_form > form > .box-input .select,
+.contact-page > .section-contents > .container > .box-form > .box-left > .mw_wp_form > form > .box-input .textarea {
+  background-color: #f6f6f6;
+  border: 1px solid #dfdfdf;
+  padding: 12px;
+  width: 100%;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: 0;
+}
+.contact-page > .section-contents > .container > .box-form > .box-left > .mw_wp_form > form > .box-input .input {
+  height: 50px;
+}
+.contact-page > .section-contents > .container > .box-form > .box-left > .mw_wp_form > form > .box-input .select > option {
+  color: #000000;
+  font-size: 16px;
+}
+.contact-page > .section-contents > .container > .box-form > .box-left > .mw_wp_form > form > .box-input .textarea {
+  height: 264px;
+}
+.contact-page > .section-contents > .container > .box-form > .box-left > .mw_wp_form > form > .box-input .radio {
+  margin-bottom: 9px;
+}
+.contact-page > .section-contents > .container > .box-form > .box-left > .mw_wp_form > form > .box-input .mwform-radio-field-text {
+  font-family: "dnp-shuei-mincho-pr6n", sans-serif;
+}
+.contact-page > .section-contents > .container > .box-form > .box-left > .mw_wp_form > form > .box-input .button-send {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 50px;
+  font-family: "dnp-shuei-mincho-pr6n", sans-serif;
+  color: #000000 !important;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 16px 58px;
+  margin: 56px auto 0;
+}
+.contact-page > .section-contents > .container > .box-form > .box-left > .mw_wp_form > form > .box-input .button-send > a {
+  color: #000000;
+}
+.contact-page > .section-contents > .container > .box-form > .box-left > .mw_wp_form > form > .box-input > .text {
+  text-align: center;
+}
+@media screen and (max-width: 480px) {
+  .contact-page > .section-contents > .container > .box-form > .box-left > .mw_wp_form > form > .box-input > .text {
+    font-size: 3.2vw;
+    text-align: left;
+  }
+}
+.contact-page > .section-contents > .container > .box-form > .box-left > .mw_wp_form > form > .box-input > .text > .link {
+  color: #000000;
+  text-decoration: underline;
+}
+.contact-page > .section-contents > .container > .box-form > .box-left > .mw_wp_form > form > .box-input > .box-check {
+  text-align: center;
+  margin-top: 48px;
+}
+.contact-page > .section-contents > .container > .box-form > .box-othertool {
+  width: 26.5vw;
+}
+@media screen and (max-width: 820px) {
+  .contact-page > .section-contents > .container > .box-form > .box-othertool {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .contact-page > .section-contents > .container > .box-form > .box-othertool {
+    padding: 0 20px;
+  }
+}
+.contact-page > .section-contents > .container > .box-form > .box-othertool > .text {
+  font-size: 1vw;
+  margin-bottom: 24px;
+}
+@media screen and (max-width: 820px) {
+  .contact-page > .section-contents > .container > .box-form > .box-othertool > .text {
+    font-size: 1.7vw;
+  }
+}
+@media screen and (max-width: 480px) {
+  .contact-page > .section-contents > .container > .box-form > .box-othertool > .text {
+    font-size: 3.2vw;
+  }
+}
+.contact-page > .section-contents > .container > .box-form > .box-othertool > .box-contact {
+  background-image: url(../../../assets/imgs/contact/tel.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 46px 20px 31px;
+  text-align: center;
+}
+@media screen and (max-width: 820px) {
+  .contact-page > .section-contents > .container > .box-form > .box-othertool > .box-contact {
+    padding: 36px 20px;
+  }
+}
+.contact-page > .section-contents > .container > .box-form > .box-othertool > .box-contact > .link {
+  color: #ffffff;
+}
+.contact-page > .section-contents > .container > .box-form > .box-othertool > .box-contact > .link > .label {
+  margin-bottom: 6px;
+}
+.contact-page > .section-contents > .container > .box-form > .box-othertool > .box-contact > .link > .text {
+  font-family: "dnp-shuei-mincho-pr6n", sans-serif;
+  font-size: 2vw;
+  letter-spacing: 0.2em;
+  margin-bottom: 6px;
+}
+@media screen and (max-width: 820px) {
+  .contact-page > .section-contents > .container > .box-form > .box-othertool > .box-contact > .link > .text {
+    font-size: 3vw;
+  }
+}
+@media screen and (max-width: 480px) {
+  .contact-page > .section-contents > .container > .box-form > .box-othertool > .box-contact > .link > .text {
+    font-size: 7.5vw;
+  }
+}
+.contact-page > .section-contents > .container > .box-form > .box-othertool > .box-contact > .link > .notice {
+  font-family: "dnp-shuei-mincho-pr6n", sans-serif;
+}
+@media screen and (max-width: 480px) {
+  .contact-page > .section-contents > .container > .box-form > .box-othertool > .box-contact > .link > .notice {
+    font-size: 3.2vw;
+  }
+}

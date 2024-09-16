@@ -1,0 +1,683 @@
+@import "../app.scss";
+
+.post-flow-page {
+  > .post-content {
+    > .box-firstview {
+      max-width: 90vw;
+      margin: 161px auto 0;
+      margin-bottom: 32px;
+
+      @include mq(lg) {
+        margin: 120px auto 0;
+      }
+
+      > .page-title {
+        color: $color-gray500;
+        font-size: 0.95vw;
+
+        @include mq(lg) {
+          font-size: 1.25vw;
+        }
+
+        @include mq(md) {
+          font-size: 1.55vw;
+        }
+
+        @include mq(xs) {
+          font-size: 2.95vw;
+        }
+      }
+
+      > .box-overview {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 41px;
+
+        @include mq(xs) {
+          flex-direction: column;
+          margin-top: 25px;
+        }
+
+        > .box-text {
+          display: flex;
+          position: relative;
+
+          > .number {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: $color-gray200;
+            border-radius: 50px;
+            width: 59px;
+            height: 59px;
+
+            @include mq(xs) {
+              width: 37px;
+              height: 37px;
+            }
+
+            > span {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              color: $color-gray500;
+              font-size: 1.5vw;
+
+              @include mq(md) {
+                font-size: 2.3vw;
+              }
+
+              @include mq(xs) {
+                font-size: 3.9vw;
+              }
+            }
+          }
+
+          > .thumbnail {
+            position: relative;
+            z-index: 10;
+            margin-left: 60px;
+
+            @include mq(xs) {
+              margin-left: 0;
+            }
+            > img {
+              vertical-align: top;
+              object-fit: contain;
+              max-width: 20.5vw;
+              width: 100%;
+              height: 100%;
+
+              @include mq(xs) {
+                max-width: 160px;
+              }
+            }
+          }
+
+          > .box-title {
+            > .title {
+              align-self: flex-start;
+              font-family: "dnp-shuei-mincho-pr6n", sans-serif;
+              font-size: 2.9vw;
+              font-weight: 400;
+              margin-bottom: 10px;
+
+              @include mq(md) {
+                font-size: 4.3vw;
+              }
+
+              @include mq(xs) {
+                font-size: 8.5vw;
+                margin-bottom: 0;
+              }
+            }
+
+            > .english-title {
+              color: $color-gray500;
+              font-size: 0.95vw;
+
+              @include mq(lg) {
+                font-size: 1.35vw;
+              }
+
+              @include mq(md) {
+                font-size: 2.45vw;
+              }
+
+              @include mq(xs) {
+                font-size: 2.95vw;
+              }
+            }
+          }
+        }
+
+        > .box-term {
+          max-width: 20vw;
+          width: 100%;
+
+          @include mq(md) {
+            max-width: 200px;
+          }
+
+          @include mq(xs) {
+            max-width: 100%;
+          }
+
+          > .label {
+            background-color: $color-gray500;
+            color: $color-white;
+            font-size: 0.9vw;
+            text-align: center;
+            padding: 3px 0;
+
+            @include mq(lg) {
+              font-size: 1.25vw;
+            }
+
+            @include mq(md) {
+              font-size: 1.75vw;
+            }
+
+            @include mq(xs) {
+              font-size: 3.75vw;
+            }
+          }
+
+          > .term {
+            background-color: $color-gray200;
+            font-family: "dnp-shuei-mincho-pr6n", sans-serif;
+            font-size: 1.95vw;
+            text-align: center;
+            padding: 14px 10px;
+            letter-spacing: 0.1em;
+
+            @include mq(md) {
+              font-size: 2.55vw;
+            }
+
+            @include mq(xs) {
+              font-size: 4.85vw;
+              padding: 10px;
+            }
+          }
+        }
+      }
+
+      > .button {
+        max-width: 12.3vw;
+        align-self: center;
+      }
+    }
+
+    > .box-article {
+      background-color: $color-gray200;
+      position: relative;
+      width: 100%;
+      padding: 80px 20px;
+      margin-top: -110px;
+
+      @include mq(md) {
+        margin-top: -20px;
+        padding: 50px 20px;
+      }
+
+      @include mq(xs) {
+        margin-top: 20px;
+        padding: 30px 20px;
+      }
+
+      > .container {
+        display: flex;
+        max-width: 90vw;
+        margin: 0 auto;
+
+        @include mq(md) {
+          flex-direction: column-reverse;
+        }
+
+        > .box-post-content {
+          max-width: 60vw;
+          width: 100%;
+          margin-right: 5%;
+
+          @include mq(md) {
+            max-width: 100%;
+            margin-right: 0;
+          }
+
+          > #ez-toc-container {
+            display: none;
+          }
+
+          > h2 {
+            position: relative;
+            font-size: 1.7vw;
+            font-weight: 400;
+            margin-bottom: 32px;
+
+            @include mq(lg) {
+              font-size: 2.4vw;
+            }
+
+            @include mq(md) {
+              font-size: 3vw;
+            }
+
+            @include mq(xs) {
+              font-size: 5.4vw;
+              margin-bottom: 16px;
+            }
+          }
+
+          > h3 {
+            font-size: 1.5vw;
+            font-weight: 500;
+            margin-bottom: 15px;
+
+            @include mq(lg) {
+              font-size: 1.8vw;
+            }
+
+            @include mq(md) {
+              font-size: 2.5vw;
+            }
+
+            @include mq(xs) {
+              font-size: 4.5vw;
+            }
+          }
+
+          > p {
+            font-size: 0.95vw;
+            line-height: 2.2;
+            margin: 0 auto 48px;
+
+            @include mq(lg) {
+              font-size: 1.45vw;
+            }
+
+            @include mq(md) {
+              font-size: 1.75vw;
+            }
+
+            @include mq(xs) {
+              font-size: 3.55vw;
+              margin: 0 auto 24px;
+            }
+
+            > a {
+              color: $color-green400;
+              text-decoration: underline;
+            }
+          }
+
+          > .wp-block-gallery {
+            justify-content: space-between;
+          }
+
+          > figure {
+            margin-bottom: 48px;
+
+            @include mq(xs) {
+              margin-bottom: 24px;
+            }
+
+            > img {
+              height: 474px;
+              object-fit: cover;
+
+              @include mq(md) {
+                height: 100%;
+              }
+
+              @include mq(xs) {
+                height: 214px;
+              }
+            }
+          }
+        }
+        > .box-index {
+          align-self: flex-start;
+          position: sticky;
+          top: 60px;
+          border-left: 1px solid $color-gray500;
+
+          @include mq(md) {
+            border-left: 0;
+            border-bottom: 1px solid $color-gray500;
+            position: relative;
+            top: 0;
+            width: 100%;
+            margin-bottom: 40px;
+          }
+          > #ez-toc-container {
+            padding-left: 34px;
+
+            @include mq(md) {
+              padding-left: 0;
+              padding-bottom: 32px;
+            }
+
+            > .ez-toc-title-container {
+              > .ez-toc-title {
+                margin-bottom: 32px;
+
+                @include mq(xs) {
+                  font-size: 3.5vw;
+                  margin-bottom: 20px;
+                }
+              }
+            }
+
+            .ez-toc-list {
+              margin-bottom: 32px;
+
+              @include mq(md) {
+                margin-bottom: 0;
+              }
+
+              > li {
+                margin-bottom: 10px;
+                > a {
+                  color: $color-gray500;
+                  font-size: 0.95vw;
+
+                  @include mq(lg) {
+                    font-size: 1.45vw;
+                  }
+
+                  @include mq(md) {
+                    font-size: 2.05vw;
+                  }
+
+                  @include mq(xs) {
+                    font-size: 3.75vw;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    > .box-related {
+      margin: 48px 0;
+
+      @include mq(xs) {
+        margin: 38px 0;
+      }
+
+      > .container {
+        display: flex;
+        justify-content: space-between;
+        max-width: 90vw;
+        margin: 0 auto;
+
+        @include mq(md) {
+          flex-direction: column;
+        }
+
+        > .box-next {
+          max-width: 60vw;
+          width: 100%;
+
+          @include mq(md) {
+            max-width: 100%;
+          }
+
+          > .section-label {
+            color: $color-gray500;
+            font-size: 0.95vw;
+            margin-bottom: 38px;
+
+            @include mq(lg) {
+              font-size: 1.25vw;
+            }
+
+            @include mq(md) {
+              font-size: 1.55vw;
+            }
+
+            @include mq(xs) {
+              font-size: 3vw;
+            }
+          }
+
+          > .box-flex {
+            display: flex;
+            @include mq(md) {
+              margin-bottom: 34px;
+            }
+
+            @include mq(xs) {
+              flex-direction: column;
+            }
+            > .box-text {
+              position: relative;
+              padding-left: 78px;
+              margin-right: 75px;
+
+              @include mq(lg) {
+                margin-right: 15px;
+              }
+
+              @include mq(xs) {
+                padding-left: 53px;
+                margin-right: 0;
+                margin-bottom: 24px;
+              }
+              > .number {
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-color: $color-gray200;
+                border-radius: 50px;
+                width: 59px;
+                height: 59px;
+
+                @include mq(xs) {
+                  width: 37px;
+                  height: 37px;
+                }
+
+                > span {
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                  color: $color-gray500;
+                  font-size: 1.5vw;
+
+                  @include mq(md) {
+                    font-size: 2.3vw;
+                  }
+
+                  @include mq(xs) {
+                    font-size: 3.9vw;
+                  }
+                }
+              }
+
+              > .title {
+                font-size: 2.2vw;
+
+                @include mq(md) {
+                  font-size: 3.2vw;
+                }
+
+                @include mq(xs) {
+                  font-size: 7.5vw;
+                }
+              }
+
+              > .overview {
+                font-size: 1vw;
+                margin-bottom: 22px;
+
+                @include mq(lg) {
+                  font-size: 1.6vw;
+                }
+
+                @include mq(md) {
+                  font-size: 2vw;
+                }
+
+                @include mq(xs) {
+                  font-size: 3.7vw;
+                }
+                > span {
+                  font-size: 0.9vw;
+
+                  @include mq(lg) {
+                    font-size: 1.4vw;
+                  }
+
+                  @include mq(md) {
+                    font-size: 2vw;
+                  }
+
+                  @include mq(xs) {
+                    font-size: 3.2vw;
+                  }
+                }
+              }
+
+              > .term {
+                display: inline-block;
+                background-color: $color-gray200;
+                font-size: 1.5vw;
+                padding: 4px 11px;
+                margin-bottom: 39px;
+
+                @include mq(md) {
+                  font-size: 2vw;
+                }
+
+                @include mq(xs) {
+                  font-size: 3.2vw;
+                  margin-bottom: 34px;
+                }
+
+                > span {
+                  font-size: 0.9vw;
+                  margin-right: 5px;
+
+                  @include mq(lg) {
+                    font-size: 1.3vw;
+                  }
+
+                  @include mq(md) {
+                    font-size: 2vw;
+                  }
+                }
+              }
+
+              > .button {
+                > .link {
+                  @include mq(lg) {
+                    font-size: 1.3vw;
+                  }
+
+                  @include mq(md) {
+                    font-size: 2.2vw;
+                  }
+
+                  @include mq(xs) {
+                    font-size: 3.5vw;
+                  }
+                }
+              }
+            }
+
+            > .box-thumbnail {
+              align-self: flex-start;
+              max-width: 280px;
+              width: 100%;
+
+              @include mq(xs) {
+                align-self: center;
+              }
+
+              > img {
+                height: 100%;
+              }
+            }
+          }
+        }
+
+        > .list-banner {
+          max-width: 30vw;
+          width: 100%;
+
+          @include mq(lg) {
+            max-width: 25vw;
+          }
+          @include mq(md) {
+            max-width: 100%;
+          }
+          > .banner {
+            position: relative;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            &:first-child {
+              background-image: url(../../../assets/imgs/flow/banner-flow.png);
+              margin-bottom: 20px;
+            }
+
+            &:last-child {
+              background-image: url(../../../assets/imgs/flow/banner-construction.png);
+            }
+
+            > .link {
+              display: inline-block;
+              color: $color-white;
+              width: 100%;
+              padding: 37px 27px;
+
+              @include mq(lg) {
+                padding: 37px 18px;
+              }
+
+              @include mq(xs) {
+                padding: 35px 18px;
+              }
+
+              > .title {
+                font-size: 1.5vw;
+
+                @include mq(lg) {
+                  font-size: 1.8vw;
+                }
+
+                @include mq(md) {
+                  font-size: 3vw;
+                }
+
+                @include mq(xs) {
+                  font-size: 5.4vw;
+                }
+
+                > .english {
+                  display: block;
+                  font-size: 0.95vw;
+                  margin-bottom: 6px;
+
+                  @include mq(lg) {
+                    font-size: 1.3vw;
+                  }
+
+                  @include mq(md) {
+                    font-size: 2vw;
+                  }
+
+                  @include mq(xs) {
+                    font-size: 3.5vw;
+                  }
+                }
+              }
+
+              > .icon {
+                position: absolute;
+                top: 50%;
+                right: 20px;
+                transform: translateY(-50%);
+                width: 26px;
+
+                @include mq(md) {
+                  width: 46px;
+                }
+
+                @include mq(xs) {
+                  width: 26px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

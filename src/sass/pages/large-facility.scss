@@ -1,0 +1,1097 @@
+@import "../app.scss";
+
+.large-facility-page {
+  > .section-mv {
+    padding: 0 20px;
+    margin-top: 161px;
+    @include mq(lg) {
+      margin-top: 120px;
+    }
+
+    @include mq(xs) {
+      margin-top: 110px;
+    }
+
+    > .container {
+      max-width: 90vw;
+      margin: 0 auto;
+
+      > .box-title {
+        display: flex;
+        margin-bottom: 22px;
+        @include mq(md) {
+          flex-direction: column;
+        }
+
+        > .page-title {
+          font-size: 2.9vw;
+          font-weight: 500;
+          line-height: 1.5;
+          letter-spacing: 0.1em;
+          margin-right: 48px;
+
+          @include mq(md) {
+            font-size: 3.9vw;
+            margin-right: 0;
+          }
+
+          @include mq(xs) {
+            font-size: 8.6vw;
+          }
+
+          > .english {
+            display: block;
+            color: $color-gray500;
+            font-size: 1vw;
+            letter-spacing: 0.1em;
+            margin-bottom: 22px;
+
+            @include mq(lg) {
+              font-size: 1.25vw;
+            }
+
+            @include mq(md) {
+              font-size: 1.55vw;
+            }
+
+            @include mq(xs) {
+              font-size: 3vw;
+            }
+          }
+        }
+      }
+
+      > .image {
+        max-width: 100%;
+        height: 370px;
+        object-fit: cover;
+        object-position: center;
+
+        @include mq(md) {
+          height: 230px;
+        }
+
+        @include mq(xs) {
+          height: 158px;
+        }
+      }
+    }
+  }
+
+  > .section-message {
+    padding: 0 20px;
+    margin-top: 81px;
+
+    @include mq(lg) {
+      margin-top: 51px;
+    }
+
+    @include mq(md) {
+      margin-top: 32px;
+    }
+
+    > .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 90vw;
+      margin: 0 auto;
+
+      @include mq(md) {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      > .box-text {
+        max-width: 30.6vw;
+        width: 100%;
+        margin-right: 10%;
+
+        @include mq(md) {
+          max-width: 100%;
+          margin-right: 0;
+        }
+
+        > .title {
+          font-size: 2.35vw;
+          margin-bottom: 33px;
+
+          @include mq(md) {
+            font-size: 2.95vw;
+            margin-bottom: 15px;
+          }
+
+          @include mq(xs) {
+            font-size: 6.35vw;
+            line-height: 1.7;
+            margin-bottom: 16px;
+          }
+        }
+
+        > .text {
+          font-size: 1vw;
+          line-height: 2.8;
+          margin-bottom: 38px;
+
+          @include mq(lg) {
+            font-size: 1.4vw;
+          }
+          @include mq(md) {
+            font-size: 1.7vw;
+            line-height: 2.3;
+          }
+
+          @include mq(xs) {
+            font-size: 3.5vw;
+          }
+        }
+      }
+
+      > .box-image {
+        max-width: 52.2vw;
+        width: 100%;
+
+        @include mq(md) {
+          max-width: 100%;
+        }
+
+        > .image {
+          width: 100%;
+          height: 470px;
+          object-fit: cover;
+          margin-bottom: 26px;
+
+          @include mq(md) {
+            height: 250px;
+          }
+
+          @include mq(xs) {
+            height: 226px;
+          }
+        }
+      }
+    }
+  }
+
+  > .section-feature {
+    padding: 0 20px;
+    margin-top: 81px;
+
+    @include mq(md) {
+      margin-top: 24px;
+    }
+    > .container {
+      max-width: 90vw;
+      margin: 0 auto;
+
+      > .section-title {
+        margin-right: 20px;
+      }
+
+      > .list-feature {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+
+        > .feature {
+          position: relative;
+          background-color: $color-gray200;
+          max-width: 44vw;
+          width: 100%;
+          // height: 167px;
+          margin-bottom: 24px;
+          padding: 24px 10px 32px;
+
+          @include mq(lg) {
+            max-width: 43vw;
+            // height: 137px;
+            padding: 14px 1s0px 24px;
+          }
+
+          @include mq(md) {
+            height: auto;
+            // padding: 14px 20px 14px 127px;
+          }
+
+          @include mq(xs) {
+            max-width: 100%;
+          }
+
+          &:nth-child(odd) {
+            margin-right: 24px;
+
+            @include mq(xs) {
+              margin-right: 0;
+            }
+          }
+
+          > .image {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 90%;
+
+            @include mq(lg) {
+              width: 100%;
+            }
+          }
+
+          > .number {
+            position: absolute;
+            top: -11px;
+            left: -6px;
+            background-color: $color-white;
+            border-radius: 50px;
+            width: 59px;
+            height: 59px;
+
+            @include mq(xs) {
+              width: 49px;
+              height: 49px;
+            }
+
+            > span {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              color: $color-gray500;
+              font-size: 1.5vw;
+
+              @include mq(xs) {
+                font-size: 4.3vw;
+              }
+            }
+          }
+
+          > .label {
+            align-self: center;
+            position: relative;
+            z-index: 1;
+            font-size: 2.05vw;
+            padding-left: 35%;
+
+            @include mq(lg) {
+              margin-bottom: 8px;
+            }
+
+            @include mq(xs) {
+              font-size: 5.35vw;
+              margin-bottom: 0;
+            }
+          }
+
+          > .text {
+            font-size: 1vw;
+            padding-left: 35%;
+
+            @include mq(lg) {
+              font-size: 1.4vw;
+            }
+
+            @include mq(xs) {
+              font-size: 1.2vw;
+            }
+
+            @include mq(xs) {
+              font-size: 3.1vw;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  > .section-reasons {
+    background-color: $color-gray200;
+    padding: 64px 20px;
+    margin-top: 84px;
+
+    @include mq(md) {
+      margin-top: 34px;
+    }
+
+    @include mq(xs) {
+      padding: 48px 20px;
+    }
+
+    > .container {
+      max-width: 90vw;
+      margin: 0 auto;
+
+      > .english {
+        color: $color-gray500;
+        font-size: 0.95vw;
+        text-align: center;
+        margin-bottom: 42px;
+
+        @include mq(lg) {
+          font-size: 1.45vw;
+          margin-bottom: 32px;
+        }
+
+        @include mq(md) {
+          font-size: 1.75vw;
+        }
+
+        @include mq(xs) {
+          font-size: 3.15vw;
+        }
+      }
+
+      > .title {
+        font-size: 2.3vw;
+        line-height: 1.9;
+        text-align: center;
+        margin-bottom: 42px;
+
+        @include mq(lg) {
+          font-size: 2.6vw;
+        }
+
+        @include mq(md) {
+          font-size: 3vw;
+          margin-bottom: 22px;
+        }
+
+        @include mq(xs) {
+          font-size: 7.5vw;
+          line-height: 1.6;
+          margin-bottom: 32px;
+        }
+      }
+
+      > .box-overview {
+        display: flex;
+        margin-bottom: 56px;
+
+        @include mq(md) {
+          flex-direction: column;
+          margin-bottom: 38px;
+        }
+
+        @include mq(xs) {
+          margin-bottom: 45px;
+        }
+
+        > .title {
+          align-self: center;
+          background-color: $color-green400;
+          font-family: "dnp-shuei-mincho-pr6n", sans-serif;
+          color: $color-white;
+          font-size: 2.25vw;
+          text-align: center;
+          padding: 18px 22px 10px;
+          margin-right: 8%;
+          max-width: 18.6vw;
+          width: 100%;
+
+          @include mq(md) {
+            max-width: 100%;
+            margin-right: 0;
+            margin-bottom: 24px;
+          }
+
+          @include mq(xs) {
+            font-size: 6.15vw;
+            padding: 11px 22px 6px;
+          }
+
+          > span {
+            display: block;
+            font-size: 1.25vw;
+
+            @include mq(md) {
+              font-size: 1.65vw;
+            }
+
+            @include mq(xs) {
+              font-size: 3.55vw;
+            }
+          }
+        }
+
+        > .text {
+          max-width: 63.9vw;
+
+          @include mq(md) {
+            max-width: 100%;
+            margin-bottom: 32px;
+          }
+
+          @include mq(xs) {
+            font-size: 3.25vw;
+          }
+        }
+
+        > .box-root {
+          @include mq(md) {
+            display: flex;
+            justify-content: center;
+          }
+          > .type {
+            position: relative;
+            border-radius: 50px;
+            width: 85px;
+            height: 85px;
+            margin: 0 20px;
+
+            @include mq(xs) {
+              width: 75px;
+              height: 75px;
+              margin: 0 16px;
+            }
+
+            &:nth-child(2),
+            &:last-child {
+              &:before {
+                content: "";
+                position: absolute;
+                left: -22px;
+                top: 48%;
+                border-right: 1px solid $color-gray600;
+                border-top: 1px solid $color-gray600;
+                width: 10px;
+                height: 10px;
+                transform: rotate(225deg);
+
+                @include mq(xs) {
+                  left: -19px;
+                }
+              }
+            }
+
+            > .label {
+              display: block;
+              position: absolute;
+              top: 10px;
+              left: 50%;
+              transform: translateX(-50%);
+              width: 100%;
+              color: $color-white;
+              font-size: 12px;
+              text-align: center;
+            }
+
+            > .number {
+              position: absolute;
+              top: 13px;
+              left: 50%;
+              transform: translateX(-50%);
+              font-family: "dnp-shuei-mincho-pr6n", sans-serif;
+              color: $color-white;
+              font-size: 42px;
+
+              @include mq(xs) {
+                font-size: 9.2vw;
+              }
+            }
+
+            &.one {
+              background-color: $color-gray500;
+            }
+
+            &.two {
+              background-color: $color-gray600;
+            }
+
+            &.three {
+              background-color: $color-green400;
+            }
+          }
+        }
+      }
+
+      > .list-feature {
+        display: flex;
+
+        @include mq(md) {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        > .feature {
+          position: relative;
+          background-color: $color-white;
+          max-width: 25vw;
+          padding: 25px;
+
+          @include mq(lg) {
+            padding: 25px 18px;
+          }
+
+          @include mq(md) {
+            max-width: 590px;
+          }
+
+          &:first-child,
+          &:nth-child(2) {
+            margin-right: 8.4%;
+
+            @include mq(md) {
+              margin-right: 0;
+              margin-bottom: 32px;
+            }
+
+            &:before {
+              content: "";
+              background-size: contain;
+              background-repeat: no-repeat;
+              position: absolute;
+              top: 69px;
+              left: 88%;
+              width: 60%;
+              height: 20px;
+              z-index: 30;
+
+              @include mq(md) {
+                content: none;
+              }
+            }
+          }
+
+          &:first-child {
+            &:before {
+              background-image: url(../../../assets/imgs/large-facility/arrow-light.svg);
+            }
+          }
+
+          &:nth-child(2) {
+            &:before {
+              background-image: url(../../../assets/imgs/large-facility/arrow-deep.svg);
+            }
+          }
+
+          &:nth-child(2),
+          &:last-child {
+            &:after {
+              content: "";
+              position: absolute;
+              right: 110%;
+              top: 50%;
+              border-right: 1px solid $color-gray600;
+              border-top: 1px solid $color-gray600;
+              width: 20px;
+              height: 20px;
+              transform: rotate(225deg);
+
+              @include mq(md) {
+                content: none;
+              }
+            }
+          }
+
+          > .type {
+            position: relative;
+            border-radius: 50px;
+            width: 85px;
+            height: 85px;
+            margin: 0 auto 22px;
+
+            @include mq(lg) {
+              width: 79px;
+              height: 79px;
+            }
+
+            @include mq(md) {
+              display: inline-block;
+              vertical-align: middle;
+              margin-right: 20px;
+            }
+
+            > .label {
+              display: block;
+              position: absolute;
+              top: 10px;
+              left: 50%;
+              transform: translateX(-50%);
+              width: 100%;
+              color: $color-white;
+              font-size: 12px;
+              text-align: center;
+            }
+
+            > .number {
+              position: absolute;
+              top: 13px;
+              left: 50%;
+              transform: translateX(-50%);
+              font-family: "dnp-shuei-mincho-pr6n", sans-serif;
+              color: $color-white;
+              font-size: 42px;
+
+              @include mq(lg) {
+                top: 7px;
+              }
+
+              @include mq(xs) {
+                font-size: 11.2vw;
+              }
+            }
+
+            &.one {
+              background-color: $color-gray500;
+            }
+
+            &.two {
+              background-color: $color-gray600;
+            }
+
+            &.three {
+              background-color: $color-green400;
+            }
+          }
+
+          > .text {
+            font-size: 1vw;
+            margin-bottom: 26px;
+            height: 84px;
+
+            @include mq(lg) {
+              font-size: 1.3vw;
+            }
+
+            @include mq(md) {
+              display: inline-block;
+              vertical-align: middle;
+              max-width: 70%;
+              height: auto;
+              font-size: 1.8vw;
+              margin-bottom: 14px;
+            }
+
+            @include mq(xs) {
+              max-width: 63%;
+              font-size: 3.25vw;
+            }
+          }
+
+          > .list-assets {
+            display: flex;
+            flex-wrap: wrap;
+
+            @include mq(md) {
+              justify-content: center;
+            }
+
+            > .asset {
+              max-width: 29%;
+              margin-right: 17px;
+              margin-bottom: 17px;
+
+              @include mq(lg) {
+                margin-right: 14px;
+              }
+
+              @include mq(md) {
+                max-width: 75px;
+              }
+
+              &:nth-child(3),
+              &:last-child {
+                margin-right: 0;
+
+                @include mq(md) {
+                  margin-right: 17px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  > .section-knowhow {
+    background-color: $color-gray200;
+    padding: 64px 20px;
+
+    @include mq(md) {
+      padding: 24px 20px;
+    }
+
+    @include mq(xs) {
+      padding: 24px 20px 12px;
+    }
+
+    > .container {
+      max-width: 90vw;
+      margin: 0 auto;
+
+      > .english {
+        color: $color-gray500;
+        font-size: 0.95vw;
+        text-align: center;
+        margin-bottom: 42px;
+
+        @include mq(lg) {
+          font-size: 1.45vw;
+          margin-bottom: 32px;
+        }
+
+        @include mq(md) {
+          font-size: 1.75vw;
+        }
+
+        @include mq(xs) {
+          font-size: 2.95vw;
+        }
+      }
+
+      > .title {
+        font-family: "dnp-shuei-mincho-pr6n", sans-serif;
+        font-size: 2.3vw;
+        line-height: 1.9;
+        text-align: center;
+        margin-bottom: 42px;
+
+        @include mq(lg) {
+          font-size: 2.6vw;
+        }
+
+        @include mq(md) {
+          font-size: 3vw;
+        }
+
+        @include mq(xs) {
+          font-size: 7.5vw;
+          line-height: 1.6;
+          margin-bottom: 32px;
+        }
+      }
+
+      > .list-knowhow {
+        > .knowhow {
+          display: flex;
+          align-items: center;
+
+          @include mq(lg) {
+            justify-content: space-between;
+          }
+
+          @include mq(md) {
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 60px;
+          }
+
+          > .box-text {
+            display: flex;
+            max-width: 50%;
+            width: 100%;
+            margin-right: 4%;
+
+            @include mq(md) {
+              justify-content: center;
+              max-width: 590px;
+              margin-right: 0;
+              margin-bottom: 36px;
+            }
+            > .number {
+              font-family: "dnp-shuei-mincho-pr6n", sans-serif;
+              font-size: 9.6vw;
+              margin-right: 12%;
+
+              @include mq(md) {
+                margin-right: 5%;
+                line-height: 1;
+              }
+
+              @include mq(xs) {
+                font-size: 31.2vw;
+              }
+            }
+
+            > .text {
+              font-size: 1.2vw;
+              align-self: center;
+              @include mq(lg) {
+                font-size: 1.3vw;
+              }
+
+              @include mq(md) {
+                font-size: 2vw;
+              }
+
+              @include mq(xs) {
+                font-size: 3.8vw;
+              }
+
+              > .green {
+                background-color: $color-green400;
+                color: $color-white;
+                padding: 2px 4px;
+                margin-right: 2px;
+              }
+            }
+          }
+
+          > .image {
+            max-width: 48%;
+
+            @include mq(lg) {
+              max-width: 43.9vw;
+            }
+
+            @include mq(md) {
+              max-width: 580px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  > .section-voice {
+    position: relative;
+    padding: 20px;
+    margin-top: 81px;
+    margin-bottom: 81px;
+
+    > .container {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      max-width: 90vw;
+      margin: 0 auto;
+
+      @include mq(lg) {
+        flex-direction: column;
+      }
+
+      > .box-overview {
+        @include mq(lg) {
+          margin-bottom: 30px;
+          width: 100%;
+        }
+
+        @include mq(md) {
+          margin-bottom: 70px;
+        }
+        > .section-title {
+          margin-bottom: 20px;
+
+          > .english {
+            @include mq(lg) {
+              font-size: 1.45vw;
+              margin-bottom: 32px;
+            }
+
+            @include mq(xs) {
+              font-size: 3vw;
+            }
+          }
+        }
+
+        > .overview {
+          font-size: 1vw;
+
+          @include mq(lg) {
+            font-size: 1.45vw;
+          }
+
+          @include mq(md) {
+            font-size: 1.75vw;
+          }
+
+          @include mq(xs) {
+            font-size: 3.55vw;
+          }
+        }
+      }
+
+      > .list-voice {
+        max-width: 61.8vw;
+        width: 100%;
+
+        @include mq(lg) {
+          max-width: 100%;
+        }
+
+        .slick-num {
+          position: absolute;
+          left: -307px;
+          bottom: 9px;
+          color: $color-gray600;
+          font-size: 0.9vw;
+
+          @include mq(lg) {
+            left: 88px;
+            bottom: -55px;
+          }
+
+          @include mq(md) {
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 100%;
+            font-size: 1.55vw;
+          }
+
+          @include mq(xs) {
+            font-size: 3.25vw;
+            bottom: 101%;
+          }
+
+          > .now-count {
+            color: $color-black;
+            font-size: 1.5vw;
+
+            @include mq(md) {
+              font-size: 3vw;
+            }
+
+            @include mq(xs) {
+              font-size: 5.6vw;
+            }
+          }
+        }
+
+        .slide-arrow {
+          width: 40px;
+          position: absolute;
+          bottom: 0;
+
+          @include mq(lg) {
+            bottom: -60px;
+          }
+
+          @include mq(md) {
+            bottom: 100%;
+          }
+
+          &.prev-arrow {
+            left: -400px;
+
+            @include mq(lg) {
+              left: 0px;
+            }
+          }
+
+          &.next-arrow {
+            left: -200px;
+            transform: rotate(-180deg);
+
+            @include mq(lg) {
+              left: 170px;
+            }
+
+            @include mq(md) {
+              left: auto;
+              right: 0;
+            }
+          }
+        }
+
+        .voice {
+          > .box-flex {
+            display: flex;
+            align-items: center;
+
+            @include mq(md) {
+              border-top: 1px solid $color-gray300;
+              flex-direction: column-reverse;
+              padding-top: 48px;
+              margin-top: 32px;
+            }
+            > .image {
+              max-width: 26.6vw;
+              margin-right: 43px;
+
+              @include mq(md) {
+                max-width: 100%;
+                margin-right: 0;
+              }
+            }
+
+            > .box-text {
+              @include mq(md) {
+                margin-bottom: 24px;
+              }
+              > .title {
+                position: relative;
+                font-size: 1.3vw;
+                width: fit-content;
+                margin-bottom: 20px;
+
+                @include mq(lg) {
+                  font-size: 1.7vw;
+                }
+
+                @include mq(md) {
+                  font-size: 2.2vw;
+                }
+
+                @include mq(xs) {
+                  font-size: 4.8vw;
+                  margin-bottom: 12px;
+                }
+
+                &:before,
+                &:after {
+                  content: "";
+                  position: absolute;
+                  background-image: url(../../../assets/imgs/recruit/comment.png);
+                  width: 29px;
+                  height: 21px;
+                  object-fit: contain;
+                  z-index: -1;
+                }
+
+                &:before {
+                  top: 3px;
+                  left: -18px;
+
+                  @include mq(md) {
+                    left: 0;
+                  }
+                }
+
+                &:after {
+                  bottom: 1px;
+                  right: 0;
+                  transform: rotate(180deg);
+                }
+              }
+
+              > .name {
+                color: $color-gray600;
+                font-size: 0.85vw;
+                margin-bottom: 26px;
+
+                @include mq(lg) {
+                  font-size: 1.35vw;
+                }
+
+                @include mq(md) {
+                  font-size: 1.75vw;
+                }
+
+                @include mq(xs) {
+                  font-size: 2.95vw;
+                  margin-bottom: 12px;
+                }
+              }
+
+              > .text {
+                font-size: 0.9vw;
+                line-height: 2.2;
+
+                @include mq(lg) {
+                  font-size: 1.35vw;
+                }
+
+                @include mq(md) {
+                  font-size: 1.75vw;
+                }
+
+                @include mq(xs) {
+                  font-size: 3.25vw;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

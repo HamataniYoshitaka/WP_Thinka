@@ -1,0 +1,419 @@
+@import "../app.scss";
+
+.price-page {
+  > .section-mv {
+    padding: 0 20px;
+    margin-top: 161px;
+
+    @include mq(lg) {
+      margin: 120px auto 0;
+    }
+
+    @include mq(xs) {
+      margin-top: 110px;
+    }
+
+    > .container {
+      max-width: 90vw;
+      margin: 0 auto;
+
+      > .page-title {
+        display: flex;
+        align-items: center;
+        font-size: 1.32vw;
+        margin-bottom: 52px;
+
+        @include mq(md) {
+          font-size: 1.8vw;
+          margin-bottom: 24px;
+        }
+
+        @include mq(xs) {
+          font-size: 3.7vw;
+          margin-bottom: 16px;
+        }
+
+        > .english {
+          color: $color-gray500;
+          font-size: 0.95vw;
+          margin-right: 24px;
+
+          @include mq(lg) {
+            font-size: 1.25vw;
+          }
+
+          @include mq(md) {
+            font-size: 1.55vw;
+          }
+
+          @include mq(xs) {
+            font-size: 3vw;
+          }
+        }
+      }
+
+      > .box-overview {
+        display: flex;
+        align-items: center;
+
+        @include mq(md) {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+        > .title {
+          font-size: 3vw;
+          font-weight: 500;
+          margin-right: 48px;
+
+          @include mq(md) {
+            font-size: 4vw;
+            margin-bottom: 6px;
+            margin-right: 0;
+          }
+
+          @include mq(xs) {
+            font-size: 8.6vw;
+            line-height: 1.5;
+            margin-bottom: 16px;
+          }
+        }
+
+        > .overview {
+          font-size: 1vw;
+
+          @include mq(lg) {
+            font-size: 1.2vw;
+            max-width: 50%;
+          }
+
+          @include mq(md) {
+            font-size: 1.5vw;
+            max-width: 100%;
+          }
+
+          @include mq(xs) {
+            font-size: 3.2vw;
+          }
+        }
+      }
+    }
+  }
+
+  > .section-contents {
+    padding: 0 20px;
+    margin-top: 48px;
+    margin-bottom: 40px;
+
+    @include mq(xs) {
+      margin-top: 32px;
+    }
+
+    > .container {
+      max-width: 90vw;
+      margin: 0 auto;
+
+      > .tab-menu {
+        display: flex;
+        margin-bottom: 62px;
+
+        @include mq(xs) {
+          margin-bottom: 36px;
+        }
+
+        > li {
+          max-width: 25%;
+          width: 100%;
+          > a {
+            display: inline-block;
+            border: 1px solid $color-gray600;
+            width: 100%;
+            font-family: "dnp-shuei-mincho-pr6n", sans-serif;
+            color: $color-gray600;
+            font-size: 1.32vw;
+            text-align: center;
+            padding: 18px;
+
+            @include mq(md) {
+              font-size: 1.62vw;
+              padding: 18px 10px;
+            }
+
+            @include mq(xs) {
+              font-size: 3.22vw;
+              padding: 12px 1px;
+              letter-spacing: 0;
+            }
+          }
+
+          &.selected {
+            position: relative;
+            > a {
+              border: 1px solid $color-green400;
+              background-color: $color-green100;
+              color: $color-green400;
+            }
+
+            &:before,
+            &:after {
+              content: "";
+              position: absolute;
+              left: 50%;
+            }
+
+            &:before {
+              bottom: -25.4px;
+              margin-left: -17px;
+              border: 14.6px solid transparent;
+              border-top: 14.6px solid $color-green100;
+              z-index: 2;
+            }
+
+            &:after {
+              bottom: -26.1px;
+              margin-left: -16px;
+              border: 13.9px solid transparent;
+              border-top: 13.9px solid $color-green400;
+              z-index: 1;
+            }
+          }
+
+          &:not(:first-child) {
+            > a {
+              border-left: 0;
+            }
+          }
+        }
+      }
+
+      > .tab-panel {
+        > .box-estimate {
+          display: flex;
+
+          @include mq(lg) {
+            justify-content: space-between;
+          }
+
+          @include mq(xs) {
+            flex-direction: column;
+          }
+          > .box-price {
+            max-width: 30vw;
+            width: 100%;
+
+            @include mq(xs) {
+              max-width: 100%;
+              margin-bottom: 24px;
+            }
+            > .title {
+              font-size: 1vw;
+              margin-bottom: 20px;
+
+              @include mq(lg) {
+                font-size: 1.2vw;
+              }
+
+              @include mq(md) {
+                font-size: 1.6vw;
+              }
+
+              @include mq(xs) {
+                font-size: 3.7vw;
+                margin-bottom: 0;
+              }
+            }
+
+            > .price {
+              font-family: "dnp-shuei-mincho-pr6n", sans-serif;
+              font-size: 2.35vw;
+              margin-bottom: 14px;
+
+              @include mq(lg) {
+                font-size: 2.55vw;
+              }
+
+              @include mq(md) {
+                font-size: 2.95vw;
+              }
+
+              @include mq(xs) {
+                font-size: 8.55vw;
+                margin-bottom: 0;
+              }
+
+              > .tax {
+                font-size: 1vw;
+
+                @include mq(lg) {
+                  font-size: 1.2vw;
+                }
+
+                @include mq(xs) {
+                  font-size: 3.7vw;
+                }
+              }
+            }
+
+            > .notice {
+              color: $color-gray600;
+              font-size: 0.9vw;
+
+              @include mq(lg) {
+                font-size: 1.2vw;
+              }
+
+              @include mq(md) {
+                font-size: 1.5vw;
+              }
+
+              @include mq(xs) {
+                font-size: 3.2vw;
+              }
+            }
+          }
+
+          > .box-conditions {
+            max-width: 60vw;
+            width: 100%;
+
+            @include mq(lg) {
+              max-width: 54vw;
+            }
+
+            @include mq(xs) {
+              max-width: 100%;
+            }
+
+            > .list-condition {
+              margin-bottom: 64px;
+
+              @include mq(xs) {
+                margin-bottom: 48px;
+              }
+              > .condition {
+                display: flex;
+                border-bottom: 1px solid $color-gray300;
+                padding-bottom: 20px;
+                margin-bottom: 20px;
+
+                @include mq(xs) {
+                  flex-direction: column;
+                }
+
+                > .label {
+                  color: $color-gray500;
+                  font-size: 0.85vw;
+                  margin-right: 64px;
+                  width: 70px;
+
+                  @include mq(lg) {
+                    font-size: 1.25vw;
+                    width: 90px;
+                  }
+
+                  @include mq(md) {
+                    font-size: 1.55vw;
+                  }
+
+                  @include mq(xs) {
+                    width: 100%;
+                    font-size: 3.25vw;
+                    margin-right: 0;
+                    margin-bottom: 10px;
+                  }
+                }
+
+                > .data {
+                  font-family: "dnp-shuei-mincho-pr6n", sans-serif;
+                  font-size: 0.85vw;
+                  width: 100%;
+
+                  @include mq(lg) {
+                    font-size: 1.25vw;
+                  }
+
+                  @include mq(md) {
+                    font-size: 1.55vw;
+                  }
+
+                  @include mq(xs) {
+                    font-size: 3.25vw;
+                  }
+                }
+              }
+            }
+
+            > .list-title {
+              font-size: 1.45vw;
+              margin-bottom: 32px;
+
+              @include mq(xs) {
+                font-size: 5.35vw;
+                margin-bottom: 20px;
+              }
+            }
+          }
+        }
+
+        > .list-image {
+          display: flex;
+          flex-wrap: wrap;
+
+          @include mq(md) {
+            justify-content: space-between;
+          }
+
+          > .image {
+            width: 23.5%;
+            margin-right: 24px;
+            margin-bottom: 33px;
+
+            @include mq(lg) {
+              width: 23%;
+            }
+
+            @include mq(md) {
+              width: 22%;
+            }
+
+            @include mq(xs) {
+              width: 48%;
+              margin-right: 11px;
+              margin-bottom: 16px;
+            }
+
+            &:nth-child(4),
+            &:last-child {
+              margin-right: 0;
+            }
+
+            &:nth-child(even) {
+              @include mq(xs) {
+                margin-right: 0;
+              }
+            }
+
+            > .image {
+              margin-bottom: 8px;
+            }
+
+            > .text {
+              font-size: 0.95vw;
+
+              @include mq(lg) {
+                font-size: 1.25vw;
+              }
+
+              @include mq(md) {
+                font-size: 1.55vw;
+              }
+
+              @include mq(xs) {
+                font-size: 3.15vw;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

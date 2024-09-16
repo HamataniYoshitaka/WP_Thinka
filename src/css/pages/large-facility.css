@@ -1,0 +1,329 @@
+@charset "UTF-8";
+/*
+変数関係をまとめたファイル
+ */
+/*
+ブレイクポイントに関して記述しているファイル
+下のブレイクポイントの設定を変更するときは必ずPMに一声かける
+ */
+.company-page > .section-mv {
+  padding: 0 20px;
+  margin-top: 161px;
+}
+.company-page > .section-mv > .container {
+  max-width: 90vw;
+  margin: 0 auto;
+}
+.company-page > .section-mv > .container > .box-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 22px;
+}
+.company-page > .section-mv > .container > .box-title > .page-title {
+  font-size: 2.9vw;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  margin-right: 48px;
+}
+.company-page > .section-mv > .container > .box-title > .page-title > .english {
+  display: block;
+  color: #939393;
+  font-size: 1vw;
+  letter-spacing: 0.1em;
+  margin-bottom: 42px;
+}
+.company-page > .section-mv > .container > .box-title > .overview {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  font-size: 1vw;
+  margin-bottom: 12px;
+}
+.company-page > .section-mv > .container > .image {
+  max-width: 100%;
+  height: 370px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.company-page > .section-message {
+  padding: 0 20px;
+  margin-top: 81px;
+}
+.company-page > .section-message > .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 90vw;
+  margin: 0 auto;
+}
+.company-page > .section-message > .container > .box-text {
+  max-width: 40vw;
+  width: 100%;
+  padding-right: 24px;
+}
+.company-page > .section-message > .container > .box-text > .title {
+  font-size: 2.35vw;
+  margin-bottom: 33px;
+}
+.company-page > .section-message > .container > .box-text > .text {
+  font-size: 1vw;
+  line-height: 2.8;
+  margin-bottom: 38px;
+}
+.company-page > .section-message > .container > .box-image {
+  max-width: 50.5vw;
+}
+.company-page > .section-message > .container > .box-image > .image {
+  width: 100%;
+  height: 378px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 26px;
+}
+.company-page > .section-mission {
+  background-image: url(../../../assets/imgs/company/background-mission.png);
+  padding: 100px 20px;
+  margin-top: 81px;
+}
+.company-page > .section-mission > .container {
+  max-width: 90vw;
+  margin: 0 auto;
+}
+.company-page > .section-number {
+  padding: 0 20px;
+  margin-top: 81px;
+}
+.company-page > .section-number > .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 90vw;
+  margin: 0 auto;
+}
+.company-page > .section-number > .container > .section-title {
+  margin-right: 20px;
+}
+.company-page > .section-number > .container > .list-numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  max-width: 61.8vw;
+  width: 100%;
+}
+.company-page > .section-number > .container > .list-numbers > .number {
+  position: relative;
+  background-color: #f6f6f6;
+  max-width: 29.5vw;
+  width: 100%;
+  margin-bottom: 28px;
+  padding: 42px 20px 38px 215px;
+}
+.company-page > .section-number > .container > .list-numbers > .number:nth-child(odd) {
+  margin-right: 28px;
+}
+.company-page > .section-number > .container > .list-numbers > .number > .image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.company-page > .section-number > .container > .list-numbers > .number > .box-text {
+  position: relative;
+  z-index: 1;
+}
+.company-page > .section-number > .container > .list-numbers > .number > .box-text > .label {
+  font-size: 1.25vw;
+}
+.company-page > .section-number > .container > .list-numbers > .number > .box-text > .number {
+  font-size: 1.25vw;
+}
+.company-page > .section-number > .container > .list-numbers > .number > .box-text > .number > .strong {
+  font-size: 4.75vw;
+}
+.company-page > .section-information {
+  padding: 0 20px;
+  margin-top: 81px;
+}
+.company-page > .section-information > .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 90vw;
+  margin: 0 auto;
+}
+.company-page > .section-information > .container > .list-information {
+  max-width: 61.8vw;
+  width: 100%;
+}
+.company-page > .section-information > .container > .list-information > .information {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #dfdfdf;
+  padding: 32px 0;
+}
+@media screen and (max-width: 820px) {
+  .company-page > .section-information > .container > .list-information > .information {
+    padding: 20px 0;
+  }
+}
+.company-page > .section-information > .container > .list-information > .information:first-child {
+  padding: 0 0 32px;
+}
+.company-page > .section-information > .container > .list-information > .information > .label,
+.company-page > .section-information > .container > .list-information > .information > .data {
+  font-size: 0.9vw;
+}
+.company-page > .section-information > .container > .list-information > .information > .label > a,
+.company-page > .section-information > .container > .list-information > .information > .data > a {
+  color: #000000;
+}
+.company-page > .section-information > .container > .list-information > .information > .label {
+  width: 90px;
+  color: #939393;
+  line-height: 1.7;
+  margin-right: 64px;
+}
+@media screen and (max-width: 820px) {
+  .company-page > .section-information > .container > .list-information > .information > .label {
+    margin-right: 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .company-page > .section-information > .container > .list-information > .information > .label {
+    width: 70px;
+    margin-right: 19px;
+  }
+}
+.company-page > .section-information > .container > .list-information > .information > .data {
+  width: 100%;
+}
+.company-page > .section-information > .container > .box-map {
+  max-width: 510px;
+  width: 100%;
+}
+@media screen and (max-width: 1024px) {
+  .company-page > .section-information > .container > .box-map {
+    max-width: 48%;
+  }
+}
+@media screen and (max-width: 820px) {
+  .company-page > .section-information > .container > .box-map {
+    max-width: 100%;
+    height: 250px;
+  }
+}
+.company-page > .section-information > .container > .box-map > iframe {
+  width: 100%;
+  height: 100%;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+.company-page > .section-history {
+  padding: 0 20px;
+  margin-top: 81px;
+}
+.company-page > .section-history > .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 90vw;
+  margin: 0 auto;
+}
+.company-page > .section-history > .container > .list-information {
+  max-width: 61.8vw;
+  width: 100%;
+}
+.company-page > .section-history > .container > .list-information > .information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 35px;
+}
+.company-page > .section-history > .container > .list-information > .information > .label,
+.company-page > .section-history > .container > .list-information > .information > .data {
+  font-size: 0.9vw;
+}
+.company-page > .section-history > .container > .list-information > .information > .label {
+  position: relative;
+  background-color: #f6f6f6;
+  border-radius: 50px;
+  width: 135px;
+  line-height: 1.7;
+  text-align: center;
+  margin-right: 32px;
+  padding: 10px 23px;
+}
+.company-page > .section-history > .container > .list-information > .information > .label:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  background-color: #939393;
+  width: 1px;
+  height: 35px;
+}
+.company-page > .section-history > .container > .list-information > .information:last-child > .label:before {
+  content: none;
+}
+.company-page > .section-machines {
+  background-color: #f6f6f6;
+  padding: 64px 20px 16px;
+  margin-top: 60px;
+}
+.company-page > .section-machines > .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 90vw;
+  margin: 0 auto;
+}
+.company-page > .section-machines > .container > .list-machines {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 61.8vw;
+}
+.company-page > .section-machines > .container > .list-machines > .machines {
+  max-width: 18.6vw;
+  margin: 0 13px 48px;
+}
+.company-page > .section-machines > .container > .list-machines > .machines > .image {
+  width: 100%;
+  margin-bottom: 12px;
+}
+.company-page > .section-machines > .container > .list-machines > .machines > .name {
+  font-size: 0.95vw;
+}
+.company-page > .section-machines > .container > .list-machines > .machines > .maker {
+  color: #939393;
+  font-size: 0.9vw;
+}

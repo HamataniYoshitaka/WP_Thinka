@@ -1,0 +1,177 @@
+@import "../app.scss";
+
+.footer {
+  position: relative;
+  background-color: $color-gray600;
+  padding: 52px 20px 23px;
+
+  @include mq(xs) {
+    padding: 32px 20px 24px;
+  }
+
+  > .container {
+    max-width: 90vw;
+    margin: 0 auto;
+
+    > .box-menu {
+      display: flex;
+      margin-bottom: 57px;
+
+      @include mq(xs) {
+        flex-direction: column;
+        margin-bottom: 48px;
+      }
+
+      > .list-menu {
+        align-self: flex-start;
+        margin-right: 62px;
+        > .menu {
+          margin-bottom: 14px;
+
+          > .link {
+            color: $color-white;
+            font-size: 1vw;
+
+            @include mq(lg) {
+              font-size: 1.4vw;
+            }
+
+            @include mq(xs) {
+              font-size: 3.7vw;
+            }
+          }
+        }
+      }
+
+      > .list-main {
+        @include mq(xs) {
+          display: flex;
+          flex-wrap: wrap;
+          margin-right: 0;
+        }
+
+        > .menu {
+          @include mq(xs) {
+            width: 47%;
+            border-bottom: 1px solid #ffffff;
+            padding-bottom: 8px;
+            margin-bottom: 24px;
+          }
+
+          &:nth-child(odd) {
+            @include mq(xs) {
+              margin-right: 20px;
+            }
+          }
+        }
+      }
+
+      > .list-company,
+      > .list-recruit {
+        @include mq(xs) {
+          width: 100%;
+          margin-bottom: 24px;
+        }
+        > .menu {
+          &:first-child {
+            @include mq(xs) {
+              border-bottom: 1px solid #ffffff;
+              padding-bottom: 8px;
+            }
+          }
+          &:not(:first-child) {
+            margin-bottom: 5px;
+            > .link {
+              color: $color-gray300;
+              font-size: 0.9vw;
+
+              @include mq(lg) {
+                font-size: 1.3vw;
+              }
+
+              @include mq(xs) {
+                font-size: 3.2vw;
+              }
+            }
+          }
+        }
+      }
+
+      > .contact-button {
+        margin-left: auto;
+
+        @include mq(xs) {
+          margin: 0 auto;
+        }
+        > .link {
+          border: 1px solid $color-white;
+          border-radius: 50px;
+          display: inline-block;
+          color: $color-white;
+          font-size: 1vw;
+          padding: 10px 30px;
+
+          @include mq(lg) {
+            font-size: 1.3vw;
+          }
+
+          @include mq(xs) {
+            font-size: 3.8vw;
+            padding: 10px 115px;
+          }
+        }
+      }
+    }
+
+    > .box-credit {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid $color-white;
+      padding-top: 22px;
+
+      @include mq(xs) {
+        flex-direction: column;
+      }
+
+      > .box-logo {
+        max-width: 14vw;
+
+        @include mq(xs) {
+          max-width: 38.1vw;
+          margin-bottom: 27px;
+        }
+
+        > .link {
+          > .logo {
+            width: 100%;
+          }
+        }
+      }
+
+      > .box-text {
+        display: flex;
+        align-items: center;
+
+        > .link,
+        > .copyright {
+          font-family: "dnp-shuei-mincho-pr6n", sans-serif;
+          color: $color-gray300;
+          font-size: 0.85vw;
+
+          @include mq(lg) {
+            font-size: 1.25vw;
+          }
+
+          @include mq(xs) {
+            font-size: 2.95vw;
+          }
+        }
+
+        > .copyright {
+          margin-left: 27px;
+        }
+      }
+    }
+  }
+}

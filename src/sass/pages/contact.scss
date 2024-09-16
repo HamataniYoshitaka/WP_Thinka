@@ -1,0 +1,381 @@
+@import "../app.scss";
+
+.contact-page {
+  > .section-mv {
+    padding: 0 20px;
+    margin-top: 161px;
+
+    @include mq(lg) {
+      margin-top: 120px;
+    }
+
+    @include mq(xs) {
+      margin-top: 110px;
+    }
+
+    > .container {
+      max-width: 90vw;
+      margin: 0 auto;
+
+      > .box-title {
+        display: flex;
+        margin-bottom: 22px;
+
+        @include mq(md) {
+          flex-direction: column;
+        }
+
+        > .page-title {
+          font-size: 2.9vw;
+          font-weight: 500;
+          line-height: 1.5;
+          letter-spacing: 0.1em;
+          margin-right: 48px;
+
+          @include mq(md) {
+            font-size: 3.9vw;
+            margin-right: 0;
+            margin-bottom: 16px;
+          }
+
+          @include mq(xs) {
+            font-size: 8.6vw;
+          }
+
+          > .english {
+            display: block;
+            color: $color-gray500;
+            font-size: 1vw;
+            letter-spacing: 0.1em;
+            margin-bottom: 42px;
+
+            @include mq(lg) {
+              font-size: 1.25vw;
+              margin-bottom: 32px;
+            }
+
+            @include mq(md) {
+              font-size: 1.55vw;
+            }
+
+            @include mq(xs) {
+              font-size: 3vw;
+              margin-bottom: 12px;
+            }
+          }
+        }
+
+        > .overview {
+          align-self: flex-end;
+          font-size: 1vw;
+          margin-bottom: 12px;
+
+          @include mq(lg) {
+            font-size: 1.25vw;
+          }
+
+          @include mq(md) {
+            align-self: flex-start;
+            font-size: 1.55vw;
+          }
+
+          @include mq(xs) {
+            font-size: 3.2vw;
+            margin-bottom: 0;
+          }
+        }
+      }
+
+      > .list-step {
+        display: flex;
+        margin-top: 44px;
+
+        > .step {
+          > .label {
+            color: $color-gray600;
+            font-size: 1vw;
+            margin-bottom: 10px;
+
+            @include mq(xs) {
+              font-size: 3.2vw;
+            }
+          }
+
+          > .text {
+            color: $color-gray600;
+            font-size: 1.35vw;
+
+            @include mq(xs) {
+              font-size: 3.55vw;
+            }
+          }
+
+          &:first-child {
+            position: relative;
+            padding-right: 52px;
+            margin-right: 59px;
+
+            @include mq(xs) {
+              padding-right: 16px;
+              margin-right: 18px;
+            }
+            &:before {
+              content: "";
+              background-image: url(../../../assets/imgs/flow/arrow.png);
+              background-size: cover;
+              background-position: center;
+              background-repeat: none;
+              width: 5px;
+              height: 80px;
+              position: absolute;
+              top: 50%;
+              right: 0;
+              transform: translateY(-50%);
+            }
+
+            > .text {
+              color: $color-green400;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  > .section-contents {
+    background-color: $color-gray200;
+    padding: 54px 20px 74px;
+    margin-top: 40px;
+
+    @include mq(xs) {
+      padding: 33px 0 48px;
+    }
+    > .container {
+      max-width: 90vw;
+      margin: 0 auto;
+
+      @include mq(xs) {
+        max-width: 100%;
+      }
+
+      > .box-form {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        @include mq(md) {
+          flex-direction: column;
+        }
+
+        > .box-left {
+          max-width: 63vw;
+          width: 100%;
+          margin-right: 50px;
+
+          @include mq(md) {
+            max-width: 100%;
+            margin-right: 0;
+            margin-bottom: 32px;
+          }
+
+          > .notice {
+            color: $color-gray600;
+            font-size: 1vw;
+            margin-bottom: 34px;
+
+            @include mq(md) {
+              font-size: 1.7vw;
+            }
+
+            @include mq(xs) {
+              font-size: 3.2vw;
+              padding-left: 20px;
+            }
+          }
+          > .mw_wp_form {
+            background-color: $color-white;
+            padding: 54px 64px 30px;
+
+            @include mq(md) {
+              padding: 30px;
+            }
+
+            @include mq(xs) {
+              padding: 30px 20px;
+            }
+            > form {
+              > .box-input {
+                margin-bottom: 32px;
+
+                > .label {
+                  font-size: 1vw;
+                  width: 100%;
+                  margin-bottom: 10px;
+
+                  @include mq(md) {
+                    font-size: 1.7vw;
+                  }
+
+                  @include mq(xs) {
+                    font-size: 3.7vw;
+                  }
+
+                  > .required {
+                    color: $color-gray400;
+                    margin-left: 14px;
+                  }
+                }
+
+                .input,
+                .select,
+                .textarea {
+                  background-color: $color-gray200;
+                  border: 1px solid $color-gray300;
+                  padding: 12px;
+                  width: 100%;
+                  appearance: none;
+                  border-radius: 0;
+                }
+
+                // .select{
+                //   &:before{
+                //     content: "";
+                //     position: absolute;
+                //     border-top: 1px solid $color-;
+                //   }
+                // }
+
+                .input {
+                  height: 50px;
+                }
+
+                .select {
+                  > option {
+                    color: $color-black;
+                    font-size: 16px;
+                  }
+                }
+
+                .textarea {
+                  height: 264px;
+                }
+
+                .radio {
+                  margin-bottom: 9px;
+                }
+
+                .mwform-radio-field-text {
+                  font-family: "dnp-shuei-mincho-pr6n", sans-serif;
+                }
+
+                .button-send {
+                  display: flex;
+                  background-color: $color-white;
+                  border: 1px solid $color-black;
+                  border-radius: 50px;
+                  font-family: "dnp-shuei-mincho-pr6n", sans-serif;
+                  color: $color-black !important;
+                  font-size: 14px;
+                  font-weight: 500;
+                  padding: 16px 58px;
+                  margin: 56px auto 0;
+
+                  > a {
+                    color: $color-black;
+                  }
+                }
+
+                > .text {
+                  text-align: center;
+
+                  @include mq(xs) {
+                    font-size: 3.2vw;
+                    text-align: left;
+                  }
+
+                  > .link {
+                    color: $color-black;
+                    text-decoration: underline;
+                  }
+                }
+
+                > .box-check {
+                  text-align: center;
+                  margin-top: 48px;
+                }
+              }
+            }
+          }
+        }
+
+        > .box-othertool {
+          width: 26.5vw;
+
+          @include mq(md) {
+            width: 100%;
+          }
+
+          @include mq(xs) {
+            padding: 0 20px;
+          }
+          > .text {
+            font-size: 1vw;
+            margin-bottom: 24px;
+
+            @include mq(md) {
+              font-size: 1.7vw;
+            }
+
+            @include mq(xs) {
+              font-size: 3.2vw;
+            }
+          }
+
+          > .box-contact {
+            background-image: url(../../../assets/imgs/contact/tel.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            padding: 46px 20px 31px;
+            text-align: center;
+
+            @include mq(md) {
+              padding: 36px 20px;
+            }
+
+            > .link {
+              color: $color-white;
+
+              > .label {
+                margin-bottom: 6px;
+              }
+
+              > .text {
+                font-family: "dnp-shuei-mincho-pr6n", sans-serif;
+                font-size: 2vw;
+                letter-spacing: 0.2em;
+                margin-bottom: 6px;
+
+                @include mq(md) {
+                  font-size: 3vw;
+                }
+
+                @include mq(xs) {
+                  font-size: 7.5vw;
+                }
+              }
+
+              > .notice {
+                font-family: "dnp-shuei-mincho-pr6n", sans-serif;
+
+                @include mq(xs) {
+                  font-size: 3.2vw;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

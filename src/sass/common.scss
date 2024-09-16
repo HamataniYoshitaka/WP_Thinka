@@ -1,0 +1,200 @@
+/*
+全てのページに影響するCSSに関して記述しているファイル
+phpで作成したpartsごとのファイルを作成する様にする
+*/
+@import "./app.scss";
+@import "./parts/header.scss";
+@import "./parts/footer.scss";
+@import "./parts/contact.scss";
+@import "./parts/flow.scss";
+
+body {
+  font-family: "futura-pt", "dnp-shuei-mincho-pr6n", sans-serif;
+  color: $color-black;
+  letter-spacing: 0.1em;
+
+  &.active {
+    overflow: hidden;
+  }
+}
+
+img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.pc {
+  @include mq(md) {
+    display: none;
+  }
+}
+
+.md {
+  display: none;
+
+  @include mq(lg) {
+    display: block;
+  }
+}
+.sp {
+  display: none;
+
+  @include mq(md) {
+    display: block;
+  }
+}
+
+.xs {
+  display: none;
+
+  @include mq(xs) {
+    display: block;
+  }
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+section {
+  position: relative;
+}
+
+.fade {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.fade-up {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 1s cubic-bezier(0.42, 0, 0.21, 1);
+}
+
+.button {
+  position: relative;
+  width: fit-content;
+
+  > .link {
+    display: inline-block;
+    border-bottom: 1px solid #ffffff;
+    color: $color-white;
+    font-size: 0.9vw;
+    padding: 6px 55px 6px 2px;
+
+    @include mq(md) {
+      font-size: 2vw;
+    }
+
+    > .icon {
+      position: absolute;
+      top: 50%;
+      right: 2px;
+      transform: translateY(-50%);
+      width: 17px;
+      transition: all 0.3s;
+      @include mq(md) {
+        width: 23px;
+      }
+    }
+
+    &:hover {
+      > .icon {
+        transform: translate(10px, -50%);
+      }
+    }
+  }
+
+  &.green {
+    > .link {
+      border-bottom: 1px solid $color-green400;
+      color: $color-green400;
+    }
+  }
+}
+
+.section-title {
+  font-size: 2.4vw;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+
+  @include mq(md) {
+    font-size: 3.4vw;
+  }
+
+  @include mq(xs) {
+    font-size: 7.5vw;
+  }
+
+  > .english {
+    display: block;
+    color: $color-gray500;
+    font-size: 1vw;
+    letter-spacing: 0.1em;
+    margin-bottom: 42px;
+
+    @include mq(lg) {
+      font-size: 1.25vw;
+    }
+
+    @include mq(md) {
+      font-size: 2vw;
+      margin-bottom: 32px;
+    }
+
+    @include mq(xs) {
+      font-size: 3vw;
+      margin-bottom: 19px;
+    }
+  }
+}
+
+.section-menu {
+  margin-top: 32px;
+  > .container {
+    max-width: 90vw;
+    margin: 0 auto;
+    > .list-anchor {
+      display: flex;
+      flex-wrap: wrap;
+
+      > .anchor {
+        position: relative;
+        border: 1px solid $color-gray600;
+        width: 50%;
+
+        &:before {
+          content: "";
+          position: absolute;
+          left: 50%;
+          bottom: 12px;
+          transform: translateX(-50%);
+          background: $color-gray600;
+          height: 5px;
+          width: 6px;
+          clip-path: polygon(0 0, 100% 0, 50% 100%);
+        }
+
+        &:nth-child(even) {
+          border-left: 0;
+        }
+        &:nth-child(3),
+        &:nth-child(4),
+        &:nth-child(5) {
+          border-top: 0;
+        }
+
+        > .link {
+          display: inline-block;
+          color: $color-gray600;
+          font-size: 3.7vw;
+          text-align: center;
+          width: 100%;
+          height: 100%;
+          padding: 12px 5px 23px;
+        }
+      }
+    }
+  }
+}

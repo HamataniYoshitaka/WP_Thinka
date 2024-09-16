@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/*
+変数関係をまとめたファイル
+ */
+/*
+ブレイクポイントに関して記述しているファイル
+下のブレイクポイントの設定を変更するときは必ずPMに一声かける
+ */
+.history-page > .section-mv {
+  padding: 174px 20px 105px 0;
+}
+.history-page > .section-mv > .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1287px;
+  width: 100%;
+}
+.history-page > .section-mv > .container > .page-title {
+  font-size: 38px;
+  font-weight: 400;
+  letter-spacing: 0.3em;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+}
+.history-page > .section-mv > .container > .page-title > .english {
+  font-size: 13px;
+  letter-spacing: 0.14em;
+}
+.history-page > .section-mv > .container > .image {
+  max-width: 1078px;
+}

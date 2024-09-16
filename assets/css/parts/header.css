@@ -1,0 +1,590 @@
+@charset "UTF-8";
+/*
+変数関係をまとめたファイル
+ */
+/*
+色に関して記述しているファイル
+色に関して、ここで宣言をしたものを利用する様にする
+
+例：
+color: $color-font-white;
+ */
+/*
+ブレイクポイントに関して記述しているファイル
+下のブレイクポイントの設定を変更するときは必ずPMに一声かける
+ */
+.header {
+  position: fixed;
+  top: 28px;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 640px) {
+  .header {
+    position: absolute;
+    top: 10px;
+  }
+}
+
+.header > .container {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.header > .container > .left > .link > .logo {
+  width: 180px;
+}
+
+@media screen and (max-width: 640px) {
+  .header > .container > .left > .link > .logo {
+    width: 140px;
+  }
+}
+
+.header > .container > .left > .link > .logo.white {
+  display: none;
+}
+
+.header > .container > .right {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.header > .container > .right > .icon-list {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 55px;
+}
+
+@media screen and (max-width: 640px) {
+  .header > .container > .right > .icon-list {
+    display: none;
+  }
+}
+
+.header > .container > .right > .icon-list > .text {
+  font-size: 14px;
+  margin-right: 18px;
+}
+
+.header > .container > .right > .icon-list > .icon {
+  border-right: 2px solid #eeeeee;
+  padding: 0 15px;
+}
+
+.header > .container > .right > .icon-list > .icon.ostomate {
+  border-left: 2px solid #eeeeee;
+}
+
+.header > .container > .right > .icon-list > .icon > .ostomate {
+  width: 18px;
+}
+
+.header > .container > .right > .icon-list > .icon > .wheelchair {
+  width: 26px;
+}
+
+.header > .container > .right > .icon-list > .icon > .child {
+  width: 24px;
+}
+
+.header > .container > .right > .icon-list > .icon > .dog {
+  width: 32px;
+}
+
+.header > .container > .right > .bars {
+  position: relative;
+  width: 50px;
+  height: 24px;
+  z-index: 9999999999;
+}
+
+@media screen and (max-width: 640px) {
+  .header > .container > .right > .bars {
+    width: 30px;
+    height: 20px;
+  }
+}
+
+.header > .container > .right > .bars > .bar {
+  background: #4b4a48;
+  display: inline-block;
+  width: 50px;
+  height: 1px;
+  position: absolute;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+@media screen and (max-width: 640px) {
+  .header > .container > .right > .bars > .bar {
+    width: 30px;
+  }
+}
+
+.header > .container > .right > .bars > .bar:first-child.active {
+  top: 8px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.header > .container > .right > .bars > .bar:nth-child(2) {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.header > .container > .right > .bars > .bar:nth-child(2).active {
+  display: none;
+}
+
+.header > .container > .right > .bars > .bar:last-child {
+  bottom: 0;
+}
+
+.header > .container > .right > .bars > .bar:last-child.active {
+  top: 8px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.header > .menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  background-color: #ffffff;
+  max-width: 1440px;
+  width: 100%;
+  height: 100%;
+  z-index: 98;
+  padding: 80px 24px 24px;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.header > .menu.active {
+  display: block;
+  right: 0;
+}
+
+.header > .menu > .container {
+  max-width: 1200px;
+}
+
+@media screen and (max-width: 640px) {
+  .header > .menu > .container {
+    display: block;
+  }
+}
+
+.header > .menu > .container > .pages {
+  margin-right: 180px;
+}
+
+@media screen and (max-width: 768px) {
+  .header > .menu > .container > .pages {
+    margin-right: 60px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .header > .menu > .container > .pages {
+    margin-right: 0;
+  }
+}
+
+.header > .menu > .container > .pages > .page {
+  margin-bottom: 48px;
+}
+
+@media screen and (max-width: 640px) {
+  .header > .menu > .container > .pages > .page {
+    margin-bottom: 30px;
+  }
+}
+
+.header > .menu > .container > .pages > .page > .link {
+  position: relative;
+  color: #4b4a48;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .header > .menu > .container > .pages > .page > .link {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .header > .menu > .container > .pages > .page > .link {
+    font-size: 16px;
+  }
+}
+
+.header > .menu > .container > .pages > .page > .link > .eg {
+  display: block;
+  color: #d19f54;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .header > .menu > .container > .pages > .page > .link > .eg {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+}
+
+.header-default,
+.header-atelier {
+  position: fixed;
+  top: 28px;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 640px) {
+  .header-default,
+  .header-atelier {
+    top: 10px;
+  }
+}
+
+.header-default > .container,
+.header-atelier > .container {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.header-default > .container > .left > .link > .logo,
+.header-atelier > .container > .left > .link > .logo {
+  width: 180px;
+}
+
+.header-default > .container > .left > .link > .logo.black,
+.header-atelier > .container > .left > .link > .logo.black {
+  display: none;
+}
+
+.header-default > .container > .right,
+.header-atelier > .container > .right {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.header-default > .container > .right > .icon-list,
+.header-atelier > .container > .right > .icon-list {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 55px;
+}
+
+@media screen and (max-width: 768px) {
+  .header-default > .container > .right > .icon-list,
+  .header-atelier > .container > .right > .icon-list {
+    display: none;
+  }
+}
+
+.header-default > .container > .right > .icon-list.black,
+.header-atelier > .container > .right > .icon-list.black {
+  display: none;
+}
+
+.header-default > .container > .right > .icon-list > .text,
+.header-atelier > .container > .right > .icon-list > .text {
+  color: #ffffff;
+  font-size: 14px;
+  margin-right: 18px;
+}
+
+.header-default > .container > .right > .icon-list > .icon,
+.header-atelier > .container > .right > .icon-list > .icon {
+  border-right: 2px solid #ffffff;
+  padding: 0 15px;
+}
+
+.header-default > .container > .right > .icon-list > .icon.ostomate,
+.header-atelier > .container > .right > .icon-list > .icon.ostomate {
+  border-left: 2px solid #ffffff;
+}
+
+.header-default > .container > .right > .icon-list > .icon > .ostomate,
+.header-atelier > .container > .right > .icon-list > .icon > .ostomate {
+  width: 18px;
+}
+
+.header-default > .container > .right > .icon-list > .icon > .wheelchair,
+.header-atelier > .container > .right > .icon-list > .icon > .wheelchair {
+  width: 26px;
+}
+
+.header-default > .container > .right > .icon-list > .icon > .child,
+.header-atelier > .container > .right > .icon-list > .icon > .child {
+  width: 24px;
+}
+
+.header-default > .container > .right > .icon-list > .icon > .dog,
+.header-atelier > .container > .right > .icon-list > .icon > .dog {
+  width: 32px;
+}
+
+.header-default > .container > .right > .bars,
+.header-atelier > .container > .right > .bars {
+  position: relative;
+  width: 50px;
+  height: 24px;
+  z-index: 9999999999;
+}
+
+@media screen and (max-width: 640px) {
+  .header-default > .container > .right > .bars,
+  .header-atelier > .container > .right > .bars {
+    width: 30px;
+    height: 20px;
+  }
+}
+
+.header-default > .container > .right > .bars > .bar,
+.header-atelier > .container > .right > .bars > .bar {
+  background: #ffffff;
+  display: inline-block;
+  width: 50px;
+  height: 1px;
+  position: absolute;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+@media screen and (max-width: 640px) {
+  .header-default > .container > .right > .bars > .bar,
+  .header-atelier > .container > .right > .bars > .bar {
+    width: 30px;
+  }
+}
+
+.header-default > .container > .right > .bars > .bar:first-child.active,
+.header-atelier > .container > .right > .bars > .bar:first-child.active {
+  background: #4b4a48;
+  top: 8px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.header-default > .container > .right > .bars > .bar:nth-child(2),
+.header-atelier > .container > .right > .bars > .bar:nth-child(2) {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.header-default > .container > .right > .bars > .bar:nth-child(2).active,
+.header-atelier > .container > .right > .bars > .bar:nth-child(2).active {
+  background: #4b4a48;
+  display: none;
+}
+
+.header-default > .container > .right > .bars > .bar:last-child,
+.header-atelier > .container > .right > .bars > .bar:last-child {
+  bottom: 0;
+}
+
+.header-default > .container > .right > .bars > .bar:last-child.active,
+.header-atelier > .container > .right > .bars > .bar:last-child.active {
+  background: #4b4a48;
+  top: 8px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.header-default > .menu,
+.header-atelier > .menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  background-color: #ffffff;
+  max-width: 1440px;
+  width: 100%;
+  height: 100%;
+  z-index: 98;
+  padding: 80px 24px 24px;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.header-default > .menu.active,
+.header-atelier > .menu.active {
+  display: block;
+  right: 0;
+}
+
+.header-default > .menu > .container,
+.header-atelier > .menu > .container {
+  max-width: 1200px;
+}
+
+@media screen and (max-width: 640px) {
+  .header-default > .menu > .container,
+  .header-atelier > .menu > .container {
+    display: block;
+  }
+}
+
+.header-default > .menu > .container > .pages,
+.header-atelier > .menu > .container > .pages {
+  margin-right: 180px;
+}
+
+@media screen and (max-width: 768px) {
+  .header-default > .menu > .container > .pages,
+  .header-atelier > .menu > .container > .pages {
+    margin-right: 60px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .header-default > .menu > .container > .pages,
+  .header-atelier > .menu > .container > .pages {
+    margin-right: 0;
+  }
+}
+
+.header-default > .menu > .container > .pages > .page,
+.header-atelier > .menu > .container > .pages > .page {
+  margin-bottom: 48px;
+}
+
+@media screen and (max-width: 640px) {
+  .header-default > .menu > .container > .pages > .page,
+  .header-atelier > .menu > .container > .pages > .page {
+    margin-bottom: 30px;
+  }
+}
+
+.header-default > .menu > .container > .pages > .page > .link,
+.header-atelier > .menu > .container > .pages > .page > .link {
+  position: relative;
+  color: #4b4a48;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .header-default > .menu > .container > .pages > .page > .link,
+  .header-atelier > .menu > .container > .pages > .page > .link {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .header-default > .menu > .container > .pages > .page > .link,
+  .header-atelier > .menu > .container > .pages > .page > .link {
+    font-size: 16px;
+  }
+}
+
+.header-default > .menu > .container > .pages > .page > .link > .eg,
+.header-atelier > .menu > .container > .pages > .page > .link > .eg {
+  display: block;
+  color: #d19f54;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .header-default > .menu > .container > .pages > .page > .link > .eg,
+  .header-atelier > .menu > .container > .pages > .page > .link > .eg {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+}
+
+.header-default.black > .container > .left > .link > .logo.white,
+.header-atelier.black > .container > .left > .link > .logo.white {
+  display: none;
+}
+
+.header-default.black > .container > .left > .link > .logo.black,
+.header-atelier.black > .container > .left > .link > .logo.black {
+  display: block;
+}
+
+.header-default.black > .container > .right > .icon-list.black,
+.header-atelier.black > .container > .right > .icon-list.black {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .header-default.black > .container > .right > .icon-list.black,
+  .header-atelier.black > .container > .right > .icon-list.black {
+    display: none;
+  }
+}
+
+.header-default.black > .container > .right > .icon-list.white,
+.header-atelier.black > .container > .right > .icon-list.white {
+  display: none;
+}
+
+.header-default.black > .container > .right > .icon-list > .text,
+.header-atelier.black > .container > .right > .icon-list > .text {
+  color: #4b4a48;
+}
+
+.header-default.black > .container > .right > .icon-list > .icon,
+.header-atelier.black > .container > .right > .icon-list > .icon {
+  border-right: 2px solid #eeeeee;
+}
+
+.header-default.black > .container > .right > .icon-list > .icon.ostomate,
+.header-atelier.black > .container > .right > .icon-list > .icon.ostomate {
+  border-left: 2px solid #eeeeee;
+}
+
+.header-default.black > .container > .right > .bars > .bar,
+.header-atelier.black > .container > .right > .bars > .bar {
+  background: #4b4a48;
+}
+
+.header-default.black > .container > .right > .bars > .bar:first-child.active,
+.header-atelier.black > .container > .right > .bars > .bar:first-child.active {
+  background: #4b4a48;
+}
+
+.header-default.black > .container > .right > .bars > .bar:nth-child(2).active,
+.header-atelier.black > .container > .right > .bars > .bar:nth-child(2).active {
+  background: #4b4a48;
+}
+
+.header-default.black > .container > .right > .bars > .bar:last-child.active,
+.header-atelier.black > .container > .right > .bars > .bar:last-child.active {
+  background: #4b4a48;
+}

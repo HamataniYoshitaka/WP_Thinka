@@ -1,0 +1,437 @@
+@import "../app.scss";
+
+.post-news-page {
+  > .post-content {
+    max-width: 90vw;
+    margin: 161px auto 0;
+
+    @include mq(lg) {
+      margin: 120px auto 0;
+    }
+
+    @include mq(xs) {
+      margin-top: 110px;
+    }
+
+    > .box-firstview {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 32px;
+
+      @include mq(md) {
+        flex-direction: column;
+      }
+      > .box-overview {
+        > .page-title {
+          color: $color-gray500;
+          font-size: 0.95vw;
+
+          @include mq(lg) {
+            font-size: 1.25vw;
+          }
+
+          @include mq(md) {
+            font-size: 1.55vw;
+            margin-bottom: 41px;
+          }
+
+          @include mq(xs) {
+            font-size: 3vw;
+            margin-bottom: 10px;
+          }
+        }
+        > .title {
+          font-size: 2.9vw;
+          font-weight: 400;
+          margin-bottom: 10px;
+
+          @include mq(md) {
+            font-size: 4vw;
+            margin-bottom: 6px;
+            margin-right: 0;
+          }
+
+          @include mq(xs) {
+            font-size: 8.6vw;
+            line-height: 1.5;
+            margin-bottom: 16px;
+          }
+        }
+
+        > .box-information {
+          display: flex;
+          align-items: center;
+
+          > .date {
+            color: $color-gray500;
+            font-size: 0.85vw;
+            margin-right: 36px;
+
+            @include mq(lg) {
+              font-size: 1.25vw;
+            }
+
+            @include mq(md) {
+              font-size: 1.55vw;
+            }
+
+            @include mq(xs) {
+              font-size: 3vw;
+              margin-right: 24px;
+            }
+          }
+
+          > .list-category {
+            display: flex;
+            > .category {
+              position: relative;
+              color: $color-green400;
+              font-size: 0.85vw;
+              margin-left: 7px;
+              padding-left: 14px;
+
+              @include mq(lg) {
+                font-size: 1.25vw;
+              }
+
+              @include mq(md) {
+                font-size: 1.55vw;
+              }
+
+              @include mq(xs) {
+                font-size: 3vw;
+              }
+
+              &:before {
+                content: "";
+                position: absolute;
+                top: 50%;
+                left: 0;
+                transform: translateY(-50%);
+                border-radius: 50px;
+                background-color: $color-green400;
+                width: 7px;
+                height: 7px;
+              }
+            }
+          }
+        }
+      }
+      > .button {
+        align-self: center;
+
+        > .link {
+          @include mq(lg) {
+            font-size: 1.2vw;
+            padding: 6px 47px 6px 2px;
+          }
+        }
+      }
+    }
+
+    > .box-article {
+      border-bottom: 1px solid $color-gray200;
+      display: flex;
+      position: relative;
+      width: 100%;
+      margin-bottom: 64px;
+
+      @include mq(md) {
+        flex-direction: column;
+      }
+
+      @include mq(xs) {
+        margin-bottom: 48px;
+      }
+
+      > .box-main {
+        max-width: 55.6vw;
+        width: 100%;
+        margin-right: 10%;
+
+        @include mq(lg) {
+          margin-right: 6%;
+        }
+
+        @include mq(md) {
+          max-width: 100%;
+          margin-right: 0;
+        }
+        > .thumbnail {
+          margin-bottom: 48px;
+
+          @include mq(xs) {
+            margin-bottom: 24px;
+          }
+
+          > img {
+            height: 474px;
+            object-fit: cover;
+
+            @include mq(xs) {
+              height: 214px;
+            }
+          }
+        }
+
+        > h2 {
+          position: relative;
+          font-size: 2vw;
+          font-weight: 500;
+          margin-bottom: 32px;
+          padding-left: 20px;
+
+          @include mq(lg) {
+            font-size: 2.4vw;
+          }
+
+          @include mq(md) {
+            font-size: 3vw;
+          }
+
+          @include mq(xs) {
+            font-size: 4.8vw;
+          }
+
+          &:before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            background-color: $color-green400;
+            border-radius: 50px;
+            width: 4px;
+            height: 100%;
+          }
+        }
+
+        > h3 {
+          font-size: 1.5vw;
+          font-weight: 500;
+          margin-bottom: 32px;
+
+          @include mq(lg) {
+            font-size: 1.8vw;
+          }
+
+          @include mq(md) {
+            font-size: 2.5vw;
+          }
+
+          @include mq(xs) {
+            font-size: 4.5vw;
+          }
+        }
+
+        > p {
+          font-size: 0.95vw;
+          line-height: 2.2;
+          margin: 0 auto 48px;
+
+          @include mq(lg) {
+            font-size: 1.45vw;
+          }
+
+          @include mq(md) {
+            font-size: 1.75vw;
+          }
+
+          @include mq(xs) {
+            font-size: 3.55vw;
+            margin: 0 auto 24px;
+          }
+
+          > a {
+            color: $color-green400;
+            text-decoration: underline;
+          }
+        }
+
+        > figure {
+          margin-bottom: 48px;
+
+          @include mq(xs) {
+            margin-bottom: 24px;
+          }
+
+          > img {
+            height: 474px;
+            object-fit: cover;
+
+            @include mq(md) {
+              height: 100%;
+            }
+
+            @include mq(xs) {
+              height: 214px;
+            }
+          }
+        }
+
+        > .button {
+          align-self: center;
+        }
+      }
+
+      > .box-related {
+        border-top: 1px solid $color-gray200;
+        max-width: 24.7vw;
+        width: 100%;
+        padding-top: 64px;
+
+        @include mq(lg) {
+          max-width: 100%;
+        }
+
+        @include mq(xs) {
+          padding-top: 30px;
+        }
+
+        > .title {
+          color: $color-gray500;
+          font-size: 0.95vw;
+          margin-bottom: 32px;
+
+          @include mq(lg) {
+            font-size: 1.25vw;
+          }
+
+          @include mq(md) {
+            font-size: 1.55vw;
+          }
+
+          @include mq(xs) {
+            font-size: 3vw;
+          }
+        }
+
+        > .list-related-post {
+          > .related-post {
+            margin-bottom: 32px;
+            > .link {
+              display: flex;
+              align-items: center;
+              > img {
+                width: 116px;
+                height: 116px;
+                object-fit: cover;
+                object-position: center;
+                margin-right: 20px;
+              }
+
+              > .box-text {
+                > .title {
+                  color: $color-black;
+                  font-size: 0.9vw;
+                  margin-bottom: 16px;
+
+                  @include mq(lg) {
+                    font-size: 1.2vw;
+                  }
+
+                  @include mq(md) {
+                    font-size: 1.8vw;
+                  }
+
+                  @include mq(xs) {
+                    font-size: 3.2vw;
+                  }
+                }
+
+                > .box-information {
+                  display: flex;
+                  align-items: center;
+
+                  @include mq(lg) {
+                    flex-direction: column;
+                    align-items: flex-start;
+                  }
+
+                  > .date {
+                    color: $color-gray500;
+                    font-size: 0.85vw;
+                    margin-right: 36px;
+
+                    @include mq(lg) {
+                      font-size: 1.25vw;
+                      margin-right: 0;
+                      margin-bottom: 8px;
+                    }
+
+                    @include mq(md) {
+                      font-size: 1.55vw;
+                    }
+
+                    @include mq(xs) {
+                      font-size: 2.95vw;
+                    }
+                  }
+
+                  > .list-category {
+                    display: flex;
+                    > .category {
+                      position: relative;
+                      color: $color-green400;
+                      font-size: 0.85vw;
+                      margin-left: 7px;
+                      padding-left: 14px;
+
+                      @include mq(lg) {
+                        font-size: 1.15vw;
+                        margin-left: 0;
+                        margin-right: 7px;
+                      }
+
+                      @include mq(md) {
+                        font-size: 1.55vw;
+                      }
+
+                      @include mq(xs) {
+                        font-size: 2.95vw;
+                      }
+
+                      &:before {
+                        content: "";
+                        position: absolute;
+                        top: 50%;
+                        left: 0;
+                        transform: translateY(-50%);
+                        border-radius: 50px;
+                        background-color: $color-green400;
+                        width: 7px;
+                        height: 7px;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    > .button {
+      margin-bottom: 64px;
+
+      @include mq(md) {
+        margin: 0 0 64px auto;
+      }
+
+      > .link {
+        @include mq(lg) {
+          font-size: 1.4vw;
+        }
+
+        @include mq(xs) {
+          font-size: 4.3vw;
+        }
+
+        > .icon {
+          right: 15px;
+        }
+      }
+    }
+  }
+}

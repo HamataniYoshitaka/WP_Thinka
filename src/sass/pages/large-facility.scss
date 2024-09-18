@@ -42,7 +42,7 @@
           > .english {
             display: block;
             color: $color-gray500;
-            font-size: 1vw;
+            font-size: 20px;
             letter-spacing: 0.1em;
             margin-bottom: 22px;
 
@@ -872,6 +872,9 @@
           margin-bottom: 20px;
 
           > .english {
+            font-size: 20px;
+            margin-bottom: 22px;
+
             @include mq(lg) {
               font-size: 1.45vw;
               margin-bottom: 32px;

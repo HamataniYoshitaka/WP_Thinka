@@ -45,9 +45,9 @@
           > .english {
             display: block;
             color: $color-gray500;
-            font-size: 1vw;
+            font-size: 20px;
             letter-spacing: 0.1em;
-            margin-bottom: 42px;
+            margin-bottom: 22px;
 
             @include mq(lg) {
               font-size: 1.25vw;
@@ -414,6 +414,11 @@
         @include mq(xs) {
           margin-bottom: 16px;
         }
+        
+        > .english{
+          font-size: 20px;
+          margin-bottom: 22px;
+        }
       }
 
       > .list-numbers {
@@ -531,6 +536,11 @@
           margin-right: 0;
           margin-bottom: 32px;
         }
+
+        > .english{
+          font-size: 20px;
+          margin-bottom: 22px;
+        }
       }
 
       > .list-information {
@@ -643,6 +653,11 @@
 
         @include mq(xs) {
           margin-bottom: 16px;
+        }
+
+        > .english{
+          font-size: 20px;
+          margin-bottom: 22px;
         }
       }
 
@@ -761,6 +776,11 @@
 
         @include mq(xs) {
           margin-bottom: 16px;
+        }
+
+        > .english{
+          font-size: 20px;
+          margin-bottom: 22px;
         }
       }
 

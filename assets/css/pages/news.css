@@ -64,9 +64,9 @@
 .works-page > .section-mv > .container > .box-title > .page-title > .english {
   display: block;
   color: #939393;
-  font-size: 1vw;
+  font-size: 20px;
   letter-spacing: 0.1em;
-  margin-bottom: 42px;
+  margin-bottom: 22px;
 }
 @media screen and (max-width: 480px) {
   .news-page > .section-mv > .container > .box-title > .page-title > .english,

@@ -93,7 +93,13 @@
             margin-bottom: 0;
             margin-right: 33px;
           }
+
+          > .english {
+            font-size: 20px;
+            margin-bottom: 22px;
+          }
         }
+
         > .overview {
           font-size: 1vw;
           letter-spacing: 0.1em;
@@ -266,6 +272,11 @@
             @include mq(xs) {
               margin-right: 22px;
               margin-bottom: 0;
+            }
+            
+            > .english {
+              font-size: 20px;
+              margin-bottom: 22px;
             }
           }
 
@@ -460,6 +471,11 @@
             @include mq(xs) {
               margin-right: 22px;
               margin-bottom: 0;
+            }
+
+            > .english {
+              font-size: 20px;
+              margin-bottom: 22px;
             }
           }
 

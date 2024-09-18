@@ -60,9 +60,9 @@
 .recruit-page > .section-mv > .container > .box-title > .page-title > .english {
   display: block;
   color: #939393;
-  font-size: 1vw;
+  font-size: 20px;
   letter-spacing: 0.1em;
-  margin-bottom: 42px;
+  margin-bottom: 22px;
 }
 @media screen and (max-width: 1024px) {
   .recruit-page > .section-mv > .container > .box-title > .page-title > .english {
@@ -288,6 +288,10 @@
     margin-bottom: 32px;
   }
 }
+.recruit-page > .section-interview > .container > .section-title > .english {
+  font-size: 20px;
+  margin-bottom: 22px;
+}
 .recruit-page > .section-interview > .container > .list-interview {
   max-width: 61.8vw;
   width: 100%;
@@ -478,6 +482,10 @@
   .recruit-page > .section-position > .container > .section-title {
     margin-bottom: 32px;
   }
+}
+.recruit-page > .section-position > .container > .section-title > .english {
+  font-size: 20px;
+  margin-bottom: 22px;
 }
 .recruit-page > .section-position > .container > .box-content {
   max-width: 61.8vw;
@@ -675,6 +683,10 @@
     margin-bottom: 32px;
   }
 }
+.recruit-page > .section-entry > .container > .section-title > .english {
+  font-size: 20px;
+  margin-bottom: 22px;
+}
 .recruit-page > .section-entry > .container > .list-step {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -858,6 +870,10 @@
   .recruit-page > .section-form > .container > .section-title {
     padding: 0 20px;
   }
+}
+.recruit-page > .section-form > .container > .section-title > .english {
+  font-size: 20px;
+  margin-bottom: 22px;
 }
 .recruit-page > .section-form > .container > .mw_wp_form {
   border: 1px solid #dfdfdf;

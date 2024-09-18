@@ -44,9 +44,9 @@
           > .english {
             display: block;
             color: $color-gray500;
-            font-size: 1vw;
+            font-size: 20px;
             letter-spacing: 0.1em;
-            margin-bottom: 42px;
+            margin-bottom: 22px;
 
             @include mq(lg) {
               font-size: 1.25vw;
@@ -244,6 +244,11 @@
         @include mq(md) {
           margin-bottom: 32px;
         }
+
+        > .english{
+          font-size: 20px;
+          margin-bottom: 22px;
+        }
       }
 
       > .list-interview {
@@ -411,6 +416,11 @@
       > .section-title {
         @include mq(md) {
           margin-bottom: 32px;
+        }
+
+        > .english{
+          font-size: 20px;
+          margin-bottom: 22px;
         }
       }
 
@@ -590,6 +600,11 @@
           margin-right: 0;
           margin-bottom: 32px;
         }
+
+        > .english{
+          font-size: 20px;
+          margin-bottom: 22px;
+        }
       }
 
       > .list-step {
@@ -744,6 +759,11 @@
 
         @include mq(xs) {
           padding: 0 20px;
+        }
+
+        > .english{
+          font-size: 20px;
+          margin-bottom: 22px;
         }
       }
 

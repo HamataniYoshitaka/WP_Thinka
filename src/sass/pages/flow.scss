@@ -45,9 +45,9 @@
           > .english {
             display: block;
             color: $color-gray500;
-            font-size: 1vw;
+            font-size: 20px;
             letter-spacing: 0.1em;
-            margin-bottom: 42px;
+            margin-bottom: 22px;
 
             @include mq(lg) {
               font-size: 1.25vw;
@@ -134,6 +134,11 @@
 
           @include mq(xs) {
             font-size: 7.5vw;
+            margin-bottom: 22px;
+          }
+
+          > .english{
+            font-size: 20px;
             margin-bottom: 22px;
           }
         }
@@ -314,6 +319,11 @@
 
         @include mq(xs) {
           font-size: 7.5vw;
+        }
+
+        > .english{
+          font-size: 20px;
+          margin-bottom: 22px;
         }
       }
 

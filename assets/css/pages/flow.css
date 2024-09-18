@@ -60,9 +60,9 @@
 .flow-page > .section-mv > .container > .box-title > .page-title > .english {
   display: block;
   color: #939393;
-  font-size: 1vw;
+  font-size: 20px;
   letter-spacing: 0.1em;
-  margin-bottom: 42px;
+  margin-bottom: 22px;
 }
 @media screen and (max-width: 1024px) {
   .flow-page > .section-mv > .container > .box-title > .page-title > .english {
@@ -171,6 +171,10 @@
     font-size: 7.5vw;
     margin-bottom: 22px;
   }
+}
+.flow-page > .section-contact-to-construction > .container > .box-title > .section-title > .english {
+  font-size: 20px;
+  margin-bottom: 22px;
 }
 .flow-page > .section-contact-to-construction > .container > .box-title > .overview {
   font-size: 0.95vw;
@@ -357,6 +361,10 @@
   .flow-page > .section-construction > .container > .section-title {
     font-size: 7.5vw;
   }
+}
+.flow-page > .section-construction > .container > .section-title > .english {
+  font-size: 20px;
+  margin-bottom: 22px;
 }
 .flow-page > .section-construction > .container > .list-contact-construction {
   display: -webkit-box;

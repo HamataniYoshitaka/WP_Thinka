@@ -59,7 +59,7 @@
 .large-facility-page > .section-mv > .container > .box-title > .page-title > .english {
   display: block;
   color: #939393;
-  font-size: 1vw;
+  font-size: 20px;
   letter-spacing: 0.1em;
   margin-bottom: 22px;
 }
@@ -970,6 +970,10 @@
 }
 .large-facility-page > .section-voice > .container > .box-overview > .section-title {
   margin-bottom: 20px;
+}
+.large-facility-page > .section-voice > .container > .box-overview > .section-title > .english {
+  font-size: 20px;
+  margin-bottom: 22px;
 }
 @media screen and (max-width: 1024px) {
   .large-facility-page > .section-voice > .container > .box-overview > .section-title > .english {

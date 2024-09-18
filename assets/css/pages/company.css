@@ -60,9 +60,9 @@
 .company-page > .section-mv > .container > .box-title > .page-title > .english {
   display: block;
   color: #939393;
-  font-size: 1vw;
+  font-size: 20px;
   letter-spacing: 0.1em;
-  margin-bottom: 42px;
+  margin-bottom: 22px;
 }
 @media screen and (max-width: 1024px) {
   .company-page > .section-mv > .container > .box-title > .page-title > .english {
@@ -477,6 +477,10 @@
     margin-bottom: 16px;
   }
 }
+.company-page > .section-number > .container > .section-title > .english {
+  font-size: 20px;
+  margin-bottom: 22px;
+}
 .company-page > .section-number > .container > .list-numbers {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -612,6 +616,10 @@
     margin-bottom: 32px;
   }
 }
+.company-page > .section-information > .container > .section-title > .english {
+  font-size: 20px;
+  margin-bottom: 22px;
+}
 .company-page > .section-information > .container > .list-information {
   max-width: 61.8vw;
   width: 100%;
@@ -744,6 +752,10 @@
     margin-bottom: 16px;
   }
 }
+.company-page > .section-history > .container > .section-title > .english {
+  font-size: 20px;
+  margin-bottom: 22px;
+}
 .company-page > .section-history > .container > .list-information {
   max-width: 61.8vw;
   width: 100%;
@@ -875,6 +887,10 @@
   .company-page > .section-machines > .container > .section-title {
     margin-bottom: 16px;
   }
+}
+.company-page > .section-machines > .container > .section-title > .english {
+  font-size: 20px;
+  margin-bottom: 22px;
 }
 .company-page > .section-machines > .container > .list-machines {
   display: -webkit-box;

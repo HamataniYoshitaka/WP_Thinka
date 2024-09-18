@@ -84,7 +84,7 @@ get_template_part( 'includes/header' );
   <section class="section-reasons">
     <div class="container">
       <p class="english">Reasons for high quality, low cost, and quick delivery</p>
-      <p class="title">高品質・低コスト・<br class="sp">短納期を<br class="pc">実現できる理由</p>
+      <p class="title">低コストを<br class="xs">実現できる理由</p>
       <div class="box-overview">
         <p class="title"><span>構造計算における</span>”ルート3”</p>
         <p class="text">

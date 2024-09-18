@@ -367,7 +367,7 @@
   color: #939393;
   font-size: 0.95vw;
   text-align: center;
-  margin-bottom: 42px;
+  margin-bottom: 22px;
 }
 @media screen and (max-width: 1024px) {
   .large-facility-page > .section-reasons > .container > .english {

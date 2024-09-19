@@ -187,7 +187,7 @@
 
       > .tab-panel {
         > .box-estimate {
-          display: flex;
+          
 
           @include mq(lg) {
             justify-content: space-between;
@@ -199,10 +199,16 @@
           > .box-price {
             max-width: 30vw;
             width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 24px;
+            text-align: center;
+
 
             @include mq(xs) {
               max-width: 100%;
               margin-bottom: 24px;
+              text-align: left;
             }
             > .title {
               font-size: 1vw;
@@ -274,6 +280,8 @@
           > .box-conditions {
             max-width: 60vw;
             width: 100%;
+            margin-left: auto;
+            margin-right: auto;
 
             @include mq(lg) {
               max-width: 54vw;

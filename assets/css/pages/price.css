@@ -206,11 +206,6 @@
 .price-page > .section-contents > .container > .tab-menu > li:not(:first-child) > a {
   border-left: 0;
 }
-.price-page > .section-contents > .container > .tab-panel > .box-estimate {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
 @media screen and (max-width: 1024px) {
   .price-page > .section-contents > .container > .tab-panel > .box-estimate {
     -webkit-box-pack: justify;
@@ -229,11 +224,16 @@
 .price-page > .section-contents > .container > .tab-panel > .box-estimate > .box-price {
   max-width: 30vw;
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+  text-align: center;
 }
 @media screen and (max-width: 480px) {
   .price-page > .section-contents > .container > .tab-panel > .box-estimate > .box-price {
     max-width: 100%;
     margin-bottom: 24px;
+    text-align: left;
   }
 }
 .price-page > .section-contents > .container > .tab-panel > .box-estimate > .box-price > .title {
@@ -312,6 +312,8 @@
 .price-page > .section-contents > .container > .tab-panel > .box-estimate > .box-conditions {
   max-width: 60vw;
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media screen and (max-width: 1024px) {
   .price-page > .section-contents > .container > .tab-panel > .box-estimate > .box-conditions {

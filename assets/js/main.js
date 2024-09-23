@@ -277,6 +277,10 @@ $(document).ready(function () {
   });
 
   checkBreakPoint(); // 初回ロード時にチェックを実行
+
+  $('.toggle-category').on('click',function(){
+    $('.category-dropdown').toggle();
+  })
 });
 
 

@@ -5,7 +5,7 @@
         <a href="tel:072-427-1301" class="link">
           <p class="label">お電話でお問い合わせ</p>
           <p class="text">072-427-1301</p>
-          <p class="notice">平日00:00 - 00:00</p>
+          <p class="notice">平日9:00 - 17:00</p>
         </a>
       </li>
       <li class="contact">

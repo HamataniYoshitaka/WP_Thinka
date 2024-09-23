@@ -106,7 +106,7 @@
 
         &.active {
           &:first-child {
-            transform: rotate(30deg);
+            transform: rotate(20deg);
             top: 8px;
 
             @include mq(xs) {
@@ -119,8 +119,8 @@
           }
 
           &:last-child {
-            transform: rotate(-30deg);
-            bottom: 11px;
+            transform: rotate(-20deg);
+            bottom: 10px;
           }
         }
       }
@@ -131,11 +131,12 @@
       position: fixed;
       top: 0;
       left: 0;
-      background-color: $color-gray200;
+      background-color: #FFFFFF;
       width: 100%;
       height: 100vh;
       padding: 88px;
       z-index: 1000;
+      overflow: auto;
 
       @include mq(sm) {
         padding: 50px 20px;
@@ -150,47 +151,104 @@
           width: 90%;
         }
 
+        > .box-logo-sp {
+          position: fixed;
+          top: 25px;
+          left: 30px;
+          z-index: 80;
+    
+          @include mq(xs) {
+            top: 16px;
+            left: 20px;
+          }
+        }
+
         > .list-menu {
-          border-bottom: 1px solid $color-gray400;
+          padding-top: 60px;
           padding-bottom: 64px;
           margin-bottom: 64px;
 
           @include mq(xs) {
-            padding-bottom: 28px;
-            margin-bottom: 38px;
+            padding-bottom: 0px;
+            margin-bottom: 32px;
           }
 
           > .menu {
             min-width: 290px;
-            margin-bottom: 40px;
-
-            &:nth-child(odd) {
-              margin-right: 40px;
-            }
-
-            @include mq(sm) {
-              margin-bottom: 20px;
-            }
 
             > .link {
               color: $color-black;
               font-size: 24px;
-              padding: 24px 0;
+              padding: 16px 0 10px 0;
               transition: all 0.3s;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              
 
               @include mq(sm) {
                 font-size: 14px;
               }
 
-              > .english {
-                display: block;
-                color: $color-gray400;
-                font-size: 10px;
-                margin-bottom: 8px;
+              > .name{
+                display: flex;
+                align-items: center;
+                
+                > .english {
+                  display: block;
+                  color: $color-gray400;
+                  font-size: 11px;
+                  padding-left: 24px;
+                }
               }
             }
           }
+
+          > .menu{
+
+            >.children-list{
+              font-size: 12px;
+              color: #727171;
+
+              >.children-menu{
+                padding-top: 8px;
+              }
+
+              >.a:link, a:visited {
+                color: #727171;
+              }
+
+            }
+
+          }
         }
+        
+        > .contact{
+          height: 93px;
+          background-image: url("https://placehold.jp/343x93.png");
+          background-size: cover;
+          background-position: center;
+          background-repeat: none;
+          margin-bottom: 32px;
+          padding-top: 22px;
+
+          > a{
+
+            > .english{
+              padding-left: 18px;
+              font-size: 11px;
+            }
+            > .name{
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              padding-left: 18px;
+              padding-right: 11px;
+            }
+
+          }
+        }
+
         > .box-logo {
           display: flex;
           align-items: center;

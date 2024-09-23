@@ -136,7 +136,7 @@ get_template_part( 'includes/header' );
             class="image">
           <div class="box-text">
             <p class="label">創業</p>
-            <p class="number"><span class="strong">63</span>年</p>
+            <p class="number"><span class="strong">65</span>年</p>
           </div>
         </li>
         <li class="number">
@@ -176,7 +176,7 @@ get_template_part( 'includes/header' );
             class="image">
           <div class="box-text">
             <p class="label">有給平均取得日数</p>
-            <p class="number"><span class="strong">7.2</span>日</p>
+            <p class="number"><span class="strong">6.3</span>日</p>
           </div>
         </li>
       </ul>
@@ -233,7 +233,7 @@ get_template_part( 'includes/header' );
         </li>
         <li class="information">
           <p class="label">従業員数</p>
-          <p class="data">13名</p>
+          <p class="data">15名</p>
         </li>
         <li class="information">
           <p class="label">取引銀行</p>

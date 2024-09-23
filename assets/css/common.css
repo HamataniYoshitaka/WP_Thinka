@@ -117,8 +117,8 @@ phpで作成したpartsごとのファイルを作成する様にする
   }
 }
 .header > .container > .hamburger-menu > .line.active:first-child {
-  -webkit-transform: rotate(30deg);
-          transform: rotate(30deg);
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
   top: 8px;
 }
 @media screen and (max-width: 480px) {
@@ -130,20 +130,21 @@ phpで作成したpartsごとのファイルを作成する様にする
   display: none;
 }
 .header > .container > .hamburger-menu > .line.active:last-child {
-  -webkit-transform: rotate(-30deg);
-          transform: rotate(-30deg);
-  bottom: 11px;
+  -webkit-transform: rotate(-20deg);
+          transform: rotate(-20deg);
+  bottom: 10px;
 }
 .header > .container > .menu-sp {
   display: none;
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #f6f6f6;
+  background-color: #FFFFFF;
   width: 100%;
   height: 100vh;
   padding: 88px;
   z-index: 1000;
+  overflow: auto;
 }
 @media screen and (max-width: 640px) {
   .header > .container > .menu-sp {
@@ -162,46 +163,102 @@ phpで作成したpartsごとのファイルを作成する様にする
     width: 90%;
   }
 }
+.header > .container > .menu-sp > .box-menu-content > .box-logo-sp {
+  position: fixed;
+  top: 25px;
+  left: 30px;
+  z-index: 80;
+}
+@media screen and (max-width: 480px) {
+  .header > .container > .menu-sp > .box-menu-content > .box-logo-sp {
+    top: 16px;
+    left: 20px;
+  }
+}
 .header > .container > .menu-sp > .box-menu-content > .list-menu {
-  border-bottom: 1px solid #cccccc;
+  padding-top: 60px;
   padding-bottom: 64px;
   margin-bottom: 64px;
 }
 @media screen and (max-width: 480px) {
   .header > .container > .menu-sp > .box-menu-content > .list-menu {
-    padding-bottom: 28px;
-    margin-bottom: 38px;
+    padding-bottom: 0px;
+    margin-bottom: 32px;
   }
 }
 .header > .container > .menu-sp > .box-menu-content > .list-menu > .menu {
   min-width: 290px;
-  margin-bottom: 40px;
-}
-.header > .container > .menu-sp > .box-menu-content > .list-menu > .menu:nth-child(odd) {
-  margin-right: 40px;
-}
-@media screen and (max-width: 640px) {
-  .header > .container > .menu-sp > .box-menu-content > .list-menu > .menu {
-    margin-bottom: 20px;
-  }
 }
 .header > .container > .menu-sp > .box-menu-content > .list-menu > .menu > .link {
   color: #000000;
   font-size: 24px;
-  padding: 24px 0;
+  padding: 16px 0 10px 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 @media screen and (max-width: 640px) {
   .header > .container > .menu-sp > .box-menu-content > .list-menu > .menu > .link {
     font-size: 14px;
   }
 }
-.header > .container > .menu-sp > .box-menu-content > .list-menu > .menu > .link > .english {
+.header > .container > .menu-sp > .box-menu-content > .list-menu > .menu > .link > .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header > .container > .menu-sp > .box-menu-content > .list-menu > .menu > .link > .name > .english {
   display: block;
   color: #cccccc;
-  font-size: 10px;
-  margin-bottom: 8px;
+  font-size: 11px;
+  padding-left: 24px;
+}
+.header > .container > .menu-sp > .box-menu-content > .list-menu > .menu > .children-list {
+  font-size: 12px;
+  color: #727171;
+}
+.header > .container > .menu-sp > .box-menu-content > .list-menu > .menu > .children-list > .children-menu {
+  padding-top: 8px;
+}
+.header > .container > .menu-sp > .box-menu-content > .list-menu > .menu > .children-list > .a:link, .header > .container > .menu-sp > .box-menu-content > .list-menu > .menu > .children-list a:visited {
+  color: #727171;
+}
+.header > .container > .menu-sp > .box-menu-content > .contact {
+  height: 93px;
+  background-image: url("https://placehold.jp/343x93.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  margin-bottom: 32px;
+  padding-top: 22px;
+}
+.header > .container > .menu-sp > .box-menu-content > .contact > a > .english {
+  padding-left: 18px;
+  font-size: 11px;
+}
+.header > .container > .menu-sp > .box-menu-content > .contact > a > .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 18px;
+  padding-right: 11px;
 }
 .header > .container > .menu-sp > .box-menu-content > .box-logo {
   display: -webkit-box;

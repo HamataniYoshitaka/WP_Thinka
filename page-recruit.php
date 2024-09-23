@@ -27,7 +27,7 @@ get_template_part( 'includes/header' );
     </div>
   </section>
 
-  <section class="section-message">
+  <section class="section-message" id="message">
     <div class="container">
       <div class="box-content">
         <div class="box-text">

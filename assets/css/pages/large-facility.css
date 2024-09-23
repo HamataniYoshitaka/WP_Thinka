@@ -1060,6 +1060,15 @@
   position: absolute;
   bottom: 0;
 }
+.large-facility-page > .section-voice > .container > .list-voice .slide-arrow:hover {
+  opacity: 0.5;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
+}
 @media screen and (max-width: 1024px) {
   .large-facility-page > .section-voice > .container > .list-voice .slide-arrow {
     bottom: -60px;

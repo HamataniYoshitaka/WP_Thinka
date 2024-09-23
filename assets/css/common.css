@@ -72,9 +72,53 @@ phpで作成したpartsごとのファイルを作成する様にする
   color: #ffffff;
   font-size: 1vw;
   padding: 10px 22px;
+  position: relative;
+}
+.header > .container > .list-menu > .menu > .link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  width: 100%;
+  height: 1px;
+  background-color: currentColor;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease; /* durationを0.3秒に設定 */
+}
+.header > .container > .list-menu > .menu > .link:hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1); /* ホバー時に下線が表示される */
+  -webkit-transform-origin: left;
+          transform-origin: left;
 }
 .header > .container > .list-menu.normal > .menu > .link {
   color: #000000;
+  position: relative;
+}
+.header > .container > .list-menu.normal > .menu > .link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  width: 100%;
+  height: 1px;
+  background-color: currentColor;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease; /* durationを0.3秒に設定 */
+}
+.header > .container > .list-menu.normal > .menu > .link:hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1); /* ホバー時に下線が表示される */
+  -webkit-transform-origin: left;
+          transform-origin: left;
 }
 .header > .container > .hamburger-menu {
   position: fixed;
@@ -380,6 +424,28 @@ phpで作成したpartsごとのファイルを作成する様にする
 .footer > .container > .box-menu > .list-menu > .menu > .link {
   color: #ffffff;
   font-size: 1vw;
+  position: relative;
+}
+.footer > .container > .box-menu > .list-menu > .menu > .link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background-color: currentColor;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease; /* durationを0.3秒に設定 */
+}
+.footer > .container > .box-menu > .list-menu > .menu > .link:hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1); /* ホバー時に下線が表示される */
+  -webkit-transform-origin: left;
+          transform-origin: left;
 }
 @media screen and (max-width: 1024px) {
   .footer > .container > .box-menu > .list-menu > .menu > .link {
@@ -465,6 +531,16 @@ phpで作成したpartsごとのファイルを作成する様にする
   font-size: 1vw;
   padding: 10px 30px;
 }
+.footer > .container > .box-menu > .contact-button > .link:hover {
+  background-color: white;
+  color: #727171;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
+}
 @media screen and (max-width: 1024px) {
   .footer > .container > .box-menu > .contact-button > .link {
     font-size: 1.3vw;
@@ -516,6 +592,30 @@ phpで作成したpartsごとのファイルを作成する様にする
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+.footer > .container > .box-credit > .box-text > .link {
+  position: relative;
+}
+.footer > .container > .box-credit > .box-text > .link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background-color: currentColor;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease; /* durationを0.3秒に設定 */
+}
+.footer > .container > .box-credit > .box-text > .link:hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1); /* ホバー時に下線が表示される */
+  -webkit-transform-origin: left;
+          transform-origin: left;
 }
 .footer > .container > .box-credit > .box-text > .link,
 .footer > .container > .box-credit > .box-text > .copyright {
@@ -639,6 +739,15 @@ phpで作成したpartsごとのファイルを作成する様にする
       -ms-flex-align: center;
           align-items: center;
   padding: 20px 30px 20px 50px;
+}
+.section-contact > .container > .list-contact > .contact > .link > .button:hover {
+  opacity: 0.5;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
 }
 .section-contact > .container > .list-contact > .contact > .link > .button > .text {
   color: #ffffff;

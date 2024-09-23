@@ -964,6 +964,15 @@
   padding: 16px 58px;
   margin: 56px auto 0;
 }
+.recruit-page > .section-form > .container > .mw_wp_form > form > .box-input .button-send:hover {
+  opacity: 0.5;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
+}
 .recruit-page > .section-form > .container > .mw_wp_form > form > .box-input .button-send > a {
   color: #000000;
 }

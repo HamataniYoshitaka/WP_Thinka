@@ -31,6 +31,24 @@
           > .link {
             color: $color-white;
             font-size: 1vw;
+            position: relative;
+          
+            &::after {
+              content: "";
+              position: absolute;
+              left: 0;
+              bottom: 0;
+              width: 100%;
+              height: 1px;
+              background-color: currentColor;
+              transform: scaleX(0);
+              transition: transform 0.3s ease; /* durationを0.3秒に設定 */
+            }
+            
+            &:hover::after {
+              transform: scaleX(1); /* ホバー時に下線が表示される */
+              transform-origin: left;
+            }
 
             @include mq(lg) {
               font-size: 1.4vw;
@@ -111,6 +129,14 @@
           font-size: 1vw;
           padding: 10px 30px;
 
+          &:hover{
+            background-color: white;
+            color: $color-gray600;
+            transition-property: all;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 300ms;
+          }
+
           @include mq(lg) {
             font-size: 1.3vw;
           }
@@ -153,11 +179,33 @@
         display: flex;
         align-items: center;
 
+        > .link{
+          position: relative;
+          
+            &::after {
+              content: "";
+              position: absolute;
+              left: 0;
+              bottom: 0;
+              width: 100%;
+              height: 1px;
+              background-color: currentColor;
+              transform: scaleX(0);
+              transition: transform 0.3s ease; /* durationを0.3秒に設定 */
+            }
+            
+            &:hover::after {
+              transform: scaleX(1); /* ホバー時に下線が表示される */
+              transform-origin: left;
+            }
+        }
+        
         > .link,
         > .copyright {
           font-family: "dnp-shuei-mincho-pr6n", sans-serif;
           color: $color-gray300;
           font-size: 0.85vw;
+          
 
           @include mq(lg) {
             font-size: 1.25vw;

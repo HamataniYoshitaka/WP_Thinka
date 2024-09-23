@@ -954,6 +954,13 @@
           position: absolute;
           bottom: 0;
 
+          &:hover{
+            opacity: 0.5;
+            transition-property: all;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 300ms;
+          }
+
           @include mq(lg) {
             bottom: -60px;
           }

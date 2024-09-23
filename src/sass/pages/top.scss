@@ -184,6 +184,7 @@
 
           > .english {
             color: $color-white;
+            margin-bottom: 22px;
           }
         }
 
@@ -327,6 +328,12 @@
           }
 
           > .link {
+            &:hover{
+              opacity: 0.5;
+              transition-property: all;
+              transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+              transition-duration: 300ms;
+            }
             > .thumbnail {
               width: 100%;
               height: 231px;

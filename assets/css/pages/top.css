@@ -221,6 +221,7 @@
 }
 .top-page .section-large-facility > .container > .box-text > .section-title > .english {
   color: #ffffff;
+  margin-bottom: 22px;
 }
 .top-page .section-large-facility > .container > .box-text > .overview {
   color: #ffffff;
@@ -387,6 +388,15 @@
 }
 .top-page > .section-news > .container > .list-news > .news:last-child {
   margin-right: 0;
+}
+.top-page > .section-news > .container > .list-news > .news > .link:hover {
+  opacity: 0.5;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
 }
 .top-page > .section-news > .container > .list-news > .news > .link > .thumbnail {
   width: 100%;

@@ -176,6 +176,15 @@
     letter-spacing: 0;
   }
 }
+.price-page > .section-contents > .container > .tab-menu > li:hover {
+  background-color: #f3f7f5;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
+}
 .price-page > .section-contents > .container > .tab-menu > li.selected {
   position: relative;
 }

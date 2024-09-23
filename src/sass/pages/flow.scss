@@ -235,6 +235,7 @@
               }
             }
           }
+
           > .number {
             position: relative;
             background-color: $color-gray200;
@@ -369,6 +370,22 @@
             @include mq(xs) {
               padding: 30px 10px 40px;
             }
+
+            
+              &:hover{
+                opacity: 0.5;
+                transition-property: all;
+                transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+                transition-duration: 300ms;
+                
+                > .icon {
+                  transform: translate(5px);
+                  transition-property: all;
+                  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+                  transition-duration: 300ms;
+                }
+                
+              }
 
             > .number {
               position: absolute;

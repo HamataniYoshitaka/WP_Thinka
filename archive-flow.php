@@ -135,8 +135,8 @@ get_template_part( 'includes/header' );
             </p>
             <div class="thumbnail"><?php the_post_thumbnail(); ?></div>
             <h3 class="title">
-                       <?php echo get_the_title(); ?>
-              </h3>
+              <?php echo get_the_title(); ?>
+            </h3>
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/arrow-green.svg" alt="詳しく見る" class="icon">
         </a>
     </li>

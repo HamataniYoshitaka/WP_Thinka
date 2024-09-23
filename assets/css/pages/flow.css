@@ -417,6 +417,25 @@
     padding: 30px 10px 40px;
   }
 }
+.flow-page > .section-construction > .container > .list-contact-construction > .contact-construction > .link:hover {
+  opacity: 0.5;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
+}
+.flow-page > .section-construction > .container > .list-contact-construction > .contact-construction > .link:hover > .icon {
+  -webkit-transform: translate(5px);
+          transform: translate(5px);
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
+}
 .flow-page > .section-construction > .container > .list-contact-construction > .contact-construction > .link > .number {
   position: absolute;
   top: -6px;

@@ -236,6 +236,12 @@
   display: -ms-flexbox;
   display: flex;
 }
+@media screen and (max-width: 480px) {
+  .recruit-page > .section-message > .container > .list-gallery {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+}
 .recruit-page > .section-message > .container > .list-gallery .gallery {
   max-width: 30vw;
   margin-right: 24px;

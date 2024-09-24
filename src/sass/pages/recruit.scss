@@ -198,7 +198,10 @@
 
       > .list-gallery {
         display: flex;
-
+        @include mq(xs) {
+          margin-left: -20px;
+          margin-right: -20px;
+        }
         .gallery {
           max-width: 30vw;
           margin-right: 24px;

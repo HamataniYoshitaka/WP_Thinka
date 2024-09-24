@@ -170,6 +170,12 @@ $(function () {
           header.addClass('hidden');
         }
         pos = $(this).scrollTop();
+      } else {
+        if ($(this).scrollTop() < $(window).height()) {
+          $('.btn-sp-scrolltop').removeClass('active');
+        } else {
+          $('.btn-sp-scrolltop').addClass('active');
+        }
       }
     });
 });
@@ -180,7 +186,7 @@ $(function () {
   $('.box-type .button').on('click', function () {
     $(this).next().slideToggle();
     $(this).toggleClass('active');
-    $('.cover').toggleClass('active');
+    $(this).closest('.box-type').find('.cover').toggleClass('active');
   });
 });
 
@@ -249,6 +255,14 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
+  $('.btn-sp-scrolltop').on('click',function(){
+    // ページトップにスクロール
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  })
+  
   function checkBreakPoint() {
     w = $(window).width();
 
@@ -282,6 +296,7 @@ $(document).ready(function () {
   $('.toggle-category').on('click',function(){
     $('.category-dropdown').toggle();
   })
+
 });
 
 

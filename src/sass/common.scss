@@ -9,7 +9,7 @@ phpで作成したpartsごとのファイルを作成する様にする
 @import "./parts/flow.scss";
 
 body {
-  font-family: "futura-pt", "dnp-shuei-mincho-pr6n", sans-serif;
+  font-family: "futura-pt", "dnp-shuei-mincho-pr6n", serif;
   color: $color-black;
   letter-spacing: 0.1em;
 
@@ -196,5 +196,28 @@ section {
         }
       }
     }
+  }
+}
+
+.btn-sp-scrolltop {
+  display: none;
+  @include mq(md) {
+    display: block;
+  }
+
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 54px;
+  height: 54px;
+  border: 2px solid $color-green400;
+  background-color: $color-gray200;
+  border-radius: 50%;
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
+  transition-property: transform;
+  transition-duration: 0.7s;
+  transform: translate(0, 100px);
+  &.active {
+    transform: translate(0, 0);
   }
 }

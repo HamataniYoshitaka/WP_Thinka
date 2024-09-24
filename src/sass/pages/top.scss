@@ -665,3 +665,37 @@
     }
   }
 }
+
+.header {
+  z-index: 1001;
+  &.top {
+    > .container {
+      > .hamburger-menu {
+        > .line {
+          background-color: $color-white;
+          &.active {
+            background-color: $color-gray600;
+          }
+        }
+      }
+    }
+  }
+  &.scroll-nav {
+    &.top {
+      > .container {
+        > .hamburger-menu {
+          > .line {
+            background-color: $color-gray600;
+          }
+        }
+      }
+    }
+    .list-menu {
+      > .menu {
+        > .link {
+          color: $color-black;
+        }
+      }
+    }
+  }
+}

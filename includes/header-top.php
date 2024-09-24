@@ -30,7 +30,6 @@
          <a href="<?php echo site_url('/recruit'); ?>" class="link">採用情報</a>
        </li>
      </ul>
-
      <div class="hamburger-menu md">
        <span class="line">
        </span>
@@ -39,6 +38,8 @@
        <span class="line">
        </span>
      </div>
+
+<?php /*
 
      <div class="menu-sp">
        <div class="box-menu-content">
@@ -82,5 +83,8 @@
          </div>
        </div>
      </div>
+     */ ?>
    </div>
  </header>
+
+ <?php include_once(__DIR__ . '/menu-sp.php'); ?>

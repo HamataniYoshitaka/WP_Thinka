@@ -141,6 +141,7 @@ a {
   background: transparent;
   cursor: pointer;
   text-decoration: none;
+  text-decoration-color: none;
 }
 
 button {

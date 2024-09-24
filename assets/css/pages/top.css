@@ -774,3 +774,19 @@
     width: 42px;
   }
 }
+
+.header {
+  z-index: 1001;
+}
+.header.top > .container > .hamburger-menu > .line {
+  background-color: #ffffff;
+}
+.header.top > .container > .hamburger-menu > .line.active {
+  background-color: #727171;
+}
+.header.scroll-nav.top > .container > .hamburger-menu > .line {
+  background-color: #727171;
+}
+.header.scroll-nav .list-menu > .menu > .link {
+  color: #000000;
+}

@@ -137,9 +137,6 @@ phpで作成したpartsごとのファイルを作成する様にする
 .header.scroll-nav > .container > .hamburger-menu > .line {
   background-color: #727171;
 }
-.header.top > .container > .hamburger-menu > .line {
-  background-color: #ffffff;
-}
 
 .menu-sp {
   display: none;
@@ -235,6 +232,9 @@ phpで作成したpartsごとのファイルを作成する様にする
   font-size: 12px;
   color: #727171;
 }
+.menu-sp > .box-menu-content > .list-menu > .menu > .children-list a {
+  color: #727171;
+}
 .menu-sp > .box-menu-content > .list-menu > .menu > .children-list > .children-menu {
   padding-top: 8px;
 }
@@ -243,12 +243,18 @@ phpで作成したpartsごとのファイルを作成する様にする
 }
 .menu-sp > .box-menu-content > .contact {
   height: 93px;
-  background-image: url("https://placehold.jp/343x93.png");
   background-size: cover;
   background-position: center;
   background-repeat: none;
   margin-bottom: 32px;
   padding-top: 22px;
+}
+.menu-sp > .box-menu-content > .contact > a {
+  display: block;
+  color: white;
+}
+.menu-sp > .box-menu-content > .contact > a:link, .menu-sp > .box-menu-content > .contact > a:visited {
+  color: white;
 }
 .menu-sp > .box-menu-content > .contact > a > .english {
   padding-left: 18px;

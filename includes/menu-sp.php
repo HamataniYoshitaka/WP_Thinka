@@ -210,22 +210,22 @@
         <path d="M0 1H15" stroke="#007F41"/>
     </svg>
     </ul>
-    <div class="contact">
-        <a>
-        <p class="english">Contact</p>
-        <div class="name">
-            <p>お問い合わせ</p>
-            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="12.5" cy="12.5" r="12" stroke="white"/>
-            <path d="M14.1969 11.8726L11.7322 9.98886C11.4032 9.73739 10.9286 9.972 10.9286 10.3861L10.9286 14.1536C10.9286 14.5677 11.4032 14.8023 11.7322 14.5509L14.1969 12.6671C14.4587 12.467 14.4587 12.0727 14.1969 11.8726Z" fill="white"/>
-            </svg>
-        </div>
+    <div class="contact" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/imgs/menu-sp/bg-contact.jpg)">
+        <a href="<?php echo home_url(); ?>/contact/" >
+            <p class="english">Contact</p>
+            <div class="name">
+                <p>お問い合わせ</p>
+                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12.5" cy="12.5" r="12" stroke="white"/>
+                <path d="M14.1969 11.8726L11.7322 9.98886C11.4032 9.73739 10.9286 9.972 10.9286 10.3861L10.9286 14.1536C10.9286 14.5677 11.4032 14.8023 11.7322 14.5509L14.1969 12.6671C14.4587 12.467 14.4587 12.0727 14.1969 11.8726Z" fill="white"/>
+                </svg>
+            </div>
         </a>
     </div>
 
     </div>
 </div>
-
+<?php if (!(is_home() || is_front_page())): ?>
 <div class="hamburger-menu md">
     <span class="line">
     </span>
@@ -234,3 +234,4 @@
     <span class="line">
     </span>
 </div>
+<?php endif; ?>

@@ -1,12 +1,13 @@
+@charset "UTF-8";
 /*
  * CSSの初期化に関して記述しているファイル
  * このファイルの変更をしてはいけない
  */
-
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html {
@@ -23,7 +24,6 @@ Last Updated: 2010-09-17
 Author: Richard Clark - http://richclarkdesign.com
 Twitter: @rich_clark
 */
-
 html,
 body,
 div,
@@ -141,9 +141,9 @@ a {
   background: transparent;
   cursor: pointer;
   text-decoration: none;
-  &:visited {
-    color: inherit;
-  }
+}
+a:visited {
+  color: inherit;
 }
 
 button {

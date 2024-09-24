@@ -132,16 +132,6 @@
       }
     }
   }
-
-  &.top {
-    > .container {
-      > .hamburger-menu {
-        > .line {
-          background-color: $color-white;
-        }
-      }
-    }
-  }
 }
 
 .menu-sp {
@@ -227,6 +217,9 @@
         >.children-list{
           font-size: 12px;
           color: #727171;
+          a {
+            color: #727171;
+          }
 
           >.children-menu{
             padding-top: 8px;
@@ -243,7 +236,6 @@
     
     > .contact{
       height: 93px;
-      background-image: url("https://placehold.jp/343x93.png");
       background-size: cover;
       background-position: center;
       background-repeat: none;
@@ -251,7 +243,11 @@
       padding-top: 22px;
 
       > a{
-
+        display: block;
+        color: white;
+        &:link, &:visited {
+          color: white;
+        }
         > .english{
           padding-left: 18px;
           font-size: 11px;

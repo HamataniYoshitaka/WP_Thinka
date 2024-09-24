@@ -343,10 +343,15 @@
         max-width: 30vw;
 
         > .image {
-          display: none;
+          // display: none;
+          opacity: 0;
+          transition-property: opacity, transform;
+          transition-duration: 0.5s;
 
           &.active {
-            display: block;
+            // display: block;
+            opacity: 1;
+
           }
 
           &.step1 {
@@ -355,10 +360,17 @@
 
           &.step2 {
             max-width: 68.6%;
-            transform: translate(30px, 60%);
+            transform: translate(30px, 50%);
+            &.active {
+              transform: translate(30px, 60%);
+            }
             @include mq(xlg) {
-              transform: translate(20.1px, 62%);
+              transform: translate(20.1px, 52%);
               max-width: 68.4%;
+              &.active {
+                transform: translate(20.1px, 62%);
+              }
+  
             }
 
             // @include mq(lg) {
@@ -370,14 +382,24 @@
             position: relative;
             z-index: -1;
             max-width: 58.6%;
-            transform: translate(197px, -87.4%);
+            transform: translate(197px, -97.4%);
+            &.active {
+              transform: translate(197px, -87.4%);
+            }
+
             @include mq(xlg) {
-              transform: translate(147px, -87%);
+              transform: translate(147px, -97%);
+              &.active {
+                transform: translate(147px, -87%);
+              }  
               max-width: 58.4%;
             }
 
             @include mq(lg) {
-              transform: translate(107px, -91%);
+              transform: translate(107px, -101%);
+              &.active {
+                transform: translate(107px, -91%);
+              }
             }
           }
         }

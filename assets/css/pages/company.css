@@ -394,10 +394,16 @@
   max-width: 30vw;
 }
 .company-page > .section-mission > .container > .box-illust > .image {
-  display: none;
+  opacity: 0;
+  -webkit-transition-property: opacity, -webkit-transform;
+  transition-property: opacity, -webkit-transform;
+  transition-property: opacity, transform;
+  transition-property: opacity, transform, -webkit-transform;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
 }
 .company-page > .section-mission > .container > .box-illust > .image.active {
-  display: block;
+  opacity: 1;
 }
 .company-page > .section-mission > .container > .box-illust > .image.step1 {
   -webkit-transform: translateY(330%);
@@ -405,32 +411,52 @@
 }
 .company-page > .section-mission > .container > .box-illust > .image.step2 {
   max-width: 68.6%;
+  -webkit-transform: translate(30px, 50%);
+          transform: translate(30px, 50%);
+}
+.company-page > .section-mission > .container > .box-illust > .image.step2.active {
   -webkit-transform: translate(30px, 60%);
           transform: translate(30px, 60%);
 }
 @media screen and (max-width: 1440px) {
   .company-page > .section-mission > .container > .box-illust > .image.step2 {
+    -webkit-transform: translate(20.1px, 52%);
+            transform: translate(20.1px, 52%);
+    max-width: 68.4%;
+  }
+  .company-page > .section-mission > .container > .box-illust > .image.step2.active {
     -webkit-transform: translate(20.1px, 62%);
             transform: translate(20.1px, 62%);
-    max-width: 68.4%;
   }
 }
 .company-page > .section-mission > .container > .box-illust > .image.step3 {
   position: relative;
   z-index: -1;
   max-width: 58.6%;
+  -webkit-transform: translate(197px, -97.4%);
+          transform: translate(197px, -97.4%);
+}
+.company-page > .section-mission > .container > .box-illust > .image.step3.active {
   -webkit-transform: translate(197px, -87.4%);
           transform: translate(197px, -87.4%);
 }
 @media screen and (max-width: 1440px) {
   .company-page > .section-mission > .container > .box-illust > .image.step3 {
+    -webkit-transform: translate(147px, -97%);
+            transform: translate(147px, -97%);
+    max-width: 58.4%;
+  }
+  .company-page > .section-mission > .container > .box-illust > .image.step3.active {
     -webkit-transform: translate(147px, -87%);
             transform: translate(147px, -87%);
-    max-width: 58.4%;
   }
 }
 @media screen and (max-width: 1024px) {
   .company-page > .section-mission > .container > .box-illust > .image.step3 {
+    -webkit-transform: translate(107px, -101%);
+            transform: translate(107px, -101%);
+  }
+  .company-page > .section-mission > .container > .box-illust > .image.step3.active {
     -webkit-transform: translate(107px, -91%);
             transform: translate(107px, -91%);
   }

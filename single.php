@@ -124,6 +124,10 @@ get_template_part( 'includes/header' );
       </div>
   </article>
   <?php
+get_template_part( 'includes/flow' );
+?>
+
+  <?php
 get_template_part( 'includes/contact' );
 ?>
   <?php

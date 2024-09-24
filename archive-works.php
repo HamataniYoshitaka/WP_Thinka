@@ -157,6 +157,10 @@ $is_tax_page = is_tax('works_category');
   </div>
   </section>
   <?php
+get_template_part( 'includes/flow' );
+?>
+
+  <?php
 get_template_part( 'includes/contact' );
 ?>
   <?php

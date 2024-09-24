@@ -222,6 +222,9 @@ get_template_part( 'includes/header' );
       </ul>
     </div>
   </section>
+  <?php
+    get_template_part( 'includes/works-slider' );
+  ?>
 
   <section class="section-voice">
     <div class="container">

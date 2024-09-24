@@ -17,20 +17,6 @@
 
   <?php wp_head();?>
 
-  <meta name="robots" content="noindex, nofollow">
-  <meta property="og:site_name" content="horiken">
-  <meta property="og:type" content="website">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-  <meta property="og:description" content="">
-  <meta property="og:title" content="horiken">
-  <meta property="og:image" content="<?php echo get_stylesheet_directory_uri() ?>/assets/imgs/ogp.jpg">
-  <!-- <link rel="apple-touch-icon" sizes="144x144"
-    href="http://test-horiken.ni-works.jp/wp-content/uploads/2024/05/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32"
-    href="http://test-horiken.ni-works.jp/wp-content/uploads/2024/05/favicon-32x32-1.png">
-  <link rel="icon" type="image/png" sizes="16x16"
-    href="http://test-horiken.ni-works.jp/wp-content/uploads/2024/05/favicon-16x16-1.png"> -->
-
   <!-- slick -->
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/slick/slick.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/slick/slick-theme.css">

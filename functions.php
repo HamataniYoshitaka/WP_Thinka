@@ -131,6 +131,8 @@ function horiken_register_styles()
     } else {
         wp_enqueue_style('horiken-style-page', $dir . '/assets/css/pages/single.css', array( 'horiken-style-common' ), $theme_version);
     }
+    wp_enqueue_style('horiken-style-tailwind', $dir . '/assets/css/tailwind.css', array( 'horiken-style-reset' ), $theme_version);
+
 }
 
 add_action('wp_enqueue_scripts', 'horiken_register_styles');

@@ -19,7 +19,7 @@
 
   <!-- slick -->
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/slick/slick.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/slick/slick-theme.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/slick/slick-theme.css">
   <script src="<?php echo get_template_directory_uri();?>/assets/js/slick.min.js"></script>
 
     <!-- remodal -->

@@ -391,6 +391,9 @@
   margin-right: 23px;
   margin-bottom: 23px;
 }
+.flow-page > .section-construction > .container > .list-contact-construction > .contact-construction:hover {
+  background-color: #dbebe3;
+}
 @media screen and (max-width: 820px) {
   .flow-page > .section-construction > .container > .list-contact-construction > .contact-construction {
     max-width: 46%;
@@ -417,7 +420,6 @@
   }
 }
 .flow-page > .section-construction > .container > .list-contact-construction > .contact-construction > .link:hover {
-  opacity: 0.5;
   -webkit-transition-property: all;
   transition-property: all;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

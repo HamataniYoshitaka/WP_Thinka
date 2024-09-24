@@ -94,6 +94,11 @@
   margin: 0 0 0 auto;
 }
 @media screen and (max-width: 480px) {
+  .top-page > .section-works > .container {
+    display: block;
+  }
+}
+@media screen and (max-width: 480px) {
   .top-page > .section-works > .container > .box-text {
     display: -webkit-box;
     display: -ms-flexbox;

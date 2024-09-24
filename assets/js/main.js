@@ -299,16 +299,3 @@ $(document).ready(function () {
 
 });
 
-
-// document.addEventListener('DOMContentLoaded', function () {
-//   var toggleButton = document.querySelector('.toggle-category');
-//   var categoryDropdown = document.querySelector('.category-dropdown');
-
-//   toggleButton.addEventListener('click', function () {
-//     if (categoryDropdown.style.display === 'none' || categoryDropdown.style.display === '') {
-//       categoryDropdown.style.display = 'block';
-//     } else {
-//       categoryDropdown.style.display = 'none';
-//     }
-//   });
-// });

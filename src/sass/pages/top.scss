@@ -80,6 +80,9 @@
       display: flex;
       max-width: 94.4vw;
       margin: 0 0 0 auto;
+      @include mq(xs) {
+        display: block;
+      }
 
       > .box-text {
         @include mq(xs) {

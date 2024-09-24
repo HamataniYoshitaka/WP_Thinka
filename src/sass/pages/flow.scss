@@ -338,6 +338,9 @@
         > .contact-construction {
           align-self: flex-start;
           background-color: $color-green100;
+          &:hover {
+            background-color: $color-green200;
+          }
           border-radius: 20px;
           position: relative;
           max-width: 23%;
@@ -372,7 +375,6 @@
 
             
               &:hover{
-                opacity: 0.5;
                 transition-property: all;
                 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
                 transition-duration: 300ms;

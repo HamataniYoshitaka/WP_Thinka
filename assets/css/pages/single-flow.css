@@ -8,12 +8,12 @@
  */
 .post-flow-page > .post-content > .box-firstview {
   max-width: 90vw;
-  margin: 161px auto 0;
-  margin-bottom: 32px;
+  margin: 0 auto 32px;
+  padding-top: 161px;
 }
 @media screen and (max-width: 1024px) {
   .post-flow-page > .post-content > .box-firstview {
-    margin: 120px auto 0;
+    padding-top: 120px;
   }
 }
 .post-flow-page > .post-content > .box-firstview > .page-title {

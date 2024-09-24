@@ -8,16 +8,17 @@
  */
 .post-works-page > .post-content {
   max-width: 90vw;
-  margin: 161px auto 0;
+  margin: 0 auto 32px;
+  padding-top: 161px;
 }
 @media screen and (max-width: 1024px) {
   .post-works-page > .post-content {
-    margin: 120px auto 0;
+    padding-top: 120px;
   }
 }
 @media screen and (max-width: 480px) {
   .post-works-page > .post-content {
-    margin-top: 110px;
+    padding-top: 110px;
   }
 }
 .post-works-page > .post-content > .box-firstview {

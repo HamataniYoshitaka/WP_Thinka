@@ -4,11 +4,11 @@
   > .post-content {
     > .box-firstview {
       max-width: 90vw;
-      margin: 161px auto 0;
-      margin-bottom: 32px;
+      margin: 0 auto 32px;
+      padding-top: 161px;
 
       @include mq(lg) {
-        margin: 120px auto 0;
+        padding-top: 120px;
       }
 
       > .page-title {

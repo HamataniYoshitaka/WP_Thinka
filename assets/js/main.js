@@ -160,17 +160,18 @@ window.addEventListener('scroll', function () {
 $(function () {
   var pos = 0;
   var header = $('header');
-
-  $(window).on('scroll', function () {
-    if ($(this).scrollTop() < pos) {
-      //上にスクロールしたとき
-      header.removeClass('hidden');
-    } else {
-      //下にスクロールしたとき
-      header.addClass('hidden');
-    }
-    pos = $(this).scrollTop();
-  });
+    $(window).on('scroll', function () {
+      if ($(window).width() > 1024) {
+        if ($(this).scrollTop() < pos) {
+          //上にスクロールしたとき
+          header.removeClass('hidden');
+        } else {
+          //下にスクロールしたとき
+          header.addClass('hidden');
+        }
+        pos = $(this).scrollTop();
+      }
+    });
 });
 
 

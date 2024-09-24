@@ -7,11 +7,11 @@
 
 get_header();
 ?>
-
-<main class="company-page">
   <?php
 get_template_part( 'includes/header' );
 ?>
+
+<main class="company-page">
 
 
   <section class="section-mv">

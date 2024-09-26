@@ -283,7 +283,10 @@ get_template_part( 'includes/header' );
         <span class="english">Apply form</span>
         応募フォーム
       </h2>
-      <?php echo do_shortcode( '[mwform_formkey key="31"]' ); ?>
+      <?php  //echo do_shortcode( '[mwform_formkey key="31"]' ); ?>
+      <div class="form-wrapper">
+        <?php the_content(); ?>
+      </div>
     </div>
   </section>
 

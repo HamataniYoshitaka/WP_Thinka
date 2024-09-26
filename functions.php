@@ -229,4 +229,8 @@ function generate_table_of_contents($content) {
 // フィルターを追加して、投稿の内容をフック
 add_filter('the_content', 'generate_table_of_contents');
 
-
+// cf7の自動pタグを無効化
+add_filter('wpcf7_autop_or_not', 'wpcf7_autop_return_false');
+function wpcf7_autop_return_false() {
+	return false;
+}

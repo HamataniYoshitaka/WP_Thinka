@@ -41,7 +41,10 @@ get_template_part( 'includes/header' );
       <div class="box-form">
         <div class="box-left">
   <p class="notice">*印の項目は入力必須です。</p>
-        <?php echo do_shortcode( '[mwform_formkey key="18"]' ); ?>
+        <?php //echo do_shortcode( '[mwform_formkey key="18"]' ); ?>
+        <div class="form-wrapper">
+          <?php the_content(); ?>
+        </div>
         </div>
       </div>
       <div class="box-othertool">

@@ -52,7 +52,7 @@ get_template_part( 'includes/header' );
         </div>
       </div>
       <div class="box-image">
-         <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/contact/thanks.png" alt="" class="image">
+         <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/contact/thanks.jpg" alt="" class="image">
       </div>
     </div>
   </section>

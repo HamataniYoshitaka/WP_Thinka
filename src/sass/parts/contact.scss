@@ -18,11 +18,11 @@
         width: 50vw;
         text-align: center;
         &:first-child {
-          background-image: url(../../assets/imgs/contact/tel.png);
+          background-image: url(../../assets/imgs/contact/tel.jpg);
         }
 
         &:last-child {
-          background-image: url(../../assets/imgs/contact/mail.png);
+          background-image: url(../../assets/imgs/contact/mail.jpg);
         }
 
         @include mq(xs) {

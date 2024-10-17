@@ -686,10 +686,10 @@ phpで作成したpartsごとのファイルを作成する様にする
   text-align: center;
 }
 .section-contact > .container > .list-contact > .contact:first-child {
-  background-image: url(../../assets/imgs/contact/tel.png);
+  background-image: url(../../assets/imgs/contact/tel.jpg);
 }
 .section-contact > .container > .list-contact > .contact:last-child {
-  background-image: url(../../assets/imgs/contact/mail.png);
+  background-image: url(../../assets/imgs/contact/mail.jpg);
 }
 @media screen and (max-width: 480px) {
   .section-contact > .container > .list-contact > .contact {

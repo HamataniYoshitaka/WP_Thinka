@@ -71,7 +71,7 @@ get_template_part( 'includes/flow' );
           <p class="overview">堀健の日常と<br class="xs">お知らせを掲載しています。</p>
         </div>
         <div class="button green pc">
-          <a href="<?php echo site_url('/news'); ?>" class="link">
+          <a href="<?php echo site_url('/category/news'); ?>" class="link">
             もっと見る
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/arrow-green.svg" alt="もっと見る" class="icon">
           </a>
@@ -85,6 +85,7 @@ get_template_part( 'includes/flow' );
               'post_type' => 'post',
               'orderby' => 'date',
               'order'   => 'DESC',
+              'category_name' => 'news',
             ));
 
             while ($posts->have_posts()) {

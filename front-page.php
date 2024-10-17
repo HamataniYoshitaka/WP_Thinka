@@ -91,7 +91,7 @@ get_template_part( 'includes/flow' );
             while ($posts->have_posts()) {
                 $posts->the_post(); ?>
         <li class="news fade">
-          <a href="#<?php the_ID(); ?>" class="link">
+          <a href="<?php the_permalink(); ?>" class="link">
             <div class="thumbnail"><?php the_post_thumbnail(); ?></div>
             <p class="title">
               <?php

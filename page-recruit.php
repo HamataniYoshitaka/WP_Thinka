@@ -160,8 +160,8 @@ get_template_part( 'includes/header' );
               <p class="data">240,000円～365,000円</p>
             </li>
             <li class="condition">
-              <p class="label">応募資格</p>
-              <p class="data">未経験者歓迎</p>
+              <p class="label">諸手当</p>
+              <p class="data">住宅手当／通勤手当／資格手当／役職手当</p>
             </li>
           </ul>
           <div class="cover"></div>
@@ -171,21 +171,68 @@ get_template_part( 'includes/header' );
           </div>
           <ul class="list-condition accordion">
             <li class="condition">
-              <p class="label">応募資格</p>
-              <p class="data">未経験者歓迎</p>
+              <p class="label">昇給</p>
+              <p class="data">年1回査定</p>
             </li>
             <li class="condition">
-              <p class="label">職種</p>
-              <p class="data">施工管理：<br>
-                建築工事の施工管理や、現場での工程管理・品質管理を行っていただきます。リーダーシップやマネジメント能力の求められる、大きなやりがいのある仕事です。</p>
+              <p class="label">賞与</p>
+              <p class="data">年2回（6月・12月）</p>
             </li>
             <li class="condition">
-              <p class="label">給与</p>
-              <p class="data">240,000円～365,000円</p>
+              <p class="label">勤務地</p>
+              <p class="data">大阪府岸和田市</p>
             </li>
             <li class="condition">
-              <p class="label">諸手当</p>
-              <p class="data">未経験者歓迎</p>
+              <p class="label">交通費</p>
+              <p class="data">5,000円まで / 月額</p>
+            </li>
+            <li class="condition">
+              <p class="label">勤務時間</p>
+              <p class="data">7:30 ~ 17:00（休憩1時間30分）</p>
+            </li>
+            <li class="condition">
+              <p class="label">休日・休暇</p>
+              <p class="data">
+                年間106日＋有給休暇（半年後に10日～20日）<br />
+                日曜・祝日・土曜隔週（年末年始・夏季・GW休暇有）<br />
+                ※会社休日カレンダー通り
+              </p>
+            </li>
+            <li class="condition">
+              <p class="label">待遇・福利厚生</p>
+              <p class="data">
+                社会保険完備／住宅手当あり／通勤手当あり／退職金制度あり
+              </p>
+            </li>
+            <li class="condition">
+              <p class="label">応募書類</p>
+              <p class="data">
+                1.履歴書（写真付き）<br />
+                2.成績証明書<br />
+                3.卒業見込み証明書<br />
+                4.健康診断書
+              </p>
+            </li>
+            <li class="condition">
+              <p class="label">選考方法</p>
+              <p class="data">
+                書類選考・面接
+              </p>
+            </li>
+            <li class="condition">
+              <p class="label">求人数</p>
+              <p class="data">
+                2名
+              </p>
+            </li>
+            <li class="condition">
+              <p class="label">備考</p>
+              <p class="data">
+                お電話でのご応募も可能です｡<br />
+                株式会社 堀健（代表）<br />
+                TEL: 072-427-1301 （受付時間 平日8:00～17:00）<br />
+                ご質問などもお気軽にお問い合わせください｡
+              </p>
             </li>
           </ul>
         </div>
@@ -216,21 +263,41 @@ get_template_part( 'includes/header' );
           </div>
           <ul class="list-condition accordion">
             <li class="condition">
-              <p class="label">応募資格</p>
-              <p class="data">未経験者歓迎</p>
+              <p class="label">昇給</p>
+              <p class="data">年1回定期昇給</p>
             </li>
             <li class="condition">
-              <p class="label">職種</p>
-              <p class="data">施工管理：<br>
-                建築工事の施工管理や、現場での工程管理・品質管理を行っていただきます。リーダーシップやマネジメント能力の求められる、大きなやりがいのある仕事です。</p>
+              <p class="label">賞与</p>
+              <p class="data">
+                年2回（6月・12月）
+              </p>
             </li>
             <li class="condition">
-              <p class="label">給与</p>
-              <p class="data">240,000円～365,000円</p>
+              <p class="label">勤務地</p>
+              <p class="data">大阪府岸和田市(転勤無し)</p>
             </li>
             <li class="condition">
-              <p class="label">応募資格</p>
-              <p class="data">未経験者歓迎</p>
+              <p class="label">勤務時間</p>
+              <p class="data">8:00～17:00（休憩1時間）</p>
+            </li>
+            <li class="condition">
+              <p class="label">休日・休暇</p>
+              <p class="data">
+                4週8休制（月9日程度）<br />年末年始休暇／慶弔休暇／お盆休暇／日曜日・祝祭日
+              </p>
+            </li>
+            <li class="condition">
+              <p class="label">待遇・福利厚生</p>
+              <p class="data">社会保険完備／住宅手当あり／通勤手当あり／退職金制度あり</p>
+            </li>
+            <li class="condition">
+              <p class="label">備考</p>
+              <p class="data">
+                お電話でのご応募も可能です｡<br />
+                株式会社 堀健（代表）<br />
+                TEL: 072-427-1301 （受付時間 平日8:00～17:00）<br />
+                ご質問などもお気軽にお問い合わせください｡
+              </p>
             </li>
           </ul>
         </div>

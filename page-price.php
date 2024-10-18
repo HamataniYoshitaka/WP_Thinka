@@ -196,19 +196,19 @@ get_template_part( 'includes/header' );
             <ul class="list-condition">
               <li class="condition">
                 <p class="label">建物金額</p>
-                <p class="data">￥13,810,000‐(税別)</p>
+                <p class="data">￥39,730,000‐(税別)</p>
               </li>
               <li class="condition">
                 <p class="label">基礎金額</p>
-                <p class="data">￥7,070,000‐(税別)</p>
+                <p class="data">￥21,660,000‐(税別)</p>
               </li>
               <li class="condition">
                 <p class="label">建物寸法</p>
-                <p class="data">幅11.7m × 長さ18m × 高さ4m</p>
+                <p class="data">幅20.7m × 長さ43.2m × 高さ4m</p>
               </li>
               <li class="condition">
                 <p class="label">建物面積</p>
-                <p class="data">210.6㎡　(単価 ￥99,100/㎡)<br>64坪　(単価 ￥326,200/坪)</p>
+                <p class="data">894.24㎡ (単価 ￥68,600/㎡)<br />271坪 (単価 ￥226,500/坪)</p>
               </li>
             </ul>
             <p class="list-title">
@@ -238,9 +238,10 @@ get_template_part( 'includes/header' );
               <li class="condition">
                 <p class="label">建具</p>
                 <p class="data">
-                  オーバースライダー:1箇所（W4100mm × H3000mm, 水圧解錠装置込）<br>
-                  引き違い窓：2箇所 （W3500mm × H1215mm, ガラス型4mm）<br>
-                  スチールドア：１箇所 （W 770mm × H2000mm, 窓付き）</p>
+                  オーバースライダー:2箇所（W4100mm × H3000mm, 水圧解錠装置込）<br />
+                  引き違い窓:9箇所（W3500mm × H1215mm, ガラス型4mm）<br />
+                  スチールドア:2箇所（W 770mm × H2000mm, 窓付き）
+                </p>
               </li>
             </ul>
             <p class="list-title">
@@ -336,19 +337,19 @@ get_template_part( 'includes/header' );
             <ul class="list-condition">
               <li class="condition">
                 <p class="label">建物金額</p>
-                <p class="data">￥13,810,000‐(税別)</p>
+                <p class="data">￥58,880,000‐(税別)</p>
               </li>
               <li class="condition">
                 <p class="label">基礎金額</p>
-                <p class="data">￥7,070,000‐(税別)</p>
+                <p class="data">￥29,360,000‐(税別)</p>
               </li>
               <li class="condition">
                 <p class="label">建物寸法</p>
-                <p class="data">幅11.7m × 長さ18m × 高さ4m</p>
+                <p class="data">幅30.6m × 長さ43.2m × 高さ4m</p>
               </li>
               <li class="condition">
                 <p class="label">建物面積</p>
-                <p class="data">210.6㎡　(単価 ￥99,100/㎡)<br>64坪　(単価 ￥326,200/坪)</p>
+                <p class="data">1321.92㎡(単価 ￥66,700/㎡)<br />401坪(単価 ￥220,000/坪)</p>
               </li>
             </ul>
             <p class="list-title">
@@ -378,9 +379,10 @@ get_template_part( 'includes/header' );
               <li class="condition">
                 <p class="label">建具</p>
                 <p class="data">
-                  オーバースライダー:1箇所（W4100mm × H3000mm, 水圧解錠装置込）<br>
-                  引き違い窓：2箇所 （W3500mm × H1215mm, ガラス型4mm）<br>
-                  スチールドア：１箇所 （W 770mm × H2000mm, 窓付き）</p>
+                  オーバースライダー:3 箇所（W4100mm × H3000mm, 水圧解錠装置込）<br />
+                  引き違い窓:12 箇所（W3500mm × H1215mm, ガラス型4mm）<br />
+                  スチールドア:3箇所（W 770mm × H2000mm, 窓付き）
+                </p>
               </li>
             </ul>
             <p class="list-title">
@@ -476,19 +478,19 @@ get_template_part( 'includes/header' );
             <ul class="list-condition">
               <li class="condition">
                 <p class="label">建物金額</p>
-                <p class="data">￥13,810,000‐(税別)</p>
+                <p class="data">￥78,920,000‐(税別)</p>
               </li>
               <li class="condition">
                 <p class="label">基礎金額</p>
-                <p class="data">￥7,070,000‐(税別)</p>
+                <p class="data">￥40,020,000‐(税別)</p>
               </li>
               <li class="condition">
                 <p class="label">建物寸法</p>
-                <p class="data">幅11.7m × 長さ18m × 高さ4m</p>
+                <p class="data">幅30.6m × 長さ60.3m × 高さ4m</p>
               </li>
               <li class="condition">
                 <p class="label">建物面積</p>
-                <p class="data">210.6㎡　(単価 ￥99,100/㎡)<br>64坪　(単価 ￥326,200/坪)</p>
+                <p class="data">1845.18㎡(単価 ￥64,400/㎡)<br />559坪(単価 ￥212,700/坪)</p>
               </li>
             </ul>
             <p class="list-title">
@@ -518,9 +520,10 @@ get_template_part( 'includes/header' );
               <li class="condition">
                 <p class="label">建具</p>
                 <p class="data">
-                  オーバースライダー:1箇所（W4100mm × H3000mm, 水圧解錠装置込）<br>
-                  引き違い窓：2箇所 （W3500mm × H1215mm, ガラス型4mm）<br>
-                  スチールドア：１箇所 （W 770mm × H2000mm, 窓付き）</p>
+                  オーバースライダー:4箇所（W4100mm × H3000mm, 水圧解錠装置込）<br />
+                  引き違い窓:16 箇所（W3500mm × H1215mm, ガラス型4mm）<br />
+                  スチールドア:4箇所（W 770mm × H2000mm, 窓付き）
+                </p>
               </li>
             </ul>
             <p class="list-title">

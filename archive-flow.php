@@ -31,12 +31,12 @@ get_template_part( 'includes/header' );
     <div class="container">
       <ul class="list-anchor">
         <li class="anchor">
-          <a href="<?php echo site_url('/flow#contact'); ?>" class="link">
+          <a href="<?php echo home_url('/flow#contact'); ?>" class="link">
             お問い合わせから工事
           </a>
         </li>
          <li class="anchor">
-          <a href="<?php echo site_url('/flow#construction'); ?>" class="link">
+          <a href="<?php echo home_url('/flow#construction'); ?>" class="link">
             工事の流れ
           </a>
         </li>

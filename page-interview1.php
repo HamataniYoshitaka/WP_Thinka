@@ -137,7 +137,7 @@ get_template_part( 'includes/header' );
         </div>
         <p class="interview-title">営業 / 積算 / 監督<br>オールマイティな技術者になる</p>
         <div class="button green">
-          <a href="<?php echo site_url('/interview2'); ?>" class="link">
+          <a href="<?php echo home_url('/interview2'); ?>" class="link">
             インタビューを読む
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/arrow-green.svg" alt="インタビューを読む" class="icon">
           </a>

@@ -42,7 +42,7 @@ $is_tax_page = is_tax('works_category');
         <div class="category-dropdown">
           <ul class="list-category">
             <li class="category <?php echo !$is_tax_page ? 'active' : ''; ?>">
-              <a href="<?php echo site_url('/works'); ?>" class="link">すべて</a>
+              <a href="<?php echo home_url('/works'); ?>" class="link">すべて</a>
             </li>
 
             <?php if (is_array($categories) && !empty($categories)) {  ?>
@@ -130,7 +130,7 @@ $is_tax_page = is_tax('works_category');
     <ul class="list-category">
       <li class="category <?php echo !$is_tax_page ? 'active' : ''; ?>">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/bar2-black.png" alt="" class="bar">
-        <a href="<?php echo site_url('/works'); ?>" class="link">すべて</a>
+        <a href="<?php echo home_url('/works'); ?>" class="link">すべて</a>
       </li>
 
       <?php if (is_array($categories) && !empty($categories)) {  ?>

@@ -66,27 +66,27 @@ get_template_part( 'includes/header' );
     <div class="container">
       <ul class="list-anchor">
          <li class="anchor">
-          <a href="<?php echo site_url('/company#mvv'); ?>" class="link">
+          <a href="<?php echo home_url('/company#mvv'); ?>" class="link">
          ミッション・ビジョン・バリュー
           </a>
         </li>
         <li class="anchor">
-          <a href="<?php echo site_url('/company#number'); ?>" class="link">
+          <a href="<?php echo home_url('/company#number'); ?>" class="link">
           数字で知る堀健
           </a>
         </li>
          <li class="anchor">
-          <a href="<?php echo site_url('/company#information'); ?>" class="link">
+          <a href="<?php echo home_url('/company#information'); ?>" class="link">
             会社概要
           </a>
         </li>
           <li class="anchor">
-          <a href="<?php echo site_url('/company#history'); ?>" class="link">
+          <a href="<?php echo home_url('/company#history'); ?>" class="link">
             沿革
           </a>
         </li>
            <li class="anchor">
-          <a href="<?php echo site_url('/company#machine'); ?>" class="link">
+          <a href="<?php echo home_url('/company#machine'); ?>" class="link">
             保有重機・車輌
           </a>
         </li>

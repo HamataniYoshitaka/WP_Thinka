@@ -37,7 +37,7 @@ get_template_part( 'includes/header' );
         </div>
       </div>
       <div class="button green pc">
-        <a href="<?php echo site_url('/works'); ?>" class="link">
+        <a href="<?php echo home_url('/works'); ?>" class="link">
           施工事例一覧へ
           <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/arrow-green.svg" alt="施工事例一覧へ" class="icon">
         </a>
@@ -99,7 +99,7 @@ if ( isset( $scf_text ) ) {
         </div>
         <?php the_content();?>
            <div class="button green sp">
-        <a href="<?php echo site_url('/works'); ?>" class="link">
+        <a href="<?php echo home_url('/works'); ?>" class="link">
           施工事例一覧へ
           <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/arrow-green.svg" alt="施工事例一覧へ" class="icon">
         </a>

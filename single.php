@@ -35,7 +35,7 @@ get_template_part( 'includes/header' );
         </div>
       </div>
       <div class="button green pc">
-        <a href="<?php echo site_url('/news'); ?>" class="link">
+        <a href="<?php echo home_url('/news'); ?>" class="link">
           お知らせ一覧へ
           <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/arrow-green.svg" alt="お知らせ一覧へ" class="icon">
         </a>
@@ -117,7 +117,7 @@ get_template_part( 'includes/header' );
       </div>
     </div>
      <div class="button green">
-        <a href="<?php echo site_url('/news'); ?>" class="link">
+        <a href="<?php echo home_url('/news'); ?>" class="link">
           お知らせ一覧へ
           <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/arrow-green.svg" alt="お知らせ一覧へ" class="icon">
         </a>

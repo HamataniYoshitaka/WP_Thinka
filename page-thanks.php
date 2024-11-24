@@ -45,7 +45,7 @@ get_template_part( 'includes/header' );
           3営業日たっても返信がない場合は、お手数ですがもう一度お問い合わせいただきますようお願い申し上げます。
         </p>
         <div class="button green">
-          <a href="<?php echo site_url('/'); ?>" class="link">
+          <a href="<?php echo home_url('/'); ?>" class="link">
             TOPページへ
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/arrow-green.svg" alt="" class="icon">
           </a>

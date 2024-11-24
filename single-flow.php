@@ -129,7 +129,7 @@ get_template_part( 'includes/header' );
         <?php endif; ?>
           <ul class="list-banner">
             <li class="banner">
-              <a href="<?php echo site_url('/flow'); ?>" class="link">
+              <a href="<?php echo home_url('/flow'); ?>" class="link">
                 <p class="title">
                   <span class="english">Flow</span>
                   施工の流れ一覧へ
@@ -139,7 +139,7 @@ get_template_part( 'includes/header' );
               </a>
             </li>
             <li class="banner">
-              <a href="<?php echo site_url('/flow#construction'); ?>" class="link">
+              <a href="<?php echo home_url('/flow#construction'); ?>" class="link">
                 <p class="title">
                   <span class="english">Construction Flow</span>
                   工事の流れ一覧へ

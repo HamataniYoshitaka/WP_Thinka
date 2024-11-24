@@ -3,79 +3,79 @@
     <div class="box-menu">
       <ul class="list-menu list-main">
           <li class="menu xs">
-          <a href="<?php echo site_url('/'); ?>" class="link">TOP</a>
+          <a href="<?php echo home_url('/'); ?>" class="link">TOP</a>
         </li>
         <li class="menu">
-          <a href="<?php echo site_url('/works'); ?>" class="link">施工事例</a>
+          <a href="<?php echo home_url('/works'); ?>" class="link">施工事例</a>
         </li>
         <li class="menu">
-          <a href="<?php echo site_url('/flow'); ?>" class="link">施工の流れ</a>
+          <a href="<?php echo home_url('/flow'); ?>" class="link">施工の流れ</a>
         </li>
         <li class="menu">
-          <a href="<?php echo site_url('/large-facility'); ?>" class="link">大型施設</a>
+          <a href="<?php echo home_url('/large-facility'); ?>" class="link">大型施設</a>
         </li>
         <li class="menu">
-          <a href="<?php echo site_url('/price'); ?>" class="link">参考価格</a>
+          <a href="<?php echo home_url('/price'); ?>" class="link">参考価格</a>
         </li>
         <li class="menu">
-          <a href="<?php echo site_url('/news'); ?>" class="link">お知らせ</a>
+          <a href="<?php echo home_url('/news'); ?>" class="link">お知らせ</a>
         </li>
       </ul>
       <ul class="list-menu list-company">
         <li class="menu">
-          <a href="<?php echo site_url('/company'); ?>" class="link">会社案内</a>
+          <a href="<?php echo home_url('/company'); ?>" class="link">会社案内</a>
         </li>
         <li class="menu">
-          <a href="<?php echo site_url('/company#policy'); ?>" class="link">堀健のポリシー</a>
+          <a href="<?php echo home_url('/company#policy'); ?>" class="link">堀健のポリシー</a>
         </li>
         <li class="menu">
-          <a href="<?php echo site_url('/company#mvv'); ?>" class="link">ミッション・ビジョン・バリュー</a>
+          <a href="<?php echo home_url('/company#mvv'); ?>" class="link">ミッション・ビジョン・バリュー</a>
         </li>
         <li class="menu">
-          <a href="<?php echo site_url('/company#number'); ?>" class="link">数字で知る堀健</a>
+          <a href="<?php echo home_url('/company#number'); ?>" class="link">数字で知る堀健</a>
         </li>
         <li class="menu">
-          <a href="<?php echo site_url('/company#information'); ?>" class="link">会社概要</a>
+          <a href="<?php echo home_url('/company#information'); ?>" class="link">会社概要</a>
         </li>
         <li class="menu">
-          <a href="<?php echo site_url('/company#history'); ?>" class="link">沿革</a>
+          <a href="<?php echo home_url('/company#history'); ?>" class="link">沿革</a>
         </li>
         <li class="menu">
-          <a href="<?php echo site_url('/company#machine'); ?>" class="link">保有重機</a>
+          <a href="<?php echo home_url('/company#machine'); ?>" class="link">保有重機</a>
         </li>
       </ul>
       <ul class="list-menu list-recruit">
         <li class="menu">
-          <a href="<?php echo site_url('/recruit'); ?>" class="link">採用情報</a>
+          <a href="<?php echo home_url('/recruit'); ?>" class="link">採用情報</a>
         </li>
         <li class="menu">
-          <a href="<?php echo site_url('/recruit#message'); ?>" class="link">採用メッセージ</a>
+          <a href="<?php echo home_url('/recruit#message'); ?>" class="link">採用メッセージ</a>
         </li>
         <li class="menu">
-          <a href="<?php echo site_url('/recruit#interview'); ?>" class="link">スタッフインタビュー</a>
+          <a href="<?php echo home_url('/recruit#interview'); ?>" class="link">スタッフインタビュー</a>
         </li>
         <li class="menu">
-          <a href="<?php echo site_url('/recruit#position'); ?>" class="link">募集職種</a>
+          <a href="<?php echo home_url('/recruit#position'); ?>" class="link">募集職種</a>
         </li>
         <li class="menu">
-          <a href="<?php echo site_url('/recruit#step'); ?>" class="link">採用ステップ</a>
+          <a href="<?php echo home_url('/recruit#step'); ?>" class="link">採用ステップ</a>
         </li>
         <li class="menu">
-          <a href="<?php echo site_url('/recruit#form'); ?>" class="link">応募フォーム</a>
+          <a href="<?php echo home_url('/recruit#form'); ?>" class="link">応募フォーム</a>
         </li>
       </ul>
       <div class="contact-button">
-        <a href="<?php echo site_url('/contact'); ?>" class="link">お問い合わせ</a>
+        <a href="<?php echo home_url('/contact'); ?>" class="link">お問い合わせ</a>
       </div>
     </div>
     <div class="box-credit">
       <div class="box-logo">
-        <a href="<?php echo site_url('/'); ?>" class="link">
+        <a href="<?php echo home_url('/'); ?>" class="link">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/logo.svg" alt="株式会社堀健" class="logo">
         </a>
       </div>
       <div class="box-text">
-        <a href="<?php echo site_url('/privacy-policy'); ?>" class="link">プライバシーポリシー</a>
+        <a href="<?php echo home_url('/privacy-policy'); ?>" class="link">プライバシーポリシー</a>
         <p class="copyright">&copy;<?php echo date('Y'); ?> horiken.Co.,ltd.</p>
       </div>
     </div>

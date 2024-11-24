@@ -2,13 +2,13 @@
 <div class="menu-sp">
     <div class="box-menu-content">
     <div class="box-logo-sp">
-        <a href="<?php echo site_url('/'); ?>" class="link">
+        <a href="<?php echo home_url('/'); ?>" class="link">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/logo-black.svg" alt="株式会社堀健" class="logo">
         </a>
     </div>
     <ul class="list-menu">
         <li class="menu">
-        <a href="<?php echo site_url('/'); ?>" class="link">
+        <a href="<?php echo home_url('/'); ?>" class="link">
             <div class="name">
             <p>トップページ</p>
             <p class="english">Top</p>
@@ -24,7 +24,7 @@
         <path d="M0 1H15" stroke="#007F41"/>
         </svg>
         <li class="menu">
-        <a href="<?php echo site_url('/works'); ?>" class="link">
+        <a href="<?php echo home_url('/works'); ?>" class="link">
             <div class="name">
             <p>施工事例</p>
             <p class="english">Works</p>
@@ -40,7 +40,7 @@
         <path d="M0 1H15" stroke="#007F41"/>
         </svg>
         <li class="menu">
-        <a href="<?php echo site_url('/flow'); ?>" class="link">
+        <a href="<?php echo home_url('/flow'); ?>" class="link">
             <div class="name">
             <p>施工の流れ</p>
             <p class="english">Flow</p>
@@ -56,7 +56,7 @@
         <path d="M0 1H15" stroke="#007F41"/>
         </svg>
         <li class="menu">
-        <a href="<?php echo site_url('/large-facility'); ?>" class="link">
+        <a href="<?php echo home_url('/large-facility'); ?>" class="link">
             <div class="name">
             <p>大型施設</p>
             <p class="english">Large facility</p>
@@ -72,7 +72,7 @@
         <path d="M0 1H15" stroke="#007F41"/>
         </svg>
         <li class="menu">
-        <a href="<?php echo site_url('/price'); ?>" class="link">
+        <a href="<?php echo home_url('/price'); ?>" class="link">
             <div class="name">
             <p>参考価格</p>
             <p class="english">Reference Price</p>
@@ -88,7 +88,7 @@
         <path d="M0 1H15" stroke="#007F41"/>
         </svg>
         <li class="menu">
-        <a href="<?php echo site_url('/news'); ?>" class="link">
+        <a href="<?php echo home_url('/news'); ?>" class="link">
             <div class="name">
             <p>お知らせ</p>
             <p class="english">News</p>
@@ -104,7 +104,7 @@
         <path d="M0 1H15" stroke="#007F41"/>
         </svg>
         <li class="menu">
-        <a href="<?php echo site_url('/company'); ?>" class="link">
+        <a href="<?php echo home_url('/company'); ?>" class="link">
             <div class="name">
             <p>会社案内</p>
             <p class="english">Company</p>
@@ -116,35 +116,35 @@
         </a>
         <ul class="children-list">
             <li class="children-menu">
-            <a href="<?php echo site_url('/company#mvv'); ?>" class="link">
+            <a href="<?php echo home_url('/company#mvv'); ?>" class="link">
                 <p>
                 - 堀健のポリシー
                 </p>
             </a>
             </li>
             <li class="children-menu">
-            <a href="<?php echo site_url('/company#number'); ?>" class="link">
+            <a href="<?php echo home_url('/company#number'); ?>" class="link">
                 <p>
                 - 数字で知る堀健
                 </p>
             </a>
             </li>
             <li class="children-menu">
-            <a href="<?php echo site_url('/company#information'); ?>" class="link">
+            <a href="<?php echo home_url('/company#information'); ?>" class="link">
                 <p>
                 - 会社概要
                 </p>
             </a>
             </li>
             <li class="children-menu">
-            <a href="<?php echo site_url('/company#history'); ?>" class="link">
+            <a href="<?php echo home_url('/company#history'); ?>" class="link">
                 <p>
                 - 沿革
                 </p>
             </a>
             </li>
             <li class="children-menu">
-            <a href="<?php echo site_url('/company#machine'); ?>" class="link">
+            <a href="<?php echo home_url('/company#machine'); ?>" class="link">
                 <p>
                 - 保有重機・車輌
                 </p>
@@ -157,7 +157,7 @@
         <path d="M0 1H15" stroke="#007F41"/>
         </svg>
         <li class="menu">
-        <a href="<?php echo site_url('/recruit'); ?>" class="link">
+        <a href="<?php echo home_url('/recruit'); ?>" class="link">
             <div class="name">
             <p>採用情報</p>
             <p class="english">Recruit</p>
@@ -169,35 +169,35 @@
         </a>
         <ul class="children-list">
             <li class="children-menu">
-            <a href="<?php echo site_url('/recruit#message'); ?>" class="link">
+            <a href="<?php echo home_url('/recruit#message'); ?>" class="link">
                 <p>
                 - 採用メッセージ
                 </p>
             </a>
             </li>
             <li class="children-menu">
-            <a href="<?php echo site_url('/recruit#interview'); ?>" class="link">
+            <a href="<?php echo home_url('/recruit#interview'); ?>" class="link">
                 <p>
                 - スタッフインタビュー
                 </p>
             </a>
             </li>
             <li class="children-menu">
-            <a href="<?php echo site_url('/recruit#position'); ?>" class="link">
+            <a href="<?php echo home_url('/recruit#position'); ?>" class="link">
                 <p>
                 - 募集職種
                 </p>
             </a>
             </li>
             <li class="children-menu">
-            <a href="<?php echo site_url('/recruit#step'); ?>" class="link">
+            <a href="<?php echo home_url('/recruit#step'); ?>" class="link">
                 <p>
                 - 採用ステップ
                 </p>
             </a>
             </li>
             <li class="children-menu">
-            <a href="<?php echo site_url('/recruit#form'); ?>" class="link">
+            <a href="<?php echo home_url('/recruit#form'); ?>" class="link">
                 <p>
                 - 応募フォーム
                 </p>

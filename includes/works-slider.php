@@ -7,7 +7,7 @@
         </h2>
         <p class="overview">挑み続け、進化し続ける<br>多様な実績をご紹介します。</p>
         <div class="button green">
-          <a href="<?php echo site_url('/works'); ?>" class="link">
+          <a href="<?php echo home_url('/works'); ?>" class="link">
             もっと見る
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/arrow-green.svg" alt="もっと見る" class="icon">
           </a>

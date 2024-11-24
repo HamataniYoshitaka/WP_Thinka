@@ -42,7 +42,7 @@ $is_category_page = is_category(); // 現在のページがカテゴリーアー
         <div class="category-dropdown">
           <ul class="list-category">
             <li class="category <?php echo !$is_category_page ? 'active' : ''; ?>">
-              <a href="<?php echo site_url('/news'); ?>" class="link">すべて</a>
+              <a href="<?php echo home_url('/news'); ?>" class="link">すべて</a>
             </li>
 
             <?php if (is_array($categories) && !empty($categories)) { ?>

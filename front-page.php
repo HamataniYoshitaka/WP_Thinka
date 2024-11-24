@@ -42,13 +42,13 @@ get_template_part( 'includes/header-top' );
         <p class="overview">システム建築を用いた<br class="xs">大型施設を強みとしています。</p>
       </div>
       <div class="button pc">
-        <a href="<?php echo site_url('/large-facility'); ?>" class="link">
+        <a href="<?php echo home_url('/large-facility'); ?>" class="link">
           もっと見る
           <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/arrow-white.svg" alt="もっと見る" class="icon">
         </a>
       </div>
       <div class="button sp">
-        <a href="<?php echo site_url('/large-facility'); ?>" class="link">
+        <a href="<?php echo home_url('/large-facility'); ?>" class="link">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/arrow-white.svg" alt="もっと見る" class="icon">
         </a>
       </div>
@@ -71,7 +71,7 @@ get_template_part( 'includes/flow' );
           <p class="overview">堀健の日常と<br class="xs">お知らせを掲載しています。</p>
         </div>
         <div class="button green pc">
-          <a href="<?php echo site_url('/category/news'); ?>" class="link">
+          <a href="<?php echo home_url('/category/news'); ?>" class="link">
             もっと見る
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/arrow-green.svg" alt="もっと見る" class="icon">
           </a>
@@ -122,7 +122,7 @@ get_template_part( 'includes/flow' );
             ?>
       </ul>
       <div class="button green sp">
-          <a href="<?php echo site_url('/news'); ?>" class="link">
+          <a href="<?php echo home_url('/news'); ?>" class="link">
             もっと見る
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/arrow-green.svg" alt="もっと見る" class="icon">
           </a>
@@ -149,7 +149,7 @@ get_template_part( 'includes/flow' );
           建設って面白い！と思える業界の一歩を作っていきたいと考えています。
         </p>
         <div class="button green">
-          <a href="<?php echo site_url('/recruit'); ?>" class="link">
+          <a href="<?php echo home_url('/recruit'); ?>" class="link">
             もっと見る
             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/arrow-green.svg" alt="もっと見る" class="icon">
           </a>
@@ -173,13 +173,13 @@ get_template_part( 'includes/flow' );
           お客様と共に、明日の風景をつくっていきます。</p>
       </div>
       <div class="button pc">
-        <a href="<?php echo site_url('/large-facility'); ?>" class="link">
+        <a href="<?php echo home_url('/large-facility'); ?>" class="link">
           もっと見る
           <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/arrow-white.svg" alt="もっと見る" class="icon">
         </a>
       </div>
          <div class="button sp">
-        <a href="<?php echo site_url('/company'); ?>" class="link">
+        <a href="<?php echo home_url('/company'); ?>" class="link">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/arrow-white.svg" alt="もっと見る" class="icon">
         </a>
       </div>

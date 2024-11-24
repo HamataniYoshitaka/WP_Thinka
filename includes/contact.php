@@ -9,7 +9,7 @@
         </a>
       </li>
       <li class="contact">
-        <a href="<?php echo site_url('/contact'); ?>" class="link">
+        <a href="<?php echo home_url('/contact'); ?>" class="link">
           <p class="label">メールフォームでお問い合わせ</p>
           <div class="button">
             <p class="text">お問い合わせフォーム</p>

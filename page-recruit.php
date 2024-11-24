@@ -68,22 +68,22 @@ get_template_part( 'includes/header' );
     <div class="container">
       <ul class="list-anchor">
          <li class="anchor">
-          <a href="<?php echo site_url('/recruit#interview'); ?>" class="link">
+          <a href="<?php echo home_url('/recruit#interview'); ?>" class="link">
         スタッフインタビュー
           </a>
         </li>
         <li class="anchor">
-          <a href="<?php echo site_url('/recruit#position'); ?>" class="link">
+          <a href="<?php echo home_url('/recruit#position'); ?>" class="link">
         募集職種
           </a>
         </li>
          <li class="anchor">
-          <a href="<?php echo site_url('/recruit#step'); ?>" class="link">
+          <a href="<?php echo home_url('/recruit#step'); ?>" class="link">
           選考ステップ
           </a>
         </li>
           <li class="anchor">
-          <a href="<?php echo site_url('/recruit#form'); ?>" class="link">
+          <a href="<?php echo home_url('/recruit#form'); ?>" class="link">
          応募フォーム
           </a>
         </li>
@@ -108,7 +108,7 @@ get_template_part( 'includes/header' );
             <p class="name">堀川 人優</p>
             <p class="title">失敗から多くを学べる<br class="pc">技術者になる</p>
             <div class="button green">
-              <a href="<?php echo site_url('/interview1'); ?>" class="link">
+              <a href="<?php echo home_url('/interview1'); ?>" class="link">
                 インタビューを読む
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/arrow-green.svg" alt="インタビューを読む"
                   class="icon">
@@ -124,7 +124,7 @@ get_template_part( 'includes/header' );
             <p class="name">白井 瞭成</p>
             <p class="title">営業 / 積算 / 監督<br>オールマイティな技術者になる</p>
             <div class="button green">
-              <a href="<?php echo site_url('/interview2'); ?>" class="link">
+              <a href="<?php echo home_url('/interview2'); ?>" class="link">
                 インタビューを読む
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/arrow-green.svg" alt="インタビューを読む"
                   class="icon">

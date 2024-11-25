@@ -7,6 +7,9 @@
 
 get_header();
 ?>
+<style>
+  .grecaptcha-badge { visibility: hidden; }
+</style>
 
 <main class="recruit-page">
   <?php
@@ -353,6 +356,13 @@ get_template_part( 'includes/header' );
       <?php  //echo do_shortcode( '[mwform_formkey key="31"]' ); ?>
       <div class="form-wrapper">
         <?php the_content(); ?>
+        <div style="text-align: center;">
+          <p class="text-xs text-gray-500">このフォームはGoogleのreCAPTCHAによって保護されています。</p>
+          <p class="text-xs text-gray-500">
+            <a href="https://policies.google.com/privacy">プライバシーポリシー</a>&emsp;
+            <a href="https://policies.google.com/terms">利用規約</a>
+          </p>
+        </div>
       </div>
     </div>
   </section>

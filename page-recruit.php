@@ -7,9 +7,6 @@
 
 get_header();
 ?>
-<style>
-  .grecaptcha-badge { visibility: hidden; }
-</style>
 
 <main class="recruit-page">
   <?php

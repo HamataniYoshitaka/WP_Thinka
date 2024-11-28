@@ -238,11 +238,11 @@ get_template_part( 'includes/header' );
       <ul class="list-voice">
         <li class="voice">
           <div class="box-flex">
-            <img src="http://xs230623.xsrv.jp/horiken/wp-content/uploads/2024/11/voice2.png" alt=""
+            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/11/voice1-2.png" alt=""
               class="image">
             <div class="box-text">
               <p class="title">親身になって寄り添ってくれる。</p>
-              <p class="name">製造業 / K社さま</p>
+              <p class="name">医療施設 / M社さま</p>
               <p class="text">
                 建設中は、堀健さんとは直接お会いしてミーティングをすることが多かったのでが、
 互いの意見を尊重しながらコミュニケーションを取ることができました。デザインの選択について話し合った際、このようなデザインで作りたい。と相談したところ設計士さんより長い目で見たときの考えとしてはと、新しい提案を頂きました。また私たちのニーズに合わせた内容だったので、嬉しかったです。そのように私とは別の意見でも常に正直にお話ししてくれて、私たちの意志を尊重しつつ、プロの目線での考えを常に提示してくれ、その上で最終的な判断を委ねてくれたことがとても印象的でした。誠実に対応をしていただける会社さんだと感じておりますので、もし「工場関係建てたいんだけど、どこかいい建設会社ない？」と相談されたら、
@@ -253,11 +253,11 @@ get_template_part( 'includes/header' );
         </li>
         <li class="voice">
           <div class="box-flex">
-            <img src="http://xs230623.xsrv.jp/horiken/wp-content/uploads/2024/11/voice1-1.png" alt=""
+            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/11/voice2-1.png" alt=""
               class="image">
             <div class="box-text">
               <p class="title">信頼のできる建設会社</p>
-              <p class="name">製造業 / K社さま</p>
+              <p class="name">運輸倉庫 / N社さま</p>
               <p class="text">
                 工事を契約するにあたっての決め手が、会社としての歴史も長く、建設実績も十分であったこともあり、ここなら安心してお任せできるのではないかと思い依頼することにしました。また、以前はトラックの出入りに注意が必要だったのですが、周囲の見通しを良くしていただいたので、安全性も大きく向上したと思います。それに取引先からの反応もすごく良いです。とても目立つ建物になりましたので、「会社のある場所が見つけやすくなった」というありがたい声をたくさん頂戴しています。私自身は、こうした建設の打ち合わせは初めての経験だったのですが、担当の方に私の想いをしっかりと汲み取っていただけましたので、とても満足できる事務所と倉庫を新設することができました。満足できるものをつくってくださったことに、とても感謝しています。
               </p>
@@ -266,11 +266,11 @@ get_template_part( 'includes/header' );
         </li>
         <li class="voice">
           <div class="box-flex">
-            <img src="http://xs230623.xsrv.jp/horiken/wp-content/uploads/2024/11/voice3.png" alt=""
+            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/11/voice3-1.png" alt=""
               class="image">
             <div class="box-text">
               <p class="title">短工期・低予算</p>
-              <p class="name">製造業 / K社さま</p>
+              <p class="name">製造業 / Y社さま</p>
               <p class="text">
                 システム建築工法をは短工期・低予算でできるということでしたので、決めました。実際、計画を進める上で予想以上に短い工期で驚きでした。年末までに仕上げてくれればと思っていたら、希望どおり年末に完成し、年あけてすぐ作業を稼働させることができました。事業はタイミングなので、助かりました。補助金を活用しての建設なので、完成後、工事の報告書類をたくさん用意しなければならなかったのですが、迅速に対応してもらったので、スムーズに提出することができました。また、既存の建物の改修もお願いしたのですが、新築の作業所と色もそろって統一感のある流通加工センターになリました。トイレの改修なども従業員に好評です。働きやすい場をつくることも社長の役目だと思っています。メンテナンスも定期的に行い、これからもいい職場にしていきたいと思っています。
               </p>

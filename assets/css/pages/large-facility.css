@@ -776,6 +776,7 @@
 @media screen and (max-width: 480px) {
   .large-facility-page > .section-knowhow {
     padding: 24px 20px 12px;
+	margin-bottom:44px;
   }
 }
 .large-facility-page > .section-knowhow > .container {
@@ -974,17 +975,7 @@
   font-size: 20px;
   margin-bottom: 22px;
 }
-@media screen and (max-width: 1024px) {
-  .large-facility-page > .section-voice > .container > .box-overview > .section-title > .english {
-    font-size: 1.45vw;
-    margin-bottom: 32px;
-  }
-}
-@media screen and (max-width: 480px) {
-  .large-facility-page > .section-voice > .container > .box-overview > .section-title > .english {
-    font-size: 3vw;
-  }
-}
+
 .large-facility-page > .section-voice > .container > .box-overview > .overview {
   font-size: 1vw;
 }

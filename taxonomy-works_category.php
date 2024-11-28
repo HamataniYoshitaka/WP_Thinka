@@ -75,6 +75,16 @@ $is_tax_page = is_tax('works_category');
                   }
               ?>
               </p>
+				              <p class="overview">
+                <?php
+if(mb_strlen(SCF::get('overview'), 'UTF-8')>17){
+	$text= mb_substr(SCF::get('overview'), 0, 17, 'UTF-8');
+	echo $text.'…';
+}else{
+	echo SCF::get('overview');
+}
+?>
+              </p>
               <div class="box-imformation">
                 <p class="date"><?php echo get_the_date(); ?></p>
                 <ul class="list-category">

@@ -631,7 +631,7 @@
 @media screen and (max-width: 480px) {
   .recruit-page > .section-position > .container > .box-content > .box-type > .button {
     max-width: 48.3vw;
-    top: 90%;
+    top: 102%;
     font-size: 4.2vw;
   }
 }

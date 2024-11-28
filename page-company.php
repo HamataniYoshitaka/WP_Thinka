@@ -34,7 +34,7 @@ get_template_part( 'includes/header' );
           二人三脚だからこそ、<br class="pc">できること。
         </p>
         <p class="text">
-          私たちは実績と信頼を軸に60年、<br class="pc">地域の皆様と共に歩んでまいりました。
+          私たちは実績と信頼を軸に65年、<br class="pc">地域の皆様と共に歩んでまいりました。
         </p>
         <p class="text">
           「堀健さんに頼んでよかった」<br class="pc">
@@ -252,10 +252,7 @@ get_template_part( 'includes/header' );
         <li class="information">
           <p class="label">建設業許可</p>
           <p class="data">大阪府知事許可 特定建築業 第6162号<br><br>
-            土木工事業、建築工事業、大工工事業、左官工事業、とび土木工事業、石工事業、<br class="pc">
-            屋根工事業、タイル・煉瓦・ブロック工事業、鋼構造物工事業、鉄筋工事業、<br class="pc">
-            舗装工事業、しゅんせつ工事業、板金工事業、ガラス工事業、塗装工事業、防水工事業、内装仕上工事業 熱絶縁工事業、建具工事業、水道施設工事業、<br class="pc">
-            住宅建築業（住宅性能保障登録店）</p>
+            土木工事業、建築工事業、大工工事業、左官工事業、とび土木工事業、石工事業、<br class="pc">屋根工事業、タイル・煉瓦・ブロック工事業、鋼構造物工事業、鉄筋工事業、<br class="pc">舗装工事業、しゅんせつ工事業、板金工事業、ガラス工事業、塗装工事業、防水工事業、内装仕上工事業 熱絶縁工事業、建具工事業、水道施設工事業、解体工事業、<br class="pc">住宅建築業（住宅性能保証登録店）</p>
         </li>
         <li class="information">
           <p class="label">従業員数</p>
@@ -263,7 +260,7 @@ get_template_part( 'includes/header' );
         </li>
         <li class="information">
           <p class="label">取引銀行</p>
-          <p class="data">紀陽銀行 岸和田支店<br>三菱東京UFJ銀行 岸和田支店<br>三井住友銀行岸和支店</p>
+          <p class="data">池田泉州銀行 泉州営業部<br>紀陽銀行 東岸和田支店<br>三菱ＵＦＪ銀行 岸和田支店<br>三井住友銀行 岸和田支店</p>
         </li>
         <li class="information">
           <p class="label">資格技術者</p>

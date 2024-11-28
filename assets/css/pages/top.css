@@ -264,7 +264,7 @@
 }
 @media screen and (max-width: 480px) {
   .top-page > .section-news > .container > .box-overview > .box-text > .section-title {
-    margin-right: 22px;
+    margin-right: 16px;
     margin-bottom: 0;
   }
 }
@@ -531,6 +531,11 @@
 .top-page > .section-recruit > .container > .box-text > .head {
   font-size: 1vw;
   margin-bottom: 21px;
+}
+@media screen and (max-width: 480px) {
+.top-page > .section-recruit > .container > .box-text > .head {
+  font-size: 3.2vw;
+}
 }
 .top-page > .section-recruit > .container > .box-text > .text {
   font-size: 1vw;

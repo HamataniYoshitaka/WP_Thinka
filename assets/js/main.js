@@ -4,11 +4,13 @@ jQuery(function ($) {
     $('.hamburger-menu > .line').toggleClass('active');
     $('.menu-sp').toggleClass('active');
     $('body').toggleClass('active');
+	$('.header > .container > .box-logo').toggleClass('active');
   });
   $('.menu-sp > .list-menu > .menu > a').on('click', function () {
     $('.hamburger-menu > .line').toggleClass('active');
     $('.menu-sp').toggleClass('active');
     $('body').toggleClass('active');
+	$('.header > .container > .box-logo').toggleClass('active');
   });
 });
 

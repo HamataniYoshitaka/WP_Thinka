@@ -42,6 +42,9 @@ phpで作成したpartsごとのファイルを作成する様にする
   left: 30px;
   z-index: 80;
 }
+.header > .container > .box-logo.active {
+ display:none;
+}
 @media screen and (max-width: 480px) {
   .header > .container > .box-logo {
     top: 16px;

@@ -110,7 +110,7 @@ function horiken_register_styles()
         wp_enqueue_style('horiken-style-page', $dir . '/assets/css/pages/top.css', array( 'horiken-style-common' ), $theme_version);
     } elseif (is_page('interview1') || is_page('interview2')) {
         wp_enqueue_style('horiken-style-page', $dir . '/assets/css/pages/interview1.css', array( 'horiken-style-common' ), $theme_version);
-    } elseif (is_page('company2')) {
+    } elseif (is_page('company2') || is_page('privacy-policy')) {
         wp_enqueue_style('horiken-style-page', $dir . '/assets/css/pages/company.css', array( 'horiken-style-common' ), $theme_version);
     } elseif (is_post_type_archive('works')) {
         wp_enqueue_style('horiken-style-page', $dir . '/assets/css/pages/news.css', array( 'horiken-style-common' ), $theme_version);

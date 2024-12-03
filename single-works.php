@@ -20,9 +20,6 @@ get_template_part( 'includes/header' );
             <?php echo get_the_title(); ?>
         </h1>
         <div class="box-information">
-          <p class="date">
-            <?php echo get_the_date(); ?>
-          </p>
           <ul class="list-category">
                   <?php
         $terms = get_the_terms(get_the_ID(), 'works_category');

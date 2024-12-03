@@ -87,7 +87,6 @@ if(mb_strlen(SCF::get('overview'), 'UTF-8')>17){
 ?>
               </p>
               <div class="box-imformation">
-                <p class="date"><?php echo get_the_date(); ?></p>
                 <ul class="list-category">
                   <?php
         $terms = get_the_terms(get_the_ID(), 'works_category');

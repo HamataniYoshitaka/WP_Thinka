@@ -6,7 +6,7 @@
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  */
-function horiken_theme_support()
+function THINKA_theme_support()
 {
 
   // Add default posts and comments RSS feed links to head.
@@ -71,7 +71,7 @@ function horiken_theme_support()
     add_filter('show_admin_bar', '__return_false');
 }
 
-add_action('after_setup_theme', 'horiken_theme_support');
+add_action('after_setup_theme', 'THINKA_theme_support');
 
 
 /**
@@ -97,74 +97,74 @@ add_action('admin_menu', 'remove_menus');
 /**
  * Register and Enqueue Styles.
  */
-function horiken_register_styles()
+function THINKA_register_styles()
 {
     $theme_version = wp_get_theme()->get('Version');
     $dir = get_stylesheet_directory_uri();
 
-    wp_enqueue_style('horiken-style-reset', $dir . '/assets/css/reset.css', array(), $theme_version);
-    wp_enqueue_style('horiken-style-common', $dir . '/assets/css/common.css', array( 'horiken-style-reset' ), $theme_version);
+    wp_enqueue_style('THINKA-style-reset', $dir . '/assets/css/reset.css', array(), $theme_version);
+    wp_enqueue_style('THINKA-style-common', $dir . '/assets/css/common.css', array( 'THINKA-style-reset' ), $theme_version);
 
     // 各ページのCSSを読み込み
     if (is_front_page()) {
-        wp_enqueue_style('horiken-style-page', $dir . '/assets/css/pages/top.css', array( 'horiken-style-common' ), $theme_version);
+        wp_enqueue_style('THINKA-style-page', $dir . '/assets/css/pages/top.css', array( 'THINKA-style-common' ), $theme_version);
     } elseif (is_page('interview1') || is_page('interview2')) {
-        wp_enqueue_style('horiken-style-page', $dir . '/assets/css/pages/interview1.css', array( 'horiken-style-common' ), $theme_version);
+        wp_enqueue_style('THINKA-style-page', $dir . '/assets/css/pages/interview1.css', array( 'THINKA-style-common' ), $theme_version);
     } elseif (is_page('company2') || is_page('privacy-policy')) {
-        wp_enqueue_style('horiken-style-page', $dir . '/assets/css/pages/company.css', array( 'horiken-style-common' ), $theme_version);
+        wp_enqueue_style('THINKA-style-page', $dir . '/assets/css/pages/company.css', array( 'THINKA-style-common' ), $theme_version);
     } elseif (is_post_type_archive('works')) {
-        wp_enqueue_style('horiken-style-page', $dir . '/assets/css/pages/news.css', array( 'horiken-style-common' ), $theme_version);
+        wp_enqueue_style('THINKA-style-page', $dir . '/assets/css/pages/news.css', array( 'THINKA-style-common' ), $theme_version);
     } elseif (is_post_type_archive('flow')) {
-        wp_enqueue_style('horiken-style-page', $dir . '/assets/css/pages/flow.css', array( 'horiken-style-common' ), $theme_version);
+        wp_enqueue_style('THINKA-style-page', $dir . '/assets/css/pages/flow.css', array( 'THINKA-style-common' ), $theme_version);
     } elseif (is_home()) {
-        wp_enqueue_style('horiken-style-page', $dir . '/assets/css/pages/news.css', array( 'horiken-style-common' ), $theme_version);
+        wp_enqueue_style('THINKA-style-page', $dir . '/assets/css/pages/news.css', array( 'THINKA-style-common' ), $theme_version);
     } elseif (is_category()) {
-        wp_enqueue_style('horiken-style-post', $dir . '/assets/css/pages/news.css', array( 'horiken-style-common' ), $theme_version);
+        wp_enqueue_style('THINKA-style-post', $dir . '/assets/css/pages/news.css', array( 'THINKA-style-common' ), $theme_version);
     } elseif (is_tax()) {
-        wp_enqueue_style('horiken-style-post', $dir . '/assets/css/pages/news.css', array( 'horiken-style-common' ), $theme_version);
+        wp_enqueue_style('THINKA-style-post', $dir . '/assets/css/pages/news.css', array( 'THINKA-style-common' ), $theme_version);
     } elseif (is_singular('works')) {
-        wp_enqueue_style('horiken-style-post', $dir . '/assets/css/pages/single-works.css', array( 'horiken-style-common' ), $theme_version);
+        wp_enqueue_style('THINKA-style-post', $dir . '/assets/css/pages/single-works.css', array( 'THINKA-style-common' ), $theme_version);
     } elseif (is_singular('flow')) {
-        wp_enqueue_style('horiken-style-post', $dir . '/assets/css/pages/single-flow.css', array( 'horiken-style-common' ), $theme_version);
+        wp_enqueue_style('THINKA-style-post', $dir . '/assets/css/pages/single-flow.css', array( 'THINKA-style-common' ), $theme_version);
     } elseif (is_page()) {
-        wp_enqueue_style('horiken-style-page', $dir . '/assets/css/pages/' . get_post()->post_name . '.css', array( 'horiken-style-common' ), $theme_version);
+        wp_enqueue_style('THINKA-style-page', $dir . '/assets/css/pages/' . get_post()->post_name . '.css', array( 'THINKA-style-common' ), $theme_version);
     } else {
-        wp_enqueue_style('horiken-style-page', $dir . '/assets/css/pages/single.css', array( 'horiken-style-common' ), $theme_version);
+        wp_enqueue_style('THINKA-style-page', $dir . '/assets/css/pages/single.css', array( 'THINKA-style-common' ), $theme_version);
     }
-    wp_enqueue_style('horiken-style-tailwind', $dir . '/assets/css/tailwind.css', array( 'horiken-style-reset' ), $theme_version);
+    wp_enqueue_style('THINKA-style-tailwind', $dir . '/assets/css/tailwind.css', array( 'THINKA-style-reset' ), $theme_version);
 
 }
 
-add_action('wp_enqueue_scripts', 'horiken_register_styles');
+add_action('wp_enqueue_scripts', 'THINKA_register_styles');
 
 
 
 /**
  * Register and Enqueue Scripts.
  */
-function horiken_register_scripts()
+function THINKA_register_scripts()
 {
     $theme_version = wp_get_theme()->get('Version');
     $dir = get_stylesheet_directory_uri();
 
-    wp_enqueue_script('horiken-script-jquery', $dir . '/assets/js/jquery-3.4.1.min.js', array(), '3.4.1', false);
-    wp_enqueue_script('horiken-script-main', $dir . '/assets/js/main.js', array('horiken-script-jquery'), $theme_version, false);
+    wp_enqueue_script('THINKA-script-jquery', $dir . '/assets/js/jquery-3.4.1.min.js', array(), '3.4.1', false);
+    wp_enqueue_script('THINKA-script-main', $dir . '/assets/js/main.js', array('THINKA-script-jquery'), $theme_version, false);
 
     // 各ページのJavaScriptを読み込み
     if (is_front_page()) {
-        wp_enqueue_script('horiken-script-page', $dir . '/assets/js/pages/top.js', array( 'horiken-script-common' ), $theme_version);
+        wp_enqueue_script('THINKA-script-page', $dir . '/assets/js/pages/top.js', array( 'THINKA-script-common' ), $theme_version);
     } elseif (is_home()) {
-        wp_enqueue_script('horiken-script-page', $dir . '/assets/js/pages/news.js', array( 'horiken-script-common' ), $theme_version);
+        wp_enqueue_script('THINKA-script-page', $dir . '/assets/js/pages/news.js', array( 'THINKA-script-common' ), $theme_version);
     } elseif (is_page()) {
-        wp_enqueue_script('horiken-script-page', $dir . '/assets/js/pages/' . get_post()->post_name . '.js', array( 'horiken-script-common' ), $theme_version);
+        wp_enqueue_script('THINKA-script-page', $dir . '/assets/js/pages/' . get_post()->post_name . '.js', array( 'THINKA-script-common' ), $theme_version);
     } elseif (is_singular()) {
-        wp_enqueue_script('horiken-script-post', $dir . '/assets/js/posts/news.js', array( 'horiken-script-common' ), $theme_version);
+        wp_enqueue_script('THINKA-script-post', $dir . '/assets/js/posts/news.js', array( 'THINKA-script-common' ), $theme_version);
     } else {
-        wp_enqueue_script('horiken-script-page', $dir . '/assets/js/pages/news.js', array( 'horiken-script-common' ), $theme_version);
+        wp_enqueue_script('THINKA-script-page', $dir . '/assets/js/pages/news.js', array( 'THINKA-script-common' ), $theme_version);
     }
 }
 
-add_action('wp_enqueue_scripts', 'horiken_register_scripts');
+add_action('wp_enqueue_scripts', 'THINKA_register_scripts');
 
 
 
@@ -233,4 +233,79 @@ add_filter('the_content', 'generate_table_of_contents');
 add_filter('wpcf7_autop_or_not', 'wpcf7_autop_return_false');
 function wpcf7_autop_return_false() {
 	return false;
+}
+
+
+
+//ここから下
+
+// functions.phpに追加
+add_action('admin_menu', 'add_custom_fields');
+add_action('save_post', 'save_custom_fields');
+ 
+// 記事ページと固定ページでカスタムフィールドを表示
+function add_custom_fields() {
+  add_meta_box( 'my_sectionid', 'メタ設定', 'my_custom_fields', 'post');
+  add_meta_box( 'my_sectionid', 'メタ設定', 'my_custom_fields', 'page');
+}
+ 
+function my_custom_fields() {
+  global $post;
+  $keywords = get_post_meta($post->ID,'keywords',true);
+  $description = get_post_meta($post->ID,'description',true);
+   
+  echo '<p>キーワード（半角カンマ区切り）<br>';
+  echo '<input type="text" name="keywords" value="'.esc_html($keywords).'" size="60"></p>';
+   
+  echo '<p>ページの説明（description）160文字以内<br>';
+  echo '<input type="text" style="width: 600px;height: 40px;" name="description" value="'.esc_html($description).'" maxlength="160"></p>';
+}
+ 
+// カスタムフィールドの値を保存
+function save_custom_fields( $post_id ) {
+  if(!empty($_POST['keywords']))
+    update_post_meta($post_id, 'keywords', $_POST['keywords'] );
+  else delete_post_meta($post_id, 'keywords');
+ 
+  if(!empty($_POST['description']))
+    update_post_meta($post_id, 'description', $_POST['description'] );
+  else delete_post_meta($post_id, 'description');
+}
+ 
+function page_description() {
+ 
+// カスタムフィールドの値を読み込む
+$custom = get_post_custom();
+if(!empty( $custom['keywords'][0])) {
+  $keywords = $custom['keywords'][0];
+}
+if(!empty( $custom['description'][0])) {
+  $description = $custom['description'][0];
+}
+?>
+  <?php if(is_home()): // トップページ ?>
+  <meta name="robots" content="index, follow">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <?php elseif(is_single()): // 記事ページ ?>
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="<?php echo $keywords ?>">
+  <meta name="description" content="<?php echo $description ?>">
+  <?php elseif(is_page()): // 固定ページ ?>
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="<?php echo $keywords ?>">
+  <meta name="description" content="<?php echo $description ?>">
+  <?php elseif (is_category()): // カテゴリーページ ?>
+  <meta name="robots" content="index, follow" />
+  <meta name="description" content="<?php single_cat_title(); ?>の記事一覧">
+  <?php elseif (is_tag()): // タグページ ?>
+  <meta name="robots" content="noindex, follow" />
+  <meta name="description" content="<?php single_tag_title("", true); ?>の記事一覧">
+  <?php elseif(is_404()): // 404ページ ?>
+  <meta name="robots" content="noindex, follow">
+  <title><?php echo 'お探しのページが見つかりませんでした'; ?></title>
+  <?php else: // その他ページ ?>
+  <meta name="robots" content="noindex, follow">
+  <?php endif; ?>
+  <?php
 }

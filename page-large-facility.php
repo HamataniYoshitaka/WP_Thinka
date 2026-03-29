@@ -1,9 +1,9 @@
 <?php
 /**
  * Template Name: 大型施設
- * horikenテンプレートの大型施設ページのファイルです。
+ * THINKAテンプレートの大型施設ページのファイルです。
  *
- * @since horiken 1.0.0
+ * @since THINKA 1.0.0
  */
 
 get_header();
@@ -20,10 +20,10 @@ get_template_part( 'includes/header' );
       <div class="box-title">
         <h1 class="page-title">
           <span class="english">Large facility</span>
-          高品質なシステム建築、短納期でお届け
+          無柱な大空間建築を低価格でお届け
         </h1>
       </div>
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/large-facility/mv.png" alt="" class="image">
+      <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/mv.jpg" alt="" class="image">
     </div>
   </section>
 
@@ -38,8 +38,7 @@ get_template_part( 'includes/header' );
         </p>
       </div>
       <div class="box-image">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/large-facility/message.png" alt=""
-          class="image">
+        <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/message.jpg" alt="" class="image">
       </div>
     </div>
   </section>
@@ -49,32 +48,29 @@ get_template_part( 'includes/header' );
     <div class="container">
       <ul class="list-feature">
         <li class="feature">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/large-facility/feature1.png" alt=""
-            class="image">
+          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/feature1.webp" alt="" class="image">
           <p class="number"><span>1</span></p>
-          <p class="label">短納期</p>
-          <p class="text">合理的な構造設計・生産システムにより<br class="pc">工期を20%短縮。</p>
-        </li>
-        <li class="feature">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/large-facility/feature2.png" alt=""
-            class="image">
-          <p class="number"><span>2</span></p>
           <p class="label">低価格</p>
           <p class="text">構造評価で裏付けされた工法により、<br class="pc">一般鉄骨造の約30~40%の軽量化。</p>
         </li>
         <li class="feature">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/large-facility/feature3.png" alt=""
-            class="image">
-          <p class="number"><span>3</span></p>
-          <p class="label">高品質</p>
-          <p class="text">設計から製作まで自社専用工場で国内生産、<br class="pc">一貫処理による制度の高い工業化製品。</p>
-        </li>
-        <li class="feature">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/large-facility/feature4.png" alt=""
-            class="image">
-          <p class="number"><span>4</span></p>
+          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/feature2.webp" alt="" class="image">
+          <p class="number"><span>2</span></p>
           <p class="label">大空間</p>
           <p class="text">最大無柱スパン60m・建物幅120m<br class="pc">（中間柱付）を実現。</p>
+
+        </li>
+        <li class="feature">
+          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/feature3.webp" alt="" class="image">
+          <p class="number"><span>3</span></p>
+          <p class="label">短納期</p>
+          <p class="text">合理的な構造設計・生産システムにより<br class="pc">工期を20%短縮。</p>
+        </li>
+        <li class="feature">
+          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/feature4.webp" alt="" class="image">
+          <p class="number"><span>4</span></p>
+          <p class="label">高品質</p>
+          <p class="text">設計から製作まで自社専用工場で国内生産、<br class="pc">一貫処理による制度の高い工業化製品。</p>
         </li>
       </ul>
     </div>
@@ -102,16 +98,14 @@ get_template_part( 'includes/header' );
           <p class="text">地震・台風に耐えられるのか計算、中規模建築構造物（鉄骨造2階以上）を対象</p>
           <ul class="list-assets">
             <li class="asset">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/large-facility/icon-typhoon.png" alt=""
+              <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/icon-typhoon.webp" alt="" class="image">
+            </li>
+            <li class="asset">
+              <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/icon-earthquake.webp" alt=""
                 class="image">
             </li>
             <li class="asset">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/large-facility/icon-earthquake.png"
-                alt="" class="image">
-            </li>
-            <li class="asset">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/large-facility/icon-building.png" alt=""
-                class="image">
+              <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/icon-building.webp" alt="" class="image">
             </li>
           </ul>
         </li>
@@ -120,25 +114,21 @@ get_template_part( 'includes/header' );
           <p class="text">ルート1の計算を満足しつつ局部座屈防止など計算。大規模建築構造物（鉄骨造4階以上）を対象</p>
           <ul class="list-assets">
             <li class="asset">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/large-facility/icon-typhoon.png" alt=""
+              <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/icon-typhoon.webp" alt="" class="image">
+            </li>
+            <li class="asset">
+              <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/icon-earthquake.webp" alt=""
                 class="image">
             </li>
             <li class="asset">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/large-facility/icon-earthquake.png"
-                alt="" class="image">
+              <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/icon-building.webp" alt="" class="image">
             </li>
             <li class="asset">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/large-facility/icon-building.png" alt=""
+              <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/icon-buckling.webp" alt="" class="image">
+            </li>
+            <li class="asset">
+              <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/icon-building-vertical.webp" alt=""
                 class="image">
-            </li>
-            <li class="asset">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/large-facility/icon-buckling.png" alt=""
-                class="image">
-            </li>
-            <li class="asset">
-              <img
-                src="<?php echo get_template_directory_uri(); ?>/assets/imgs/large-facility/icon-building-vertical.png"
-                alt="" class="image">
             </li>
           </ul>
         </li>
@@ -147,12 +137,11 @@ get_template_part( 'includes/header' );
           <p class="text">ルート2の計算を満足しつつ大規模地震で崩壊せず粘り強く耐えられるかを計算</p>
           <ul class="list-assets">
             <li class="asset">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/large-facility/icon-typhoon.png" alt=""
-                class="image">
+              <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/icon-typhoon.webp" alt="" class="image">
             </li>
             <li class="asset">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/large-facility/icon-earthquake.png"
-                alt="" class="image">
+              <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/icon-earthquake.webp" alt=""
+                class="image">
             </li>
             <li class="asset">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/large-facility/icon-building.png" alt=""
@@ -168,8 +157,8 @@ get_template_part( 'includes/header' );
                 alt="" class="image">
             </li>
             <li class="asset">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/large-facility/icon-big-earthquake.png"
-                alt="" class="image">
+              <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/icon-big-earthquake.webp" alt=""
+                class="image">
             </li>
           </ul>
         </li>
@@ -188,8 +177,7 @@ get_template_part( 'includes/header' );
             <p class="text">ルート３の計算により細部までの検討で<br class="pc"><span class="green">使用する鉄骨を絞る</span>事が出来るので<br
                 class="pc"><span class="green">無駄な鉄骨重量が減量</span>しコストを削減</p>
           </div>
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/large-facility/knowhow1.png" alt=""
-            class="image">
+          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/knowhow1.webp" alt="" class="image">
         </li>
         <li class="knowhow">
           <div class="box-text">
@@ -197,8 +185,7 @@ get_template_part( 'includes/header' );
             <p class="text"><span class="green">鉄骨重量の減少</span>に伴い<br class="pc"><span
                 class="green">それを受ける基礎がコンパクトに縮小</span>、<br class="pc">コストを削減</p>
           </div>
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/large-facility/knowhow2.png" alt=""
-            class="image">
+          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/knowhow2.webp" alt="" class="image">
         </li>
         <li class="knowhow">
           <div class="box-text">
@@ -207,8 +194,7 @@ get_template_part( 'includes/header' );
                 class="green">全体の重量が軽量化可能</span>な為、<br class="pc"><span class="green">基礎下の杭を簡略化や不要</span>となり<br>コストを削減
             </p>
           </div>
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/large-facility/knowhow3.png" alt=""
-            class="image">
+          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/knowhow3.webp" alt="" class="image">
         </li>
         <li class="knowhow">
           <div class="box-text">
@@ -216,8 +202,7 @@ get_template_part( 'includes/header' );
             <p class="text"><span class="green">本来必要な中柱は一切不要の</span><br class="pc"><span
                 class="green">無柱空間</span>になり、柱が無ければその<br class="pc"><span class="green">下部の基礎や杭も不要</span>になり、コストを削減</p>
           </div>
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/large-facility/knowhow4.png" alt=""
-            class="image">
+          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/knowhow4.webp" alt="" class="image">
         </li>
       </ul>
     </div>
@@ -238,26 +223,24 @@ get_template_part( 'includes/header' );
       <ul class="list-voice">
         <li class="voice">
           <div class="box-flex">
-            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/11/voice1-2.png" alt=""
-              class="image">
+            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/voice2.jpg" alt="" class="image">
             <div class="box-text">
               <p class="title">親身になって寄り添ってくれる。</p>
-              <p class="name">医療施設 / M社さま</p>
+                           <p class="name">医療施設 / M社さま</p>
               <p class="text">
-                建設中は、堀健さんとは直接お会いしてミーティングをすることが多かったのでが、
-互いの意見を尊重しながらコミュニケーションを取ることができました。デザインの選択について話し合った際、このようなデザインで作りたい。と相談したところ設計士さんより長い目で見たときの考えとしてはと、新しい提案を頂きました。また私たちのニーズに合わせた内容だったので、嬉しかったです。そのように私とは別の意見でも常に正直にお話ししてくれて、私たちの意志を尊重しつつ、プロの目線での考えを常に提示してくれ、その上で最終的な判断を委ねてくれたことがとても印象的でした。誠実に対応をしていただける会社さんだと感じておりますので、もし「工場関係建てたいんだけど、どこかいい建設会社ない？」と相談されたら、
-「うちはこういう風にしてもらったよ」と一番に堀健さんを紹介します。
+                建設中は、THINKAさんとは直接お会いしてミーティングをすることが多かったのでが、
+                互いの意見を尊重しながらコミュニケーションを取ることができました。デザインの選択について話し合った際、このようなデザインで作りたい。と相談したところ設計士さんより長い目で見たときの考えとしてはと、新しい提案を頂きました。また私たちのニーズに合わせた内容だったので、嬉しかったです。そのように私とは別の意見でも常に正直にお話ししてくれて、私たちの意志を尊重しつつ、プロの目線での考えを常に提示してくれ、その上で最終的な判断を委ねてくれたことがとても印象的でした。誠実に対応をしていただける会社さんだと感じておりますので、もし「工場関係建てたいんだけど、どこかいい建設会社ない？」と相談されたら、
+                「うちはこういう風にしてもらったよ」と一番にTHINKAさんを紹介します。
               </p>
             </div>
           </div>
         </li>
         <li class="voice">
           <div class="box-flex">
-            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/11/voice2-1.png" alt=""
-              class="image">
+            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/voice1.jpg" alt="" class="image">
             <div class="box-text">
               <p class="title">信頼のできる建設会社</p>
-              <p class="name">運輸倉庫 / N社さま</p>
+                           <p class="name">運輸倉庫 / N社さま</p>
               <p class="text">
                 工事を契約するにあたっての決め手が、会社としての歴史も長く、建設実績も十分であったこともあり、ここなら安心してお任せできるのではないかと思い依頼することにしました。また、以前はトラックの出入りに注意が必要だったのですが、周囲の見通しを良くしていただいたので、安全性も大きく向上したと思います。それに取引先からの反応もすごく良いです。とても目立つ建物になりましたので、「会社のある場所が見つけやすくなった」というありがたい声をたくさん頂戴しています。私自身は、こうした建設の打ち合わせは初めての経験だったのですが、担当の方に私の想いをしっかりと汲み取っていただけましたので、とても満足できる事務所と倉庫を新設することができました。満足できるものをつくってくださったことに、とても感謝しています。
               </p>
@@ -266,8 +249,7 @@ get_template_part( 'includes/header' );
         </li>
         <li class="voice">
           <div class="box-flex">
-            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/11/voice3-1.png" alt=""
-              class="image">
+            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/voice3.jpg" alt="" class="image">
             <div class="box-text">
               <p class="title">短工期・低予算</p>
               <p class="name">製造業 / Y社さま</p>

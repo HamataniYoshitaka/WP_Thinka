@@ -1,8 +1,8 @@
 <?php
 /**
- * horikenテンプレートのフロントページのファイルです。
+ * THINKAテンプレートのフロントページのファイルです。
  *
- * @since horiken 1.0.0
+ * @since THINKA 1.0.0
  */
 
 get_header();
@@ -16,15 +16,28 @@ get_template_part( 'includes/header-top' );
   <section class="section-mv">
     <div class="container">
       <div class="box-text">
-        <h1 class="copy">創業65年の<br class="xs">実績と信頼</h1>
-        <p class="english">65 Years of Experience and Trust</p>
+        <h1 class="copy">創業70年の<br class="xs">実績と信頼</h1>
+        <p class="english">70 Years of Experience and Trust</p>
       </div>
       <video class="video pc" loop muted playsinline autoplay>
-        <source type="video/mp4" src="<?php echo get_theme_file_uri('/assets/imgs/mv-pc.mp4') ?>">
+        <source type="video/mp4" src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/mv-pc.mp4">
       </video>
        <video class="video sp" loop muted playsinline autoplay>
-        <source type="video/mp4" src="<?php echo get_theme_file_uri('/assets/imgs/mv-sp.mp4') ?>">
+        <source type="video/mp4" src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/mv-sp.mp4">
       </video>
+    </div>
+  </section>
+  <section class="section-announce">
+    <div class="container">
+      <h2 class="title">
+        社名変更のお知らせ
+      </h2>
+      <p class="text">
+        <span class="serif">2026年4月1日</span>をもって、<br class="pc">
+株式会社堀健は株式会社THINKAへ社名変更いたしました。<br class="pc">
+これからも皆様のご期待に添えますよう努力してまいる所存です。<br class="pc">
+今後とも株式会社THINKAをどうぞよろしくお願いいたします。
+      </p>
     </div>
   </section>
 
@@ -68,7 +81,7 @@ get_template_part( 'includes/flow' );
             <span class="english">News</span>
             お知らせ
           </h2>
-          <p class="overview">堀健の日常と<br class="xs">お知らせを掲載しています。</p>
+          <p class="overview">THINKAの日常と<br class="xs">お知らせを掲載しています。</p>
         </div>
         <div class="button green pc">
           <a href="<?php echo home_url('/category/news'); ?>" class="link">
@@ -138,11 +151,11 @@ get_template_part( 'includes/flow' );
             <span class="english">Recruit</span>
             採用情報
           </h2>
-          <p class="overview">堀健で働く仲間を<br class="xs">募集しています。</p>
+          <p class="overview">THINKAで働く仲間を<br class="xs">募集しています。</p>
         </div>
         <p class="head">- 変わらないことは、変わり続けること。</p>
         <p class="text">
-          堀健で働く社員の平均年齢は37.9歳。<br class="pc">
+          THINKAで働く社員の平均年齢は37.9歳。<br class="pc">
           年々平均年齢は下がり、建設業界では異例とも言われています。<br class="pc">
          私たちが採用に力を入れる理由は、新しい世代とともに<br class="pc">
          建設業界を前進させていきたいという強い想いから。<br class="pc">
@@ -156,8 +169,8 @@ get_template_part( 'includes/flow' );
         </div>
       </div>
       <div class="box-image">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/top/image-recruit1.png" alt="採用情報写真1枚目" class="image">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/top/image-recruit2.png" alt="採用情報写真2枚目" class="image">
+        <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/image-recruit1.jpg" alt="採用情報写真1枚目" class="image">
+        <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/image-recruit2.jpg" alt="採用情報写真2枚目" class="image">
       </div>
     </div>
   </section>
@@ -169,11 +182,11 @@ get_template_part( 'includes/flow' );
           <span class="english">Company</span>
           会社案内
         </h2>
-        <p class="overview">堀健のひとりひとりが持つ「二人三脚のものづくり」という姿勢を軸に<br class="pc">
-          お客様と共に、明日の風景をつくっていきます。</p>
+        <p class="overview">THINKAのひとりひとりが持つ「二人三脚のものづくり」という姿勢を軸に<br class="pc">
+          お客様と共にご満足を作っていきます。</p>
       </div>
       <div class="button pc">
-        <a href="<?php echo home_url('/large-facility'); ?>" class="link">
+        <a href="<?php echo home_url('/company'); ?>" class="link">
           もっと見る
           <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/arrow-white.svg" alt="もっと見る" class="icon">
         </a>

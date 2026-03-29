@@ -1,8 +1,8 @@
 <?php
 /**
- * horikenテンプレートの採用情報ページのファイルです。
+ * THINKAテンプレートの採用情報ページのファイルです。
  *
- * @since horiken 1.0.0
+ * @since THINKA 1.0.0
  */
 
 get_header();
@@ -36,11 +36,11 @@ get_template_part( 'includes/header' );
             当社は本当に親切な人たちが多いです。教えてあげよう、フォローしてあげようとしてくれます。失敗したときもフォローしてくださってありがたかったです。休憩中も「弁当あるか？メシいこか？」などのコミュニケーションを取ってくれるので、すごく助けられています。
 資格取得にも理解があり、現在2級建築士の資格の勉強で学校に通っているのですが、火曜日は早退をさせてもらっています。工事に関しても、住宅のちょっとした修理から、何億円規模という新築工事まで経験できるので勉強になることばかりです。いずれは経験を積んで所長になることが今の夢。新築工事を問題なくできるようなスキルを身につけたいです。</p>
         </div>
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/recruit/interview2/1.png" alt=""
+        <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/1-1.jpg" alt=""
           class="image">
       </div>
       <div class="box-content row">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/recruit/interview2/2.png" alt=""
+        <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/2-1.jpg" alt=""
           class="image">
         <div class="box-text">
           <p class="title">現場がスキルアップの場所</p>
@@ -58,7 +58,7 @@ get_template_part( 'includes/header' );
         </div>
       </div>
       <div class="box-content no-image">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/recruit/interview2/3.png" alt=""
+        <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/3-1.jpg" alt=""
           class="image">
       </div>
     </div>
@@ -81,7 +81,7 @@ get_template_part( 'includes/header' );
           </a>
         </div>
       </div>
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/recruit/interview1/mv.png" alt="インタビューを読む"
+      <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/mv-5.jpg" alt="インタビューを読む"
         class="image">
     </div>
   </section>

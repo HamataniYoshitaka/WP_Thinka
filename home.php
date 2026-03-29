@@ -1,6 +1,6 @@
 <?php
 /**
- * horikenテンプレートのお知らせ一覧ページのファイルです。
+ * THINKAテンプレートのお知らせ一覧ページのファイルです。
  *
  * @since unajiro 1.0.0
  */
@@ -20,9 +20,9 @@ get_template_part( 'includes/header' );
           <span class="english">News</span>
           お知らせ
         </h1>
-        <p class="overview">堀健の日常とお知らせを掲載しています。</p>
+        <p class="overview">THINKAの日常とお知らせを掲載しています。</p>
       </div>
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/news/mv.png" alt="" class="image">
+      <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/mv-2.jpg" alt="" class="image">
     </div>
   </section>
 

@@ -1,8 +1,8 @@
 <?php
 /**
- * horikenテンプレートの株式会社堀健についてのページのファイルです。
+ * THINKAテンプレートの株式会社THINKAについてのページのファイルです。
  *
- * @since horiken 1.0.0
+ * @since THINKA 1.0.0
  */
 
 get_header();

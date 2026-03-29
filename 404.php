@@ -2,7 +2,7 @@
 /**
  * 404
  *
- * @since horiken 1.0.0
+ * @since THINKA 1.0.0
  */
 
 get_header();

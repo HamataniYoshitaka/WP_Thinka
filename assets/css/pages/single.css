@@ -288,7 +288,8 @@
     margin: 0 auto 24px;
   }
 }
-.post-news-page > .post-content > .box-article > .box-main > p > a {
+.post-news-page > .post-content > .box-article > .box-main > p > a,
+.post-news-page > .post-content > .box-article > .box-main > p > strong > a{
   color: #007f41;
   text-decoration: underline;
 }

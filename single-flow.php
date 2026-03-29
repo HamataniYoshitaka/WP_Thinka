@@ -1,8 +1,8 @@
 <?php
 /**
- * horikenテンプレートの工事の流れ投稿ページのファイルです。
+ * THINKAテンプレートの工事の流れ投稿ページのファイルです。
  *
- * @since horiken 1.0.0
+ * @since THINKA 1.0.0
  */
 
 get_header();

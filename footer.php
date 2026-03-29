@@ -1,8 +1,8 @@
 <?php
 /**
- * horikenテンプレートの Footer ファイルです。
+ * THINKAテンプレートの Footer ファイルです。
  *
- * @since horiken 1.0.0
+ * @since THINKA 1.0.0
  */
 
 ?>

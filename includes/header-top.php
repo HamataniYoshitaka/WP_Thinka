@@ -2,8 +2,8 @@
    <div class="container">
      <div class="box-logo">
        <a href="<?php echo home_url('/'); ?>" class="link">
-         <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/logo.svg" alt="株式会社堀健" class="image white">
-         <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/logo-black.svg" alt="株式会社堀健"
+         <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/logo.svg" alt="株式会社THINKA" class="image white">
+         <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/logo-black.svg" alt="株式会社THINKA"
            class="image black">
        </a>
      </div>
@@ -73,7 +73,7 @@
          </ul>
          <div class="box-logo">
            <a href="<?php echo home_url('/'); ?>" class="link">
-             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/logo-black.svg" alt="株式会社堀健"
+             <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/logo-black.svg" alt="株式会社THINKA"
                class="image">
            </a>
            <div class="box-text">

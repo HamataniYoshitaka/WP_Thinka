@@ -1,8 +1,8 @@
 <?php
 /**
- * horikenテンプレートの施工の流れページのファイルです。
+ * THINKAテンプレートの施工の流れページのファイルです。
  *
- * @since horiken 1.0.0
+ * @since THINKA 1.0.0
  */
 
 get_header();
@@ -21,7 +21,7 @@ get_template_part( 'includes/header' );
           <span class="english">Flow</span>
           施工の流れ
         </h1>
-        <p class="overview">堀健の施工の流れを掲載しています。</p>
+        <p class="overview">THINKAの施工の流れを掲載しています。</p>
       </div>
       <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/flow/mv.png" alt="" class="image">
     </div>

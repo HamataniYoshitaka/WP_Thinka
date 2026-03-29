@@ -3,7 +3,7 @@
     <div class="box-menu-content">
     <div class="box-logo-sp">
         <a href="<?php echo home_url('/'); ?>" class="link">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/logo-black.svg" alt="株式会社堀健" class="logo">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/logo-black.svg" alt="株式会社THINKA" class="logo">
         </a>
     </div>
     <ul class="list-menu">
@@ -118,14 +118,14 @@
             <li class="children-menu">
             <a href="<?php echo home_url('/company#mvv'); ?>" class="link">
                 <p>
-                - 堀健のポリシー
+                - THINKAのポリシー
                 </p>
             </a>
             </li>
             <li class="children-menu">
             <a href="<?php echo home_url('/company#number'); ?>" class="link">
                 <p>
-                - 数字で知る堀健
+                - 数字で知るTHINKA
                 </p>
             </a>
             </li>

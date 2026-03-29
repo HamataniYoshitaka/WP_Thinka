@@ -1,8 +1,8 @@
 <?php
 /**
- * horikenテンプレートの施工の流れページのファイルです。
+ * THINKAテンプレートの施工の流れページのファイルです。
  *
- * @since horiken 1.0.0
+ * @since THINKA 1.0.0
  */
 
 get_header();
@@ -21,9 +21,9 @@ get_template_part( 'includes/header' );
           <span class="english">Flow</span>
           施工の流れ
         </h1>
-        <p class="overview">堀健の施工の流れを掲載しています。</p>
+        <p class="overview">THINKAの施工の流れを掲載しています。</p>
       </div>
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/flow/mv.png" alt="" class="image">
+      <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/mv-3.jpg" alt="" class="image">
     </div>
   </section>
 
@@ -56,46 +56,46 @@ get_template_part( 'includes/header' );
       <ul class="list-contact-construction">
         <li class="contact-construction">
           <p class="number"><span>1</span></p>
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/flow/step1.png" alt="お問い合わせ" class="image">
+          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/step1.webp" alt="お問い合わせ" class="image">
           <h3 class="text">お問い合わせ</h3>
         </li>
         <li class="contact-construction">
           <p class="number"><span>2</span></p>
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/flow/step2.png" alt="初回訪問・ヒアリング"
+          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/step2.webp" alt="初回訪問・ヒアリング"
             class="image">
           <h3 class="text">初回訪問・<br class="xs">ヒアリング</h3>
         </li>
         <li class="contact-construction">
           <p class="number"><span>3</span></p>
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/flow/step3.png" alt="ご提案" class="image">
+          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/step3.webp" alt="ご提案" class="image">
           <h3 class="text">ご提案</h3>
         </li>
         <li class="contact-construction">
           <p class="number"><span>4</span></p>
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/flow/step4.png" alt="業者決定(設計契約締結)"
+          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/step4.webp" alt="業者決定(設計契約締結)"
             class="image">
           <h3 class="text">業者決定<br class="xs">(設計契約締結)</h3>
         </li>
         <li class="contact-construction">
           <p class="number"><span>5</span></p>
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/flow/step5.png" alt="実施設計・申請業務"
+          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/step5.webp" alt="実施設計・申請業務"
             class="image">
           <h3 class="text">実施設計・申請業務</h3>
         </li>
         <li class="contact-construction">
           <p class="number"><span>6</span></p>
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/flow/step6.png" alt="工事請負契約締結"
+          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/step6.webp" alt="工事請負契約締結"
             class="image">
           <h3 class="text">工事請負契約締結</h3>
         </li>
         <li class="contact-construction">
           <p class="number"><span>7</span></p>
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/flow/step7.png" alt="工事着工" class="image">
+          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/step7.webp" alt="工事着工" class="image">
           <h3 class="text">工事着工</h3>
         </li>
         <li class="contact-construction">
           <p class="number"><span>8</span></p>
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/flow/step8.png" alt="アフターケア" class="image">
+          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/step8.webp" alt="アフターケア" class="image">
           <h3 class="text">アフターケア</h3>
         </li>
       </ul>

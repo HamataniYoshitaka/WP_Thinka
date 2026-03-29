@@ -9,12 +9,6 @@
 .top-page .section-mv {
   width: 100%;
   height: 100vh;
-  margin-bottom: 104px;
-}
-@media screen and (max-width: 480px) {
-  .top-page .section-mv {
-    margin-bottom: 48px;
-  }
 }
 .top-page .section-mv > .container > .video {
   position: absolute;
@@ -77,8 +71,74 @@
     font-size: 3.75vw;
   }
 }
+.top-page .section-announce {
+  margin-top: 60px;
+}
+@media screen and (max-width: 480px) {
+  .top-page .section-announce {
+    margin-top: 45px;
+    margin-bottom: 48px;
+  }
+}
+.top-page .section-announce > .container {
+  background-image: url(../../../assets/imgs/top/background-announce.jpg);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 61px 20px;
+}
+@media screen and (max-width: 820px) {
+  .top-page .section-announce > .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+@media screen and (max-width: 480px) {
+  .top-page .section-announce > .container {
+    padding: 48px 20px;
+  }
+}
+.top-page .section-announce > .container > .title {
+  font-size: 2.1vw;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  margin-right: 20px;
+}
+@media screen and (max-width: 820px) {
+  .top-page .section-announce > .container > .title {
+    font-size: 24px;
+    margin-right: 0;
+    margin-bottom: 24px;
+  }
+}
+.top-page .section-announce > .container > .text {
+  font-size: 1.2vw;
+  line-height: 3;
+}
+@media screen and (max-width: 820px) {
+  .top-page .section-announce > .container > .text {
+    font-size: 14px;
+  }
+}
+.top-page .section-announce > .container > .text > .serif {
+  font-family: "dnp-shuei-mincho-pr6n", serif;
+}
+.top-page .section-works {
+  margin-top: 45px;
+}
 .top-page .section-large-facility {
-  margin: 104px 20px 74px;
+  margin: 60px 20px 74px;
 }
 @media screen and (max-width: 480px) {
   .top-page .section-large-facility {
@@ -264,7 +324,7 @@
 }
 @media screen and (max-width: 480px) {
   .top-page > .section-news > .container > .box-overview > .box-text > .section-title {
-    margin-right: 16px;
+    margin-right: 22px;
     margin-bottom: 0;
   }
 }
@@ -531,11 +591,6 @@
 .top-page > .section-recruit > .container > .box-text > .head {
   font-size: 1vw;
   margin-bottom: 21px;
-}
-@media screen and (max-width: 480px) {
-.top-page > .section-recruit > .container > .box-text > .head {
-  font-size: 3.2vw;
-}
 }
 .top-page > .section-recruit > .container > .box-text > .text {
   font-size: 1vw;

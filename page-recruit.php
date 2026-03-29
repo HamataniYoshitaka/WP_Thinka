@@ -1,8 +1,8 @@
 <?php
 /**
- * horikenテンプレートの採用情報ページのファイルです。
+ * THINKAテンプレートの採用情報ページのファイルです。
  *
- * @since horiken 1.0.0
+ * @since THINKA 1.0.0
  */
 
 get_header();
@@ -21,9 +21,9 @@ get_template_part( 'includes/header' );
           <span class="english">Recruit</span>
           採用情報
         </h1>
-        <p class="overview">堀健で働く仲間を募集しています</p>
+        <p class="overview">THINKAで働く仲間を募集しています</p>
       </div>
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/recruit/mv.png" alt="" class="image">
+      <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/mv-4.jpg" alt="" class="image">
     </div>
   </section>
 
@@ -39,10 +39,10 @@ get_template_part( 'includes/header' );
               class="pc">会社の成長、実績、そして信頼は、他ならない社員ひとりひとりの努力そのものです。
           </p>
         </div>
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/recruit/message1.png" alt="" class="image">
+        <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/message1.jpg" alt="" class="image">
       </div>
       <div class="box-content">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/recruit/message2.png" alt="" class="image">
+        <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/message2.jpg" alt="" class="image">
         <div class="box-text">
           <p class="text">
             建物が完成すると、大きな感動を味わいます。お客様の建物ではあるのですが、自分たちが計画し、レイアウトし、時に予想外のことに対面しながらも完成を目指して奮闘してきた建物はまさに「私の建物」。たくさんの思いが喜びに代わる瞬間です。ともにこの喜びを分かち合いたいと思っています。<br
@@ -52,13 +52,13 @@ get_template_part( 'includes/header' );
       </div>
       <ul class="list-gallery">
         <li class="gallery">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/recruit/gallery1.png" alt="" class="image">
+          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/gallery1.jpg" alt="" class="image">
         </li>
         <li class="gallery">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/recruit/gallery2.png" alt="" class="image">
+          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/gallery2.jpg" alt="" class="image">
         </li>
         <li class="gallery">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/recruit/gallery3.png" alt="" class="image">
+          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/gallery3.jpg" alt="" class="image">
         </li>
       </ul>
     </div>
@@ -101,7 +101,7 @@ get_template_part( 'includes/header' );
       </h2>
       <ul class="list-interview">
         <li class="interview">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/recruit/interview-horikawa.png" alt=""
+          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/interview-horikawa.jpg" alt=""
             class="image">
           <div class="box-text">
             <p class="position">施工管理</p>
@@ -117,7 +117,7 @@ get_template_part( 'includes/header' );
           </div>
         </li>
         <li class="interview">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/recruit/interview-shirai.png" alt=""
+          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/interview-shirai.jpg" alt=""
             class="image">
           <div class="box-text">
             <p class="position">施工管理</p>
@@ -157,7 +157,7 @@ get_template_part( 'includes/header' );
             </li>
             <li class="condition">
               <p class="label">給与</p>
-              <p class="data">240,000円～365,000円</p>
+              <p class="data">260,000円〜</p>
             </li>
             <li class="condition">
               <p class="label">諸手当</p>
@@ -193,9 +193,7 @@ get_template_part( 'includes/header' );
             <li class="condition">
               <p class="label">休日・休暇</p>
               <p class="data">
-                年間106日＋有給休暇（半年後に10日～20日）<br />
-                日曜・祝日・土曜隔週（年末年始・夏季・GW休暇有）<br />
-                ※会社休日カレンダー通り
+               完全週休2日制<br>年間休日126日<br>入社後すぐに10日間の有給休暇付与
               </p>
             </li>
             <li class="condition">
@@ -229,14 +227,14 @@ get_template_part( 'includes/header' );
               <p class="label">備考</p>
               <p class="data">
                 お電話でのご応募も可能です｡<br />
-                株式会社 堀健（代表）<br />
-                TEL: 072-427-1301 （受付時間 平日8:00～17:00）<br />
+                株式会社 THINKA（代表）<br />
+                TEL: 072-427-1301 （受付時間 平日9:00～17:00）<br />
                 ご質問などもお気軽にお問い合わせください｡
               </p>
             </li>
           </ul>
         </div>
-        <div class="box-type">
+        <!-- <div class="box-type">
           <p class="title">一般事務（正社員）</p>
           <ul class="list-condition">
             <li class="condition">
@@ -294,13 +292,13 @@ get_template_part( 'includes/header' );
               <p class="label">備考</p>
               <p class="data">
                 お電話でのご応募も可能です｡<br />
-                株式会社 堀健（代表）<br />
+                株式会社 THINKA（代表）<br />
                 TEL: 072-427-1301 （受付時間 平日8:00～17:00）<br />
                 ご質問などもお気軽にお問い合わせください｡
               </p>
             </li>
           </ul>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
@@ -313,29 +311,29 @@ get_template_part( 'includes/header' );
       </h2>
       <ul class="list-step">
         <li class="step">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/recruit/step1.png" alt="" class="image pc">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/recruit/step1-sp.png" alt=""
+          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/step1-1.webp" alt="" class="image pc">
+          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/step1-sp.webp" alt=""
             class="image sp">
           <p class="number"><span>1</span></p>
           <p class="label">応募フォームから<br class="pc">応募</p>
         </li>
         <li class="step">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/recruit/step2.png" alt="" class="image pc">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/recruit/step2-sp.png" alt=""
+          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/step2-1.webp" alt="" class="image pc">
+          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/step2-sp.webp" alt=""
             class="image sp">
           <p class="number"><span>2</span></p>
           <p class="label">書類選考</p>
         </li>
         <li class="step">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/recruit/step3.png" alt="" class="image pc">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/recruit/step3-sp.png" alt=""
+          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/step3-1.webp" alt="" class="image pc">
+                    <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/step3-sp.webp" alt=""
             class="image sp">
           <p class="number"><span>3</span></p>
           <p class="label">面接</p>
         </li>
         <li class="step">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/recruit/step4.png" alt="" class="image pc">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/recruit/step4-sp.png" alt=""
+          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/step4-1.webp" alt="" class="image pc">
+                    <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/step4-sp.webp" alt=""
             class="image sp">
           <p class="number"><span>4</span></p>
           <p class="label">内定</p>

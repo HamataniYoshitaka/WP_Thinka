@@ -1,8 +1,8 @@
 <?php
 /**
- * horikenテンプレートの参考価格ページのファイルです。
+ * THINKAテンプレートの参考価格ページのファイルです。
  *
- * @since horiken 1.0.0
+ * @since THINKA 1.0.0
  */
 
 get_header();
@@ -146,35 +146,35 @@ get_template_part( 'includes/header' );
         </div>
         <ul class="list-image">
           <li class="image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/price/minami.png" alt="" class="image">
+            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/minami.jpg" alt="" class="image">
             <p class="text">南側</p>
           </li>
              <li class="image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/price/higashi.png" alt="" class="image">
+            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/higashi.jpg" alt="" class="image">
             <p class="text">東側</p>
           </li>
              <li class="image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/price/kita.png" alt="" class="image">
+            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/kita.jpg" alt="" class="image">
             <p class="text">北側</p>
           </li>
              <li class="image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/price/nishi.png" alt="" class="image">
+            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/nishi.jpg" alt="" class="image">
             <p class="text">西側</p>
           </li>
              <li class="image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/price/nanto.png" alt="" class="image">
+            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/nanto.jpg" alt="" class="image">
             <p class="text">南東側</p>
           </li>
              <li class="image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/price/hokusei.png" alt="" class="image">
+            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/hokusei.jpg" alt="" class="image">
             <p class="text">北西側</p>
           </li>
              <li class="image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/price/naka.png" alt="" class="image">
+            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/naka1.jpg" alt="" class="image">
             <p class="text">内観</p>
           </li>
              <li class="image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/price/naka2.png" alt="" class="image">
+            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/naka2.jpg" alt="" class="image">
             <p class="text">内観</p>
           </li>
         </ul>
@@ -289,35 +289,35 @@ get_template_part( 'includes/header' );
         </div>
         <ul class="list-image">
           <li class="image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/price/minami.png" alt="" class="image">
+            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/minami.jpg" alt="" class="image">
             <p class="text">南側</p>
           </li>
              <li class="image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/price/higashi.png" alt="" class="image">
+            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/higashi.jpg" alt="" class="image">
             <p class="text">東側</p>
           </li>
              <li class="image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/price/kita.png" alt="" class="image">
+            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/kita.jpg" alt="" class="image">
             <p class="text">北側</p>
           </li>
              <li class="image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/price/nishi.png" alt="" class="image">
+            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/nishi.jpg" alt="" class="image">
             <p class="text">西側</p>
           </li>
              <li class="image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/price/nanto.png" alt="" class="image">
+            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/nanto.jpg" alt="" class="image">
             <p class="text">南東側</p>
           </li>
              <li class="image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/price/hokusei.png" alt="" class="image">
+            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/hokusei.jpg" alt="" class="image">
             <p class="text">北西側</p>
           </li>
              <li class="image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/price/naka.png" alt="" class="image">
+            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/naka1.jpg" alt="" class="image">
             <p class="text">内観</p>
           </li>
              <li class="image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/price/naka2.png" alt="" class="image">
+            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/naka2.jpg" alt="" class="image">
             <p class="text">内観</p>
           </li>
         </ul>
@@ -430,35 +430,35 @@ get_template_part( 'includes/header' );
         </div>
         <ul class="list-image">
           <li class="image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/price/minami.png" alt="" class="image">
+            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/minami.jpg" alt="" class="image">
             <p class="text">南側</p>
           </li>
              <li class="image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/price/higashi.png" alt="" class="image">
+            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/higashi.jpg" alt="" class="image">
             <p class="text">東側</p>
           </li>
              <li class="image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/price/kita.png" alt="" class="image">
+            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/kita.jpg" alt="" class="image">
             <p class="text">北側</p>
           </li>
              <li class="image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/price/nishi.png" alt="" class="image">
+            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/nishi.jpg" alt="" class="image">
             <p class="text">西側</p>
           </li>
              <li class="image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/price/nanto.png" alt="" class="image">
+            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/nanto.jpg" alt="" class="image">
             <p class="text">南東側</p>
           </li>
              <li class="image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/price/hokusei.png" alt="" class="image">
+            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/hokusei.jpg" alt="" class="image">
             <p class="text">北西側</p>
           </li>
              <li class="image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/price/naka.png" alt="" class="image">
+            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/naka1.jpg" alt="" class="image">
             <p class="text">内観</p>
           </li>
              <li class="image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/price/naka2.png" alt="" class="image">
+            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/naka2.jpg" alt="" class="image">
             <p class="text">内観</p>
           </li>
         </ul>
@@ -571,35 +571,35 @@ get_template_part( 'includes/header' );
         </div>
         <ul class="list-image">
           <li class="image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/price/minami.png" alt="" class="image">
+            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/minami.jpg" alt="" class="image">
             <p class="text">南側</p>
           </li>
              <li class="image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/price/higashi.png" alt="" class="image">
+            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/higashi.jpg" alt="" class="image">
             <p class="text">東側</p>
           </li>
              <li class="image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/price/kita.png" alt="" class="image">
+            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/kita.jpg" alt="" class="image">
             <p class="text">北側</p>
           </li>
              <li class="image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/price/nishi.png" alt="" class="image">
+            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/nishi.jpg" alt="" class="image">
             <p class="text">西側</p>
           </li>
              <li class="image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/price/nanto.png" alt="" class="image">
+            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/nanto.jpg" alt="" class="image">
             <p class="text">南東側</p>
           </li>
              <li class="image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/price/hokusei.png" alt="" class="image">
+            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/hokusei.jpg" alt="" class="image">
             <p class="text">北西側</p>
           </li>
              <li class="image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/price/naka.png" alt="" class="image">
+            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/naka1.jpg" alt="" class="image">
             <p class="text">内観</p>
           </li>
              <li class="image">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/price/naka2.png" alt="" class="image">
+            <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/naka2.jpg" alt="" class="image">
             <p class="text">内観</p>
           </li>
         </ul>

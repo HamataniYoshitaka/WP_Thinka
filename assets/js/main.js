@@ -204,8 +204,8 @@ $(function () {
       slidesToShow: 1,
       infinity: true,
       initialSlide: 0,
-      prevArrow: '<img src="https://test-horiken.ni-works.jp/wp-content/themes/horiken/assets/imgs/arrow-gray.svg" class="slide-arrow prev-arrow">',
-      nextArrow: '<img src="https://test-horiken.ni-works.jp/wp-content/themes/horiken/assets/imgs/arrow-gray.svg" class="slide-arrow next-arrow">',
+      prevArrow: '<img src="https://test-horiken.ni-works.jp/wp-content/themes/THINKA/assets/imgs/arrow-gray.svg" class="slide-arrow prev-arrow">',
+      nextArrow: '<img src="https://test-horiken.ni-works.jp/wp-content/themes/THINKA/assets/imgs/arrow-gray.svg" class="slide-arrow next-arrow">',
       responsive: [{
         breakpoint: 1441,
         settings: {
@@ -234,8 +234,8 @@ $(document).ready(function () {
         arrows: true,
         infinity: true,
         initialSlide: 0,
-        prevArrow: '<img src="https://test-horiken.ni-works.jp/wp-content/themes/horiken/assets/imgs/arrow-gray.svg" class="slide-arrow prev-arrow">',
-        nextArrow: '<img src="https://test-horiken.ni-works.jp/wp-content/themes/horiken/assets/imgs/arrow-gray.svg" class="slide-arrow next-arrow">',
+        prevArrow: '<img src="https://test-horiken.ni-works.jp/wp-content/themes/THINKA/assets/imgs/arrow-gray.svg" class="slide-arrow prev-arrow">',
+        nextArrow: '<img src="https://test-horiken.ni-works.jp/wp-content/themes/THINKA/assets/imgs/arrow-gray.svg" class="slide-arrow next-arrow">',
       });
     } else if (w <= 821) {
       $('.list-flow').slick({
@@ -243,8 +243,8 @@ $(document).ready(function () {
         arrows: true,
         infinity: true,
         initialSlide: 0,
-        prevArrow: '<img src="https://test-horiken.ni-works.jp/wp-content/themes/horiken/assets/imgs/arrow-gray.svg" class="slide-arrow prev-arrow">',
-        nextArrow: '<img src="https://test-horiken.ni-works.jp/wp-content/themes/horiken/assets/imgs/arrow-gray.svg" class="slide-arrow next-arrow">',
+        prevArrow: '<img src="https://test-horiken.ni-works.jp/wp-content/themes/THINKA/assets/imgs/arrow-gray.svg" class="slide-arrow prev-arrow">',
+        nextArrow: '<img src="https://test-horiken.ni-works.jp/wp-content/themes/THINKA/assets/imgs/arrow-gray.svg" class="slide-arrow next-arrow">',
       });
     }
   }
@@ -301,3 +301,87 @@ $(document).ready(function () {
 
 });
 
+document.addEventListener('DOMContentLoaded', function () {
+  const root = document.body;
+  if (!root) return;
+
+  const excludedTags = new Set([
+    'SCRIPT',
+    'STYLE',
+    'NOSCRIPT',
+    'TEXTAREA',
+    'INPUT',
+    'OPTION',
+    'CODE',
+    'PRE'
+  ]);
+
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+    acceptNode: (node) => {
+      if (!node.nodeValue || node.nodeValue.indexOf('THINKA') === -1) {
+        return NodeFilter.FILTER_REJECT;
+      }
+      const parent = node.parentElement;
+      if (!parent) return NodeFilter.FILTER_REJECT;
+      if (excludedTags.has(parent.tagName)) return NodeFilter.FILTER_REJECT;
+      if (parent.closest('.thinka-text')) return NodeFilter.FILTER_REJECT;
+      return NodeFilter.FILTER_ACCEPT;
+    }
+  });
+
+  const nodes = [];
+  let current;
+  while ((current = walker.nextNode())) {
+    nodes.push(current);
+  }
+
+  nodes.forEach((node) => {
+    const text = node.nodeValue;
+    if (!text) return;
+    const frag = document.createDocumentFragment();
+    let lastIndex = 0;
+    text.replace(/THINKA/g, (match, index) => {
+      if (index > lastIndex) {
+        frag.appendChild(document.createTextNode(text.slice(lastIndex, index)));
+      }
+      const span = document.createElement('span');
+      span.className = 'thinka-text';
+      span.textContent = match;
+      frag.appendChild(span);
+      lastIndex = index + match.length;
+      return match;
+    });
+    if (lastIndex < text.length) {
+      frag.appendChild(document.createTextNode(text.slice(lastIndex)));
+    }
+    node.parentNode.replaceChild(frag, node);
+  });
+});
+
+(function () {
+  const section = document.querySelector(".company-page > .section-mission");
+  if (!section) return;
+
+  const firstPhilosophy = section.querySelector(".list-philosophy > .philosophy");
+  if (!firstPhilosophy) return;
+
+  const updateMissionBgHeight = () => {
+    const rect = firstPhilosophy.getBoundingClientRect();
+    const styles = window.getComputedStyle(firstPhilosophy);
+    const marginTop = parseFloat(styles.marginTop) || 0;
+    const marginBottom = parseFloat(styles.marginBottom) || 0;
+    const height = rect.height + marginTop + marginBottom;
+    section.style.setProperty("--mission-bg-height", `${Math.round(height)}px`);
+  };
+
+  updateMissionBgHeight();
+  window.addEventListener("load", updateMissionBgHeight);
+  window.addEventListener("resize", updateMissionBgHeight);
+
+  if ("ResizeObserver" in window) {
+    const observer = new ResizeObserver(() => {
+      updateMissionBgHeight();
+    });
+    observer.observe(firstPhilosophy);
+  }
+})();

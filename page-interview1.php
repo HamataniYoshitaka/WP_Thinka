@@ -1,8 +1,8 @@
 <?php
 /**
- * horikenテンプレートの採用情報ページのファイルです。
+ * THINKAテンプレートの採用情報ページのファイルです。
  *
- * @since horiken 1.0.0
+ * @since THINKA 1.0.0
  */
 
 get_header();
@@ -36,11 +36,11 @@ get_template_part( 'includes/header' );
             作業中に問題が起こることはよくあります。土を掘っていくと管があったこともありました。そのときは急いで業者を呼んで道筋を変えましたが、イレギュラーはしょっちゅうです。必然的に業者・施主と話すことが多いので、伝え方は成長したと思います。しゃべるスピードが速いので、要点を明確にしてハキハキ話すことを心掛けています。入社直後はわからないことばかりなので、質問ばかりです。でもその前に一度考えて自分の解答を出すことが大切だと思います。仕事は、どこではなく、誰と働きたいかが大切ではないでしょうか。当社は、一緒に働きたいと思える人たちがたくさん。楽しく過ごしています。
           </p>
         </div>
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/recruit/interview1/1.png" alt=""
+        <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/1.jpg" alt=""
           class="image">
       </div>
       <div class="box-content row">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/recruit/interview1/2.png" alt=""
+        <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/2.jpg" alt=""
           class="image">
         <div class="box-text">
           <p class="title">施工管理の喜び</p>
@@ -68,7 +68,7 @@ get_template_part( 'includes/header' );
         </div>
       </div>
       <div class="box-content no-image">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/recruit/interview1/3.png" alt=""
+        <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/3.jpg" alt=""
           class="image">
       </div>
       <div class="box-content no-image">
@@ -80,7 +80,7 @@ get_template_part( 'includes/header' );
         </div>
       </div>
       <div class="box-content row">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/recruit/interview1/4.png" alt=""
+        <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/4.jpg" alt=""
           class="image">
         <div class="box-text">
           <p class="title">現場のインスタ映え</p>
@@ -112,11 +112,11 @@ get_template_part( 'includes/header' );
             これからたくさんの現場をみて、先輩方の振る舞い方やいいところを吸収して、自分に取り込めたらいいなと思っています。もし間違えてしまったとしても、しっかり反省して次に活かせたらいいなと前向きに思いながら仕事していきたいです！座学ももちろんですが経験するっていうことが一番大事ですよね！実務を積んで、施工管理技士、建築士と取りたい資格もいっぱい取っていこうと思います。そうすれば自分のモチベーションも上がるので！がんばります！！
           </p>
         </div>
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/recruit/interview1/5.png" alt=""
+        <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/5.jpg" alt=""
           class="image">
       </div>
       <div class="box-content row">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/recruit/interview1/6.png" alt=""
+                <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/6.jpg" alt=""
           class="image">
         <div class="box-text">
           <p class="title">入社のきっかけ</p>
@@ -143,7 +143,7 @@ get_template_part( 'includes/header' );
           </a>
         </div>
       </div>
-    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/recruit/interview2/mv.png" alt="インタビューを読む" class="image">
+    <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/mv-6.jpg" alt="インタビューを読む" class="image">
     </div>
   </section>
 

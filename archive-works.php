@@ -1,6 +1,6 @@
 <?php
 /**
- * horikenテンプレートの施工事例一覧ページのファイルです。
+ * THINKAテンプレートの施工事例一覧ページのファイルです。
  *
  * @since unajiro 1.0.0
  */
@@ -22,7 +22,7 @@ get_template_part( 'includes/header' );
         </h1>
         <p class="overview">挑み続け、進化し続ける多様な実績をご紹介します。</p>
       </div>
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/works/mv.png" alt="" class="image">
+      <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/mv-1.jpg" alt="" class="image">
     </div>
   </section>
 

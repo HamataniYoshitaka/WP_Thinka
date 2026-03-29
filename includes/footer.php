@@ -26,13 +26,13 @@
           <a href="<?php echo home_url('/company'); ?>" class="link">会社案内</a>
         </li>
         <li class="menu">
-          <a href="<?php echo home_url('/company#policy'); ?>" class="link">堀健のポリシー</a>
+          <a href="<?php echo home_url('/company#policy'); ?>" class="link">THINKAのポリシー</a>
         </li>
         <li class="menu">
           <a href="<?php echo home_url('/company#mvv'); ?>" class="link">ミッション・ビジョン・バリュー</a>
         </li>
         <li class="menu">
-          <a href="<?php echo home_url('/company#number'); ?>" class="link">数字で知る堀健</a>
+          <a href="<?php echo home_url('/company#number'); ?>" class="link">数字で知るTHINKA</a>
         </li>
         <li class="menu">
           <a href="<?php echo home_url('/company#information'); ?>" class="link">会社概要</a>
@@ -71,12 +71,12 @@
     <div class="box-credit">
       <div class="box-logo">
         <a href="<?php echo home_url('/'); ?>" class="link">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/logo.svg" alt="株式会社堀健" class="logo">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/logo.svg" alt="株式会社THINKA" class="logo">
         </a>
       </div>
       <div class="box-text">
         <a href="<?php echo home_url('/privacy-policy'); ?>" class="link">プライバシーポリシー</a>
-        <p class="copyright">&copy;<?php echo date('Y'); ?> horiken.Co.,ltd.</p>
+        <p class="copyright">&copy;<?php echo date('Y'); ?> THINKA.Co.,ltd.</p>
       </div>
     </div>
   </div>

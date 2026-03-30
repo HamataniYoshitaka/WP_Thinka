@@ -23,7 +23,7 @@ get_template_part( 'includes/header' );
         </h1>
         <p class="overview">THINKAで働く仲間を募集しています</p>
       </div>
-      <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/mv-4.jpg" alt="" class="image">
+      <img src="https://thinka.osaka.jp/wp/wp-content/uploads/2024/12/mv-4.jpg" alt="" class="image">
     </div>
   </section>
 
@@ -39,10 +39,10 @@ get_template_part( 'includes/header' );
               class="pc">会社の成長、実績、そして信頼は、他ならない社員ひとりひとりの努力そのものです。
           </p>
         </div>
-        <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/message1.jpg" alt="" class="image">
+        <img src="https://thinka.osaka.jp/wp/wp-content/uploads/2024/12/message1.jpg" alt="" class="image">
       </div>
       <div class="box-content">
-        <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/message2.jpg" alt="" class="image">
+        <img src="https://thinka.osaka.jp/wp/wp-content/uploads/2024/12/message2.jpg" alt="" class="image">
         <div class="box-text">
           <p class="text">
             建物が完成すると、大きな感動を味わいます。お客様の建物ではあるのですが、自分たちが計画し、レイアウトし、時に予想外のことに対面しながらも完成を目指して奮闘してきた建物はまさに「私の建物」。たくさんの思いが喜びに代わる瞬間です。ともにこの喜びを分かち合いたいと思っています。<br
@@ -52,13 +52,13 @@ get_template_part( 'includes/header' );
       </div>
       <ul class="list-gallery">
         <li class="gallery">
-          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/gallery1.jpg" alt="" class="image">
+          <img src="https://thinka.osaka.jp/wp/wp-content/uploads/2024/12/gallery1.jpg" alt="" class="image">
         </li>
         <li class="gallery">
-          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/gallery2.jpg" alt="" class="image">
+          <img src="https://thinka.osaka.jp/wp/wp-content/uploads/2024/12/gallery2.jpg" alt="" class="image">
         </li>
         <li class="gallery">
-          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/gallery3.jpg" alt="" class="image">
+          <img src="https://thinka.osaka.jp/wp/wp-content/uploads/2024/12/gallery3.jpg" alt="" class="image">
         </li>
       </ul>
     </div>
@@ -101,7 +101,7 @@ get_template_part( 'includes/header' );
       </h2>
       <ul class="list-interview">
         <li class="interview">
-          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/interview-horikawa.jpg" alt=""
+          <img src="https://thinka.osaka.jp/wp/wp-content/uploads/2024/12/interview-horikawa.jpg" alt=""
             class="image">
           <div class="box-text">
             <p class="position">施工管理</p>
@@ -117,7 +117,7 @@ get_template_part( 'includes/header' );
           </div>
         </li>
         <li class="interview">
-          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/interview-shirai.jpg" alt=""
+          <img src="https://thinka.osaka.jp/wp/wp-content/uploads/2024/12/interview-shirai.jpg" alt=""
             class="image">
           <div class="box-text">
             <p class="position">施工管理</p>
@@ -311,29 +311,29 @@ get_template_part( 'includes/header' );
       </h2>
       <ul class="list-step">
         <li class="step">
-          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/step1-1.webp" alt="" class="image pc">
-          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/step1-sp.webp" alt=""
+          <img src="https://thinka.osaka.jp/wp/wp-content/uploads/2024/12/step1-1.webp" alt="" class="image pc">
+          <img src="https://thinka.osaka.jp/wp/wp-content/uploads/2024/12/step1-sp.webp" alt=""
             class="image sp">
           <p class="number"><span>1</span></p>
           <p class="label">応募フォームから<br class="pc">応募</p>
         </li>
         <li class="step">
-          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/step2-1.webp" alt="" class="image pc">
-          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/step2-sp.webp" alt=""
+          <img src="https://thinka.osaka.jp/wp/wp-content/uploads/2024/12/step2-1.webp" alt="" class="image pc">
+          <img src="https://thinka.osaka.jp/wp/wp-content/uploads/2024/12/step2-sp.webp" alt=""
             class="image sp">
           <p class="number"><span>2</span></p>
           <p class="label">書類選考</p>
         </li>
         <li class="step">
-          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/step3-1.webp" alt="" class="image pc">
-                    <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/step3-sp.webp" alt=""
+          <img src="https://thinka.osaka.jp/wp/wp-content/uploads/2024/12/step3-1.webp" alt="" class="image pc">
+                    <img src="https://thinka.osaka.jp/wp/wp-content/uploads/2024/12/step3-sp.webp" alt=""
             class="image sp">
           <p class="number"><span>3</span></p>
           <p class="label">面接</p>
         </li>
         <li class="step">
-          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/step4-1.webp" alt="" class="image pc">
-                    <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/step4-sp.webp" alt=""
+          <img src="https://thinka.osaka.jp/wp/wp-content/uploads/2024/12/step4-1.webp" alt="" class="image pc">
+                    <img src="https://thinka.osaka.jp/wp/wp-content/uploads/2024/12/step4-sp.webp" alt=""
             class="image sp">
           <p class="number"><span>4</span></p>
           <p class="label">内定</p>

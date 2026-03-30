@@ -20,10 +20,10 @@ get_template_part( 'includes/header-top' );
         <p class="english">70 Years of Experience and Trust</p>
       </div>
       <video class="video pc" loop muted playsinline autoplay>
-        <source type="video/mp4" src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/mv-pc.mp4">
+        <source type="video/mp4" src="https://thinka.osaka.jp/wp/wp-content/uploads/2024/12/mv-pc.mp4">
       </video>
        <video class="video sp" loop muted playsinline autoplay>
-        <source type="video/mp4" src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/mv-sp.mp4">
+        <source type="video/mp4" src="https://thinka.osaka.jp/wp/wp-content/uploads/2024/12/mv-sp.mp4">
       </video>
     </div>
   </section>
@@ -169,8 +169,8 @@ get_template_part( 'includes/flow' );
         </div>
       </div>
       <div class="box-image">
-        <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/image-recruit1.jpg" alt="採用情報写真1枚目" class="image">
-        <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/image-recruit2.jpg" alt="採用情報写真2枚目" class="image">
+        <img src="https://thinka.osaka.jp/wp/wp-content/uploads/2024/12/image-recruit1.jpg" alt="採用情報写真1枚目" class="image">
+        <img src="https://thinka.osaka.jp/wp/wp-content/uploads/2024/12/image-recruit2.jpg" alt="採用情報写真2枚目" class="image">
       </div>
     </div>
   </section>

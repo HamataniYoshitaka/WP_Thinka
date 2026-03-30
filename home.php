@@ -22,7 +22,7 @@ get_template_part( 'includes/header' );
         </h1>
         <p class="overview">THINKAの日常とお知らせを掲載しています。</p>
       </div>
-      <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/mv-2.jpg" alt="" class="image">
+      <img src="https://thinka.osaka.jp/wp/wp-content/uploads/2024/12/mv-2.jpg" alt="" class="image">
     </div>
   </section>
 

@@ -23,7 +23,7 @@ get_template_part( 'includes/header' );
         </h1>
         <p class="overview">THINKAについてご紹介します。</p>
       </div>
-      <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/mv-7.jpg" alt="" class="image">
+      <img src="https://thinka.osaka.jp/wp/wp-content/uploads/2024/12/mv-7.jpg" alt="" class="image">
     </div>
   </section>
 
@@ -56,8 +56,8 @@ get_template_part( 'includes/header' );
         </p>
       </div>
       <div class="box-image">
-        <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/message1-1.jpg" alt="" class="image">
-        <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/message2-1.jpg" alt="" class="image">
+        <img src="https://thinka.osaka.jp/wp/wp-content/uploads/2024/12/message1-1.jpg" alt="" class="image">
+        <img src="https://thinka.osaka.jp/wp/wp-content/uploads/2024/12/message2-1.jpg" alt="" class="image">
       </div>
     </div>
   </section>
@@ -254,42 +254,42 @@ get_template_part( 'includes/header' );
       </h2>
       <ul class="list-numbers">
         <li class="number">
-          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/number-establised.webp" alt="" class="image">
+          <img src="https://thinka.osaka.jp/wp/wp-content/uploads/2024/12/number-establised.webp" alt="" class="image">
           <div class="box-text">
             <p class="label">創業</p>
             <p class="number"><span class="strong">70</span>年</p>
           </div>
         </li>
         <li class="number">
-          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/number-staff.webp" alt="" class="image">
+          <img src="https://thinka.osaka.jp/wp/wp-content/uploads/2024/12/number-staff.webp" alt="" class="image">
           <div class="box-text">
             <p class="label">従業員数</p>
             <p class="number"><span class="strong">15</span>人</p>
           </div>
         </li>
         <li class="number">
-          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/number-holiday.webp" alt="" class="image">
+          <img src="https://thinka.osaka.jp/wp/wp-content/uploads/2024/12/number-holiday.webp" alt="" class="image">
           <div class="box-text">
             <p class="label">年間休日</p>
             <p class="number"><span class="strong">126</span>日</p>
           </div>
         </li>
         <li class="number">
-          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/number-overtime.webp" alt="" class="image">
+          <img src="https://thinka.osaka.jp/wp/wp-content/uploads/2024/12/number-overtime.webp" alt="" class="image">
           <div class="box-text">
             <p class="label">平均残業時間</p>
             <p class="number"><span class="strong">16.8</span>時間</p>
           </div>
         </li>
         <li class="number">
-          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/number-age.webp" alt="" class="image">
+          <img src="https://thinka.osaka.jp/wp/wp-content/uploads/2024/12/number-age.webp" alt="" class="image">
           <div class="box-text">
             <p class="label">平均年齢</p>
             <p class="number"><span class="strong">37.9</span>歳</p>
           </div>
         </li>
         <li class="number">
-          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/number-paidholiday.webp" alt="" class="image">
+          <img src="https://thinka.osaka.jp/wp/wp-content/uploads/2024/12/number-paidholiday.webp" alt="" class="image">
           <div class="box-text">
             <p class="label">有給平均取得日数</p>
             <p class="number"><span class="strong">6.3</span>日</p>
@@ -406,32 +406,32 @@ get_template_part( 'includes/header' );
       </h2>
       <ul class="list-machines">
         <li class="machines">
-          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/machines-excavator.jpg" alt="" class="image">
+          <img src="https://thinka.osaka.jp/wp/wp-content/uploads/2024/12/machines-excavator.jpg" alt="" class="image">
           <p class="name">ミニショベル</p>
           <p class="maker">日立建機日本株式会社 ZX20UR-5A</p>
         </li>
         <li class="machines">
-          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/machines-lifttrack.jpg" alt="" class="image">
+          <img src="https://thinka.osaka.jp/wp/wp-content/uploads/2024/12/machines-lifttrack.jpg" alt="" class="image">
           <p class="name">フォークリフトトラック</p>
           <p class="maker">株式会社豊田自動織機 5FG15</p>
         </li>
         <li class="machines">
-          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/machines-dump.jpg" alt="" class="image">
+          <img src="https://thinka.osaka.jp/wp/wp-content/uploads/2024/12/machines-dump.jpg" alt="" class="image">
           <p class="name">スーパー強化ダンプ</p>
           <p class="maker">いすゞ自動車株式会社 NKR81-7042487</p>
         </li>
         <li class="machines">
-          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/machines-carry.jpg" alt="" class="image">
+          <img src="https://thinka.osaka.jp/wp/wp-content/uploads/2024/12/machines-carry.jpg" alt="" class="image">
           <p class="name">スズキキャリー</p>
           <p class="maker">スズキ株式会社 KKCU-P3</p>
         </li>
         <li class="machines">
-          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/machines-eletric.jpg" alt="" class="image">
+          <img src="https://thinka.osaka.jp/wp/wp-content/uploads/2024/12/machines-eletric.jpg" alt="" class="image">
           <p class="name">発電機</p>
           <p class="maker">デンヨー株式会社 GA-2800ES-IV2</p>
         </li>
         <li class="machines">
-          <img src="https://hori-ken.jp/wp2024/wp-content/uploads/2024/12/machines-cutter.jpg" alt="" class="image">
+          <img src="https://thinka.osaka.jp/wp/wp-content/uploads/2024/12/machines-cutter.jpg" alt="" class="image">
           <p class="name">コンクリートカッター</p>
           <p class="maker">大旭建機株式会社 TCC16S</p>
         </li>
